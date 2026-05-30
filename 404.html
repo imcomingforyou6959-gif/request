@@ -1,1 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — rawr.xyz</title>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
+        body {
+            min-height: 100vh;
+            background: #060d16;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            color: #e8f4ff;
+        }
+
+        .scene {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            background: radial-gradient(ellipse 70% 60% at 35% 25%, #0e1e30, #030810);
+        }
+
+        .rain { position: absolute; inset: 0; }
+
+        .drop {
+            position: absolute;
+            bottom: 100%;
+            border-radius: 0 0 2px 2px;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            to { transform: translateY(110vh) rotate(2deg); opacity: 0; }
+        }
+
+        .flash {
+            position: fixed;
+            inset: 0;
+            background: rgba(240, 248, 255, 0.88);
+            pointer-events: none;
+            z-index: 5;
+            opacity: 0;
+        }
+
+        .content {
+            position: relative;
+            z-index: 20;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .number {
+            font-size: clamp(6rem, 20vw, 10rem);
+            font-weight: 700;
+            font-family: Georgia, serif;
+            letter-spacing: -4px;
+            color: transparent;
+            -webkit-text-stroke: 1.5px rgba(100, 160, 210, 0.5);
+            line-height: 1;
+            margin-bottom: 1.25rem;
+            user-select: none;
+        }
+
+        .message {
+            font-size: 1.05rem;
+            color: #8ab0cc;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .home-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: rgba(20, 35, 55, 0.75);
+            border: 1px solid rgba(80, 130, 180, 0.35);
+            border-radius: 0.75rem;
+            color: #e8f4ff;
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s, border-color 0.2s, transform 0.15s;
+        }
+
+        .home-link:hover {
+            background: rgba(40, 80, 120, 0.8);
+            border-color: rgba(130, 190, 240, 0.7);
+            transform: translateY(-2px);
+        }
+
+        .home-link svg {
+            width: 16px;
+            height: 16px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 1.75;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="scene"><div class="rain" id="rain"></div></div>
+<div class="flash" id="flash"></div>
+
+<div class="content">
+    <p class="number">404</p>
+    <p class="message">nothing here. you might be lost.</p>
+    <a href="/" class="home-link">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14M5 12l6-6M5 12l6 6"/>
+        </svg>
+        go back home
+    </a>
+</div>
+
+<script>
+(function () {
+    const rain = document.getElementById('rain');
+    function buildRain() {
+        rain.innerHTML = '';
+        const count = window.innerWidth < 600 ? 180 : 380;
+        const frag = document.createDocumentFragment();
+        for (let i = 0; i < count; i++) {
+            const d = document.createElement('div');
+            d.className = 'drop';
+            d.style.cssText =
+                `width:${(1.2 + Math.random() * 1.8).toFixed(1)}px;` +
+                `height:${(10 + Math.random() * 18).toFixed(1)}px;` +
+                `left:${(Math.random() * 100).toFixed(1)}%;` +
+                `background:rgba(155,210,255,${(0.3 + Math.random() * 0.3).toFixed(2)});` +
+                `animation-duration:${(0.55 + Math.random() * 1.4).toFixed(2)}s;` +
+                `animation-delay:${(Math.random() * 3).toFixed(2)}s;` +
+                `opacity:${(0.3 + Math.random() * 0.45).toFixed(2)};`;
+            frag.appendChild(d);
+        }
+        rain.appendChild(frag);
+    }
+
+    const flash = document.getElementById('flash');
+    let lt = null;
+    function strike(s) {
+        const a = { soft: 0.38, medium: 0.68, strong: 0.9 }[s] ?? 0.65;
+        flash.style.transition = 'opacity 0.05s linear';
+        flash.style.opacity = Math.min(0.94, a + Math.random() * 0.18);
+        setTimeout(() => { flash.style.opacity = 0; }, 60 + Math.random() * 35);
+        if (Math.random() > 0.65) setTimeout(() => {
+            flash.style.opacity = (a * 0.5).toFixed(2);
+            setTimeout(() => { flash.style.opacity = 0; }, 35);
+        }, 100 + Math.random() * 180);
+    }
+    function schedule() {
+        lt = setTimeout(() => {
+            const r = Math.random();
+            const s = r < 0.28 ? 'soft' : r < 0.72 ? 'medium' : 'strong';
+            strike(s);
+            if (Math.random() > 0.72) setTimeout(() => strike('soft'), 140 + Math.random() * 220);
+            schedule();
+        }, 3500 + Math.random() * 9000);
+    }
+
+    let rt;
+    window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(buildRain, 200); });
+    window.addEventListener('beforeunload', () => clearTimeout(lt));
+
+    buildRain();
+    schedule();
+    setTimeout(() => strike('soft'), 700);
+})();
+</script>
+</body>
+</html>
