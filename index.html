@@ -1,1 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>rawr.xyz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
 
+        body {
+            min-height: 100vh;
+            background: #0a0f1a;
+            font-family: 'Segoe UI', 'Poppins', 'Inter', system-ui, -apple-system, 'Roboto', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow-x: hidden;
+            color: white;
+        }
+
+        .storm-scene {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            overflow: hidden;
+            background: radial-gradient(circle at 30% 20%, #1a2a3a, #03060c);
+            pointer-events: none;
+        }
+
+        .rain {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .drop {
+            position: absolute;
+            bottom: 100%;
+            background: rgba(180, 220, 255, 0.5);
+            width: 2px;
+            height: 12px;
+            border-radius: 0 0 2px 2px;
+            animation: rainFall linear infinite;
+            opacity: 0.7;
+        }
+
+        @keyframes rainFall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0.8;
+            }
+            80% {
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(100vh) rotate(3deg);
+                opacity: 0;
+            }
+        }
+
+        .lightning-flash {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 240, 200, 0.9);
+            pointer-events: none;
+            z-index: 5;
+            opacity: 0;
+            transition: opacity 0.04s ease-out;
+        }
+
+        .storm-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(ellipse at 40% 50%, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .content-card {
+            position: relative;
+            z-index: 20;
+            max-width: 650px;
+            width: 90%;
+            margin: 2rem auto;
+            padding: 2.5rem 2rem;
+            background: rgba(10, 20, 30, 0.65);
+            backdrop-filter: blur(12px);
+            border-radius: 2rem;
+            border: 1px solid rgba(100, 150, 200, 0.4);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5), 0 0 20px rgba(70, 130, 200, 0.2);
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .content-card:hover {
+            transform: scale(1.01);
+            background: rgba(10, 20, 30, 0.75);
+            border-color: rgba(120, 180, 240, 0.6);
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            background: linear-gradient(135deg, #f0f9ff, #b8e1fc);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin-bottom: 0.75rem;
+        }
+
+        .placeholder-sub {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: #cfecff;
+            border-bottom: 1px dashed rgba(200, 225, 255, 0.4);
+            display: inline-block;
+            padding-bottom: 6px;
+            margin-bottom: 2rem;
+        }
+
+        .message {
+            font-size: 1.2rem;
+            margin: 1.5rem 0 2rem 0;
+            background: rgba(0, 0, 0, 0.45);
+            padding: 1rem;
+            border-radius: 2rem;
+            backdrop-filter: blur(4px);
+            font-weight: 400;
+            line-height: 1.4;
+            color: #eef5ff;
+        }
+
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin: 1.5rem 0 1rem;
+        }
+
+        .social-item {
+            background: rgba(25, 35, 50, 0.7);
+            backdrop-filter: blur(8px);
+            border-radius: 2rem;
+            padding: 0.8rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.25s;
+            border: 1px solid rgba(90, 150, 200, 0.4);
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+        }
+
+        .social-item:hover {
+            background: rgba(50, 100, 140, 0.8);
+            border-color: #7bc3ff;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .discord-icon, .user-icon {
+            font-size: 1.7rem;
+            filter: drop-shadow(0 2px 2px rgba(0,0,0,0.3));
+        }
+
+        .invite-link {
+            background: #5865F2;
+            border-color: #8ca0ff;
+        }
+
+        .invite-link:hover {
+            background: #4752c4;
+        }
+
+        .username-block {
+            background: rgba(30, 40, 55, 0.8);
+            cursor: pointer;
+            border: 1px solid #7e9ec9;
+        }
+
+        .username-block:active {
+            transform: scale(0.97);
+        }
+
+        .copy-feedback {
+            font-size: 0.75rem;
+            margin-left: 0.5rem;
+            color: #aaffdd;
+            font-weight: normal;
+            transition: 0.1s;
+        }
+
+        hr {
+            margin: 2rem 0 1rem;
+            border: 0.5px solid rgba(130, 180, 220, 0.3);
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer-note {
+            font-size: 0.8rem;
+            opacity: 0.7;
+            letter-spacing: 0.3px;
+        }
+
+        @media (max-width: 550px) {
+            .content-card {
+                padding: 1.8rem 1.2rem;
+            }
+            h1 {
+                font-size: 2.4rem;
+            }
+            .social-links {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+            .social-item {
+                width: 80%;
+                justify-content: center;
+            }
+        }
+
+        .drop::after {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: -1px;
+            width: 3px;
+            height: 6px;
+            background: rgba(200, 230, 255, 0.4);
+            border-radius: 50%;
+            filter: blur(1px);
+        }
+    </style>
+</head>
+<body>
+
+<div class="storm-scene">
+    <div class="rain" id="rainContainer"></div>
+</div>
+<div class="storm-overlay"></div>
+<div class="lightning-flash" id="lightningFlash"></div>
+
+<div class="content-card">
+    <h1>boiii</h1>
+    <div class="placeholder-sub">✨ placeholder zone ✨</div>
+    <div class="message">
+        hi 🌩️<br>
+        api
+    </div>
+
+    <div class="social-links">
+        <a href="https://discord.gg/UFjWRWsSB" target="_blank" rel="noopener noreferrer" class="social-item invite-link">
+            <span class="discord-icon">🎧</span>
+            <span>Join Discord Server</span>
+            <span style="font-size:0.9rem;">➡️</span>
+        </a>
+
+        <div class="social-item username-block" id="copyUsernameBtn">
+            <span class="user-icon">💬</span>
+            <span><strong>discord username:</strong> 6x94</span>
+            <span id="copyToast" style="margin-left: 6px;">📋</span>
+        </div>
+    </div>
+
+    <hr>
+    <div class="footer-note">
+        hi
+    </div>
+</div>
+
+<script>
+    (function() {
+        const rainContainer = document.getElementById('rainContainer');
+        if (!rainContainer) return;
+
+        let dropCount = 450;
+        function setRainCount() {
+            const width = window.innerWidth;
+            if (width < 600) dropCount = 220;
+            else if (width < 1200) dropCount = 380;
+            else dropCount = 550;
+            regenerateRain();
+        }
+
+        let currentDrops = [];
+
+        function regenerateRain() {
+            if (!rainContainer) return;
+            while (rainContainer.firstChild) {
+                rainContainer.removeChild(rainContainer.firstChild);
+            }
+            currentDrops = [];
+            for (let i = 0; i < dropCount; i++) {
+                const drop = document.createElement('div');
+                drop.classList.add('drop');
+                const widthVar = 1.5 + Math.random() * 2.5;
+                const heightVar = 12 + Math.random() * 18;
+                drop.style.width = `${widthVar}px`;
+                drop.style.height = `${heightVar}px`;
+                drop.style.left = `${Math.random() * 100}%`;
+                const duration = 0.6 + Math.random() * 1.6;
+                drop.style.animationDuration = `${duration}s`;
+                drop.style.animationDelay = `${Math.random() * 2.5}s`;
+                const opacityVal = 0.4 + Math.random() * 0.5;
+                drop.style.opacity = opacityVal;
+                drop.style.background = `rgba(170, 215, 255, ${0.5 + Math.random() * 0.3})`;
+                rainContainer.appendChild(drop);
+                currentDrops.push(drop);
+            }
+        }
+
+        const lightningDiv = document.getElementById('lightningFlash');
+        if (!lightningDiv) return;
+
+        let lightningTimeout = null;
+
+        function createLightningFlash(intensity = 'medium') {
+            if (!lightningDiv) return;
+            let brightness = 0;
+            switch(intensity) {
+                case 'soft': brightness = 0.45; break;
+                case 'medium': brightness = 0.75; break;
+                case 'strong': brightness = 1.0; break;
+                default: brightness = 0.7;
+            }
+            const randomBoost = Math.random() * 0.3;
+            let finalAlpha = Math.min(0.98, brightness + randomBoost);
+            lightningDiv.style.transition = 'opacity 0.05s linear';
+            lightningDiv.style.opacity = finalAlpha;
+            
+            setTimeout(() => {
+                if (lightningDiv) lightningDiv.style.opacity = 0;
+            }, 70 + Math.random() * 40);
+            
+            if (Math.random() > 0.7) {
+                setTimeout(() => {
+                    if (lightningDiv) {
+                        lightningDiv.style.opacity = finalAlpha * 0.6;
+                        setTimeout(() => {
+                            if (lightningDiv) lightningDiv.style.opacity = 0;
+                        }, 40);
+                    }
+                }, 100);
+            }
+        }
+
+        function scheduleThunderstorm() {
+            const nextStorm = 3000 + Math.random() * 9000;
+            lightningTimeout = setTimeout(() => {
+                const rand = Math.random();
+                let intensity = 'medium';
+                if (rand < 0.3) intensity = 'soft';
+                else if (rand < 0.75) intensity = 'medium';
+                else intensity = 'strong';
+                createLightningFlash(intensity);
+                
+                if (Math.random() > 0.75) {
+                    setTimeout(() => {
+                        createLightningFlash(intensity === 'strong' ? 'medium' : 'soft');
+                    }, 150 + Math.random() * 250);
+                }
+                
+                // reschedule
+                scheduleThunderstorm();
+            }, nextStorm);
+        }
+        
+        const usernameBox = document.getElementById('copyUsernameBtn');
+        const copyToastSpan = document.getElementById('copyToast');
+        const discordUsername = "6x94";
+        
+        if (usernameBox) {
+            usernameBox.addEventListener('click', async (e) => {
+                e.preventDefault();
+                try {
+                    await navigator.clipboard.writeText(discordUsername);
+                    if (copyToastSpan) {
+                        const originalHTML = copyToastSpan.innerHTML;
+                        copyToastSpan.innerHTML = 'Copied!';
+                        setTimeout(() => {
+                            if (copyToastSpan) copyToastSpan.innerHTML = '📋';
+                        }, 1600);
+                    } else {
+                        const tempMsg = document.createElement('span');
+                        tempMsg.innerText = '✓ username copied';
+                        usernameBox.appendChild(tempMsg);
+                        setTimeout(() => tempMsg.remove(), 1200);
+                    }
+                } catch (err) {
+                    const textarea = document.createElement('textarea');
+                    textarea.value = discordUsername;
+                    document.body.appendChild(textarea);
+                    textarea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textarea);
+                    if (copyToastSpan) {
+                        copyToastSpan.innerHTML = 'Copied!';
+                        setTimeout(() => {
+                            if (copyToastSpan) copyToastSpan.innerHTML = '📋';
+                        }, 1500);
+                    } else {
+                        alert(`Copied: ${discordUsername}`);
+                    }
+                }
+            });
+        }
+        
+        let resizeTimer;
+        window.addEventListener('resize', function() {
+            if (resizeTimer) clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                setRainCount();
+            }, 200);
+        });
+        
+        function initStorm() {
+            setRainCount();
+            scheduleThunderstorm();
+            
+            setTimeout(() => {
+                createLightningFlash('soft');
+            }, 800);
+        }
+        
+        initStorm();
+        
+        window.addEventListener('beforeunload', () => {
+            if (lightningTimeout) clearTimeout(lightningTimeout);
+        });
+        
+        const card = document.querySelector('.content-card');
+        let originalShadow = null;
+        if (card) {
+            originalShadow = window.getComputedStyle(card).boxShadow;
+        }
+        
+        const originalLightningFunc = createLightningFlash;
+        window.createLightningFlash = createLightningFlash;
+        const enhancedFlash = function(intensity = 'medium') {
+            originalLightningFunc(intensity);
+            if (card) {
+                const glowIntensity = intensity === 'strong' ? '0 0 20px rgba(200,220,255,0.9)' : (intensity === 'medium' ? '0 0 12px rgba(150,200,255,0.7)' : '0 0 6px rgba(100,150,200,0.5)');
+                card.style.transition = 'box-shadow 0.08s ease';
+                card.style.boxShadow = `0 25px 45px rgba(0, 0, 0, 0.5), ${glowIntensity}`;
+                setTimeout(() => {
+                    if (card) {
+                        card.style.boxShadow = '0 25px 45px rgba(0, 0, 0, 0.5), 0 0 20px rgba(70, 130, 200, 0.2)';
+                    }
+                }, 120);
+            }
+        };
+        
+        window.createLightningFlash = enhancedFlash;
+        if (lightningTimeout) clearTimeout(lightningTimeout);
+        
+        const newSchedule = function() {
+            const nextStorm = 3000 + Math.random() * 9000;
+            lightningTimeout = setTimeout(() => {
+                const rand = Math.random();
+                let intensity = 'medium';
+                if (rand < 0.3) intensity = 'soft';
+                else if (rand < 0.75) intensity = 'medium';
+                else intensity = 'strong';
+                enhancedFlash(intensity);
+                if (Math.random() > 0.75) {
+                    setTimeout(() => {
+                        enhancedFlash(intensity === 'strong' ? 'medium' : 'soft');
+                    }, 150 + Math.random() * 250);
+                }
+                newSchedule();
+            }, nextStorm);
+        };
+        newSchedule();
+        console.log('ready');
+    })();
+</script>
+</body>
+</html>
