@@ -1,20 +1,100 @@
-/* main.css */
+/* main.css  (v2)
+   =========================================================
+   QUICK START
+   - Everything you are meant to tweak lives in the SETTINGS block right below.
+   - Toggles use the pattern  --name: on | off  and are set on `body`.
+   - Accent color: change --accent-hue (0-360). Background tint: --base-hue.
+   - Laggy? Set  --performance-mode: on  (kills blur, animations, hover effects).
+   ========================================================= */
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* =========================================================
+   SETTINGS
+   ========================================================= */
 :root {
     container-name: root;
+
+    /* ---- Layout ---- */
     --custom-guild-list-padding: 12px;
+    --theme-roundness: 16px;        /* 0px = square, 30px = super round */
+    --member-list-width: 240px;     /* right member list */
+    --dm-list-width: 240px;         /* left DM list */
+
+    /* ---- Colors ---- */
+    --accent-hue: 215;              /* 215 blue | 0 red | 30 orange | 90 yellow | 150 green | 170 teal | 280 violet | 310 pink | 350 rose */
+    --accent-chroma: 0.1;           /* 0 = gray accent, 0.1 = soft, 0.15 = vivid */
+    --base-hue: 220;                /* tint of the backgrounds and text */
+    --base-sat: 15%;                /* 0% = neutral gray backgrounds */
+
+    /* ---- Panels ---- */
+    --panel-transition-speed: 0.3s;
+    --panel-hover-translate: none;  /* e.g. 0 -2px to lift panels on hover (costs performance) */
+    --panel-hover-shadow: none;     /* e.g. 0 4px 15px rgba(0,0,0,0.2) */
+    --panel-opacity: 0.65;          /* only used when --glass: on */
+    --blur-amount: 12px;            /* only used when --panel-blur: on (blur is expensive) */
     --panel-backdrop-filter: none;
-    
-    /* NEW GLOBAL CUSTOMIZATION OPTIONS */
-    --theme-roundness: 16px;       /* 0px = square, 30px = super round */
-    --member-list-width: 240px;    /* Width of the right member list */
-    --dm-list-width: 240px;        /* Width of the left DM list */
-    --panel-transition-speed: 0.3s; /* Global speed for hover/panel animations */
+
+    /* ---- Background image (when --background-image: on) ---- */
+    --background-dim: 0.3;          /* 0 = no dimming, 1 = black */
+
+    /* ---- Chat font (when --custom-chat-font: on) ---- */
+    --chat-font-size: 16px;
 }
 
 body {
     container-name: body;
+
+    /* ---- Feature toggles (on / off) ---- */
+    --performance-mode: off;        /* master switch: no animations, blur, hover effects */
+    --animations: on;               /* master switch for the theme's own animations */
+    --channel-hover-slide: on;      /* channels slide right on hover (animates layout) */
+    --unread-pulse: on;             /* pulsing unread dots */
+    --typing-animation: on;         /* fading typing indicator */
+    --message-animation: off;       /* pop-in on messages (replays when scrolling, so off by default) */
+    --glass: off;                   /* translucent panels (best with a background image) */
+    --panel-blur: off;              /* blur behind panels and menus */
+    --background-image: off;        /* use --background-image-url below */
+    --custom-scrollbar: off;        /* thin rounded scrollbars */
+    --focus-ring: off;              /* accent outline for keyboard focus */
+    --custom-chat-font: off;        /* apply --chat-font-size to messages */
+    --hide-chat-extras: off;        /* hide gift / GIF / sticker buttons (English UI only) */
+    --hide-dm-extras: off;          /* hide Nitro / Shop / Quests in the DM list */
+    --hide-active-now: off;         /* hide the Active Now column on the Friends page */
+
+    --background-image-url: url('');
+}
+
+/* =========================================================
+   REGISTERED PROPERTIES (toggle defaults)
+   ========================================================= */
+@property --performance-mode  { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --animations        { syntax: 'off | on'; inherits: false; initial-value: on; }
+@property --channel-hover-slide { syntax: 'off | on'; inherits: false; initial-value: on; }
+@property --unread-pulse      { syntax: 'off | on'; inherits: false; initial-value: on; }
+@property --typing-animation  { syntax: 'off | on'; inherits: false; initial-value: on; }
+@property --message-animation { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --glass             { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --custom-scrollbar  { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --focus-ring        { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --custom-chat-font  { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --hide-chat-extras  { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --hide-dm-extras    { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --hide-active-now   { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --background-image  { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --colors            { syntax: 'off | on'; inherits: false; initial-value: on; }
+@property --custom-chatbar    { syntax: 'aligned | separated'; inherits: false; initial-value: aligned; }
+@property --custom-dms-icon   { syntax: 'off | hide | custom'; inherits: false; initial-value: custom; }
+@property --custom-dms-background { syntax: 'off | image | color'; inherits: false; initial-value: off; }
+@property --top-bar-button-position { syntax: 'off | hide | serverlist | titlebar'; inherits: false; initial-value: titlebar; }
+@property --top-bar-title-position { syntax: 'off | hide | left'; inherits: false; initial-value: off; }
+@property --subtle-top-bar-title { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --panel-blur        { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --transparency-tweaks { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --remove-bg-layer   { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --small-user-panel  { syntax: 'off | on'; inherits: false; initial-value: off; }
+@property --custom-window-controls { syntax: 'off | on'; inherits: false; initial-value: on; }
+
+body {
     --font: 'figtree';
     --code-font: '';
     --gap: 12px;
@@ -25,8 +105,11 @@ body {
     --elevation-low: none;
     --elevation-medium: none;
     --elevation-high: none;
-    
-    /* Override Discord Roundness Globally */
+
+    /* Panel background (overridden by --glass) */
+    --panel-bg: var(--background-base-lower);
+
+    /* Override Discord roundness globally */
     --radius-sm: calc(var(--theme-roundness) - 8px);
     --radius-md: calc(var(--theme-roundness) - 4px);
     --radius-lg: var(--theme-roundness);
@@ -70,12 +153,12 @@ body {
 .chat_f75fb0 > .header__0b563,
 .chat_f75fb0 > .container__0b563,
 .container__8a031 {
-    background-color: var(--background-base-lower);
+    background-color: var(--panel-bg);
     border-radius: var(--radius-lg);
     border: var(--border-thickness) solid var(--border-subtle);
     backdrop-filter: var(--panel-backdrop-filter);
     box-sizing: border-box;
-    transition: border-color var(--border-hover-transition), transform var(--panel-transition-speed) ease, box-shadow var(--panel-transition-speed) ease;
+    transition: border-color var(--border-hover-transition), translate var(--panel-transition-speed) ease, box-shadow var(--panel-transition-speed) ease;
 }
 .container__89463 > .toolbar__89463:hover,
 .container__89463 > .contentContainer__89463:hover,
@@ -112,7 +195,8 @@ body {
 .chat_f75fb0 > .container__0b563:hover,
 .container__8a031:hover {
     border-color: var(--border-hover);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: var(--panel-hover-shadow);
+    translate: var(--panel-hover-translate);
 }
 
 .panels__5e434 { bottom: 0; left: 0; width: 100%; }
@@ -201,7 +285,7 @@ body {
 .container__01ae2 { padding-left: calc((var(--gap) - var(--chat-resize-handle-width))); }
 .container_fb64c9, .chat_fb64c9::before { background: none; display: none; }
 .container_a592e1 { overflow: hidden; }
-.backdrop__8a7fc { background-color: var(--background-base-lower); }
+.backdrop__8a7fc { background-color: var(--panel-bg); }
 
 /* DM / Server VC containers */
 .wrapper_cb9592 { background: none; }
@@ -299,111 +383,89 @@ body {
     --font-display: var(--font), 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-code: var(--code-font), 'gg mono', 'Source Code Pro', Consolas, Monaco, monospace;
 }
-[class*='scroll'] { will-change: scroll-position; }
 .burstGlow__23977 { display: none; }
 
 /* =========================================================
    ANIMATIONS
+   (no will-change, no `transform` on big containers: those create
+   extra GPU layers and stacking contexts for very little visual gain)
    ========================================================= */
 body { --list-item-transition: 0.2s ease; --dms-icon-svg-transition: 0.4s ease; }
 
-@property --animations { syntax: 'off | on'; inherits: false; initial-value: on; }
+@keyframes pulse-dot {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.4); }
+}
+@keyframes message-pop {
+    from { opacity: 0; transform: translateY(-8px) scale(0.97); }
+}
+@keyframes typing-fade {
+    from { opacity: 0.55; }
+    to { opacity: 1; }
+}
 
 @container body style(--animations: on) {
-    /* SIDEBAR & CHANNEL SLIDE-IN */
-    .wrapper__2ea32 .link__2ea32, .container__91a9d, .channel__972a0, .side_aa8da2 .item_aa8da2 {
-        transition: margin-left var(--list-item-transition), transform var(--list-item-transition), opacity var(--list-item-transition);
-        will-change: margin-left, transform, opacity;
-    }
-    .wrapper__2ea32:hover .link__2ea32, .side_aa8da2 .item_aa8da2:hover {
-        margin-left: 10px; transform: scale(1.02);
-    }
-    .container__91a9d:hover, .channel__972a0:hover {
-        margin-left: 18px; transform: scale(1.02);
-    }
-    
-    /* UNREAD DOT ANIMATION */
+    /* Unread dot: small element, safe to animate with translate/scale */
     .unread__2ea32 {
         border-radius: 50%; width: 8px; height: 8px; margin-left: -4px;
-        transition: var(--list-item-transition); will-change: margin-left, transform;
-        animation: pulse-dot 2s infinite ease-in-out;
+        transition: translate var(--list-item-transition), scale var(--list-item-transition);
     }
-    .wrapper__2ea32:hover .unread__2ea32 { margin-left: 4px; transform: scale(1.3); }
     .typeThread__2ea32 .unread__2ea32 { margin-left: -8px; }
-    .wrapper__2ea32.typeThread__2ea32:hover .unread__2ea32 { margin-left: 0px; }
 
-    /* MESSAGE POP-IN ANIMATION */
-    .message__5126c {
-        animation: message-pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-        transform-origin: top;
-    }
-    @keyframes message-pop {
-        0% { opacity: 0; transform: translateY(-10px) scale(0.95); }
-        100% { opacity: 1; transform: translateY(0) scale(1); }
-    }
-    
-    /* TYPING INDICATOR PULSE */
-    .typing_b88801 {
-        animation: typing-fade 0.8s infinite alternate ease-in-out;
-    }
-    @keyframes typing-fade {
-        0% { opacity: 0.6; transform: translateY(2px); }
-        100% { opacity: 1; transform: translateY(-2px); }
-    }
-
-    /* BUTTON BOUNCE ON HOVER */
+    /* Buttons: use the individual `scale` property so it never fights Discord's own transform */
     .button__67645, .button_aa63ab, .circleIconButton__5bc7e {
-        transition: transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275), background var(--list-item-transition);
+        transition: scale 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275), background var(--list-item-transition);
     }
-    .button__67645:hover, .button_aa63ab:hover, .circleIconButton__5bc7e:hover {
-        transform: scale(1.1);
-    }
-    .button__67645:active, .button_aa63ab:active, .circleIconButton__5bc7e:active {
-        transform: scale(0.95);
+    .button__67645:hover, .button_aa63ab:hover, .circleIconButton__5bc7e:hover { scale: 1.1; }
+    .button__67645:active, .button_aa63ab:active, .circleIconButton__5bc7e:active { scale: 0.95; }
+
+    @container body style(--channel-hover-slide: on) {
+        .wrapper__2ea32 .link__2ea32, .container__91a9d, .channel__972a0, .side_aa8da2 .item_aa8da2 {
+            transition: margin-left var(--list-item-transition), scale var(--list-item-transition);
+        }
+        .wrapper__2ea32:hover .link__2ea32, .side_aa8da2 .item_aa8da2:hover {
+            margin-left: 10px; scale: 1.02;
+        }
+        .container__91a9d:hover, .channel__972a0:hover {
+            margin-left: 18px; scale: 1.02;
+        }
+        .wrapper__2ea32:hover .unread__2ea32 { translate: 8px 0; scale: 1.3; }
     }
 
-    /* PANEL GLOW ON HOVER */
-    .container__89463 > .toolbar__89463, .container__89463 > .contentContainer__89463,
-    .guilds__5e434, .sidebarList__5e434, .panels__5e434, .chat_f75fb0 > .subtitleContainer_f75fb0,
-    .chatContent_f75fb0, .container_c8ffbb, .content_f75fb0 > .membersWrap_c8ffbb, .container__133bf > .container__9293f,
-    .container_f391e3 > .container__9293f, .homeWrapper__0920e > .container__9293f, .container__01ae2 > .container__9293f,
-    .container_fb64c9 > .container__9293f, .peopleColumn__133bf, .nowPlayingColumn__133bf, .mainPageScroller__80907,
-    .headerBar__1a9ce, .scroller__23746, .container_f391e3 > .content_f75fb0, .shop__6db1d,
-    .content_f75fb0 > aside > .outer_c0bea0, .searchResultsWrap_a98f3b, .container_f369db, .chat_fb64c9,
-    .container_a592e1, .callContainer_cb9592, .wrapper_cb9592.sidebarOpen_cb9592 .callContainer_cb9592,
-    .callContainer__722ff, .chat_f75fb0 > .header_c791b2, .chat_f75fb0 > .scrollerBase_d125d2,
-    .chat_f75fb0 > .header__0b563, .chat_f75fb0 > .container__0b563, .container__8a031 {
-        transition: border-color var(--border-hover-transition), transform var(--panel-transition-speed) ease, box-shadow var(--panel-transition-speed) ease;
+    @container body style(--unread-pulse: on) {
+        .unread__2ea32 { animation: pulse-dot 2s infinite ease-in-out; }
     }
-    .container__89463 > .toolbar__89463:hover, .container__89463 > .contentContainer__89463:hover,
-    .guilds__5e434:hover, .sidebarList__5e434:hover, .panels__5e434:hover, .chat_f75fb0 > .subtitleContainer_f75fb0:hover,
-    .chatContent_f75fb0:hover, .container_c8ffbb:hover, .content_f75fb0 > .membersWrap_c8ffbb:hover,
-    .container__133bf > .container__9293f:hover, .container_f391e3 > .container__9293f:hover,
-    .homeWrapper__0920e > .container__9293f:hover, .container__01ae2 > .container__9293f:hover,
-    .container_fb64c9 > .container__9293f:hover, .peopleColumn__133bf:hover, .nowPlayingColumn__133bf:hover,
-    .mainPageScroller__80907:hover, .headerBar__1a9ce:hover, .scroller__23746:hover,
-    .container_f391e3 > .content_f75fb0:hover, .shop__6db1d:hover, .content_f75fb0 > aside > .outer_c0bea0:hover,
-    .searchResultsWrap_a98f3b:hover, .container_f369db:hover, .chat_fb64c9:hover, .container_a592e1:hover,
-    .callContainer_cb9592:hover, .wrapper_cb9592.sidebarOpen_cb9592 .callContainer_cb9592:hover,
-    .callContainer__722ff:hover, .chat_f75fb0 > .header_c791b2:hover, .chat_f75fb0 > .scrollerBase_d125d2:hover,
-    .chat_f75fb0 > .header__0b563:hover, .chat_f75fb0 > .container__0b563:hover, .container__8a031:hover {
-        transform: translateY(-2px);
+
+    @container body style(--typing-animation: on) {
+        .typing_b88801 { animation: typing-fade 0.8s infinite alternate ease-in-out; }
     }
-    
-    @keyframes pulse-dot {
-        0%, 100% { transform: scale(1); }
-        50% { transform: scale(1.4); }
+
+    /* `backwards` fill: the finished message keeps NO transform, so it never becomes a stacking context */
+    @container body style(--message-animation: on) {
+        .message__5126c {
+            animation: message-pop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+            transform-origin: top;
+        }
     }
 }
 
 /* =========================================================
    BACKGROUND IMAGE
    ========================================================= */
-body { --background-image-url: url(''); }
-@property --background-image { syntax: 'off | on'; inherits: false; initial-value: off; }
 @container body style(--background-image: on) {
     #app-mount .bg__960e4 {
         background: var(--background-image-url); background-size: cover; background-position: center;
+        /* dim with an inset shadow: sits above the image but below the UI (a filter would dim everything) */
+        box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / var(--background-dim));
+    }
+}
+
+/* =========================================================
+   GLASS (translucent panels)
+   ========================================================= */
+@container body style(--glass: on) {
+    #app-mount {
+        --panel-bg: color-mix(in srgb, var(--background-base-lower) calc(var(--panel-opacity) * 100%), transparent);
     }
 }
 
@@ -414,7 +476,6 @@ body {
     --chatbar-height: 47px;
     --custom-channel-textarea-text-area-height: var(--chatbar-height);
 }
-@property --custom-chatbar { syntax: 'off | separated'; inherits: false; initial-value: aligned; }
 
 .attachWrapper__0923f {
     padding-top: 0; padding-bottom: 0; display: flex;
@@ -427,7 +488,7 @@ body {
         background: none; border-radius: 0; border: none; backdrop-filter: none;
     }
     .messagesWrapper__36d07 {
-        background-color: var(--background-base-lower); border-radius: var(--radius-lg);
+        background-color: var(--panel-bg); border-radius: var(--radius-lg);
         border: var(--border-thickness) solid var(--border-subtle);
         backdrop-filter: var(--panel-backdrop-filter);
         transition: border-color var(--border-hover-transition); overflow: hidden;
@@ -437,7 +498,7 @@ body {
     .scroller__36d07::-webkit-scrollbar-track { margin-bottom: calc(26px); }
     .chatContent_f75fb0:has(> .form_f75fb0 > .typing_b88801) .messagesWrapper__36d07::before {
         content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-        background: var(--background-base-lower); height: 26px;
+        background: var(--panel-bg); height: 26px;
         border-radius: 0 0 var(--radius-lg) var(--radius-lg); z-index: 2;
     }
     .form_f75fb0 { display: flex; flex-direction: column; padding: 0; width: 100%; margin-top: 0; }
@@ -448,7 +509,7 @@ body {
     }
     .channelBottomBarArea_f75fb0 { margin-top: var(--gap); }
     #app-mount .channelTextArea_f75fb0 {
-        margin: 0; background-color: var(--background-base-lower);
+        margin: 0; background-color: var(--panel-bg);
         border-radius: var(--radius-lg); border: var(--border-thickness) solid var(--border-subtle);
         backdrop-filter: var(--panel-backdrop-filter);
         transition: border-color var(--border-hover-transition);
@@ -470,34 +531,35 @@ body {
 }
 
 /* =========================================================
-   COLORS (Fully Purified & Optimized)
+   COLORS
+   Everything below derives from --accent-hue / --accent-chroma and
+   --base-hue / --base-sat from the SETTINGS block.
    ========================================================= */
-@property --colors { syntax: 'off | on'; inherits: false; initial-value: on; }
-
 :root {
     --text-0: var(--bg-4);
-    --text-1: hsl(220, 45%, 95%);
-    --text-2: hsl(220, 25%, 70%);
-    --text-3: hsl(220, 20%, 60%);
-    --text-4: hsl(220, 15%, 40%);
-    --text-5: hsl(220, 15%, 25%);
+    --text-1: hsl(var(--base-hue) 45% 95%);
+    --text-2: hsl(var(--base-hue) 25% 70%);
+    --text-3: hsl(var(--base-hue) 20% 60%);
+    --text-4: hsl(var(--base-hue) 15% 40%);
+    --text-5: hsl(var(--base-hue) 15% 25%);
 
-    --bg-1: hsla(220, 15%, 20%, 1);
-    --bg-2: hsla(220, 15%, 16%, 1);
-    --bg-3: hsla(220, 15%, 13%, 1);
-    --bg-4: hsla(220, 15%, 10%, 1);
-    --hover: hsla(221, 19%, 40%, 0.1);
-    --active: hsla(220, 19%, 40%, 0.2);
-    --active-2: hsla(220, 19%, 40%, 0.3);
-    --message-hover: hsla(220, 0%, 0%, 0.1);
+    --bg-1: hsl(var(--base-hue) var(--base-sat) 20%);
+    --bg-2: hsl(var(--base-hue) var(--base-sat) 16%);
+    --bg-3: hsl(var(--base-hue) var(--base-sat) 13%);
+    --bg-4: hsl(var(--base-hue) var(--base-sat) 10%);
+    --bg-floating: hsl(var(--base-hue) var(--base-sat) 13% / 0.85);
+    --hover: hsl(var(--base-hue) 19% 40% / 0.1);
+    --active: hsl(var(--base-hue) 19% 40% / 0.2);
+    --active-2: hsl(var(--base-hue) 19% 40% / 0.3);
+    --message-hover: hsl(0 0% 0% / 0.1);
 
-    --accent-1: var(--blue-1);
-    --accent-2: var(--blue-2);
-    --accent-3: var(--blue-3);
-    --accent-4: var(--blue-4);
-    --accent-5: var(--blue-5);
+    --accent-1: oklch(75% var(--accent-chroma) var(--accent-hue));
+    --accent-2: oklch(70% var(--accent-chroma) var(--accent-hue));
+    --accent-3: oklch(65% var(--accent-chroma) var(--accent-hue));
+    --accent-4: oklch(60% var(--accent-chroma) var(--accent-hue));
+    --accent-5: oklch(55% var(--accent-chroma) var(--accent-hue));
     --accent-new: var(--accent-2);
-    
+
     --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 90%) 40%, transparent);
     --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 95%) 40%, transparent);
     --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent);
@@ -511,8 +573,8 @@ body {
 
     --border-light: var(--hover);
     --border: var(--active);
-    --border-hover: var(--active);
-    --button-border: hsl(220, 0%, 100%, 0.1);
+    --border-hover: var(--active-2);
+    --button-border: hsl(0 0% 100% / 0.1);
 
     --red-1: oklch(75% 0.12 0);
     --red-2: oklch(70% 0.12 0);
@@ -526,6 +588,7 @@ body {
     --green-4: oklch(60% 0.11 170);
     --green-5: oklch(55% 0.11 160);
 
+    /* fixed blue, used for "info" feedback colors (the accent has its own hue) */
     --blue-1: oklch(75% 0.1 215);
     --blue-2: oklch(70% 0.1 215);
     --blue-3: oklch(65% 0.1 215);
@@ -567,8 +630,8 @@ body {
         --background-mod-normal: var(--bg-2);
         --background-mod-strong: var(--bg-1);
         --background-mod-subtle: var(--hover);
-        --background-scrim: hsl(0, 0%, 0%, 0.7);
-        --background-scrim-lightbox: hsl(0, 0%, 0%, 0.9);
+        --background-scrim: hsl(0 0% 0% / 0.7);
+        --background-scrim-lightbox: hsl(0 0% 0% / 0.9);
         --background-secondary-alt: var(--bg-3);
         --background-surface-high: var(--bg-3);
         --background-surface-higher: var(--bg-3);
@@ -675,9 +738,9 @@ body {
         --control-overlay-primary-text-active: var(--bg-4);
         --control-overlay-primary-text-default: var(--bg-4);
         --control-overlay-primary-text-hover: var(--bg-4);
-        --control-overlay-secondary-background-active: hsl(0, 0%, 0%, 0.4);
-        --control-overlay-secondary-background-default: hsl(0, 0%, 0%, 0.5);
-        --control-overlay-secondary-background-hover: hsl(0, 0%, 0%, 0.6);
+        --control-overlay-secondary-background-active: hsl(0 0% 0% / 0.4);
+        --control-overlay-secondary-background-default: hsl(0 0% 0% / 0.5);
+        --control-overlay-secondary-background-hover: hsl(0 0% 0% / 0.6);
         --control-overlay-secondary-border-active: var(--border-light);
         --control-overlay-secondary-border-default: var(--border-light);
         --control-overlay-secondary-border-hover: var(--border-light);
@@ -976,7 +1039,6 @@ body {
     --dms-background-image-size: cover;
     --dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2));
 }
-@property --custom-dms-icon { syntax: 'off | hide | custom'; inherits: false; initial-value: custom; }
 
 @container body style(--custom-dms-icon: off) {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 { color: var(--dms-icon-color-before); }
@@ -1003,7 +1065,6 @@ body {
 @container body style(--custom-dms-icon: hide) {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 > svg { display: none; }
 }
-@property --custom-dms-background { syntax: 'off | image | color'; inherits: false; initial-value: off; }
 @container body style(--custom-dms-background: image) {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 {
         background-image: var(--dms-background-image-url); background-color: transparent !important;
@@ -1019,7 +1080,6 @@ body {
    ========================================================= */
 body { --top-bar-height: 32px; --custom-app-top-bar-height: var(--top-bar-height); }
 .refresh-title-bar-small { --custom-app-top-bar-height: var(--top-bar-height); }
-@property --top-bar-button-position { syntax: 'off | hide | serverlist | titlebar'; inherits: false; initial-value: titlebar; }
 .platform-osx .wrapper_ef3116 { margin-top: max(0px, calc(36px - var(--top-bar-height))); }
 
 @container body style(--top-bar-button-position: hide) {
@@ -1106,14 +1166,12 @@ body { --top-bar-height: 32px; --custom-app-top-bar-height: var(--top-bar-height
         transform: translateY(0); opacity: 1;
     }
 }
-@property --top-bar-title-position { syntax: 'off | hide | left'; inherits: false; initial-value: off; }
 @container body style(--top-bar-title-position: hide) { .title_edbb22 { display: none; } }
 @container body style(--top-bar-title-position: left) {
     .title_c38106 { padding-left: var(--gap); justify-content: flex-start; }
     .title_edbb22 { gap: 4px; }
     .bar_c38106 .backForwardButtons__63abb { display: none; }
 }
-@property --subtle-top-bar-title { syntax: 'off | on'; inherits: false; initial-value: off; }
 @container body style(--subtle-top-bar-title: on) {
     .title_edbb22 .icon_f34534, .title_edbb22 > svg { display: none; }
     .title_edbb22 .text-sm\/medium_cf4812 { line-height: 90%; font-weight: 700; color: var(--text-muted); }
@@ -1121,8 +1179,9 @@ body { --top-bar-height: 32px; --custom-app-top-bar-height: var(--top-bar-height
 
 /* =========================================================
    TRANSPARENCY & BLUR
+   Blur is the most expensive thing in this file: every panel gets its own
+   backdrop-filter. Keep --panel-blur off on weaker machines.
    ========================================================= */
-@property --panel-blur { syntax: 'off | on'; inherits: false; initial-value: off; }
 @container body style(--panel-blur: on) {
     #app-mount { --panel-backdrop-filter: blur(var(--blur-amount)); }
     .popoverReactionHoverBar_f84418, .tooltip_c36707, .menu_c1e9c4, .contentWrapper__08434, .root__49fc1,
@@ -1133,18 +1192,15 @@ body { --top-bar-height: 32px; --custom-app-top-bar-height: var(--top-bar-height
         border-radius: 8px; background: transparent; width: 100%; height: 100%;
     }
 }
-@property --transparency-tweaks { syntax: 'off | on'; inherits: false; initial-value: off; }
 @container body style(--transparency-tweaks: on) {
     .children__9293f:after, .chatGradient__36d07 { display: none; }
     .form_f75fb0 { margin-top: 0; }
 }
-@property --remove-bg-layer { syntax: 'off | on'; inherits: false; initial-value: off; }
 @container body style(--remove-bg-layer: on) { .bg__960e4 { background: transparent !important; } }
 
 /* =========================================================
    USER PANEL
    ========================================================= */
-@property --small-user-panel { syntax: 'off | on'; inherits: false; initial-value: off; }
 @container body style(--small-user-panel: on) {
     .panels__5e434 { right: 0; left: unset; width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)); }
     .guilds__5e434 { margin-bottom: 0; }
@@ -1158,7 +1214,6 @@ body { --top-bar-height: 32px; --custom-app-top-bar-height: var(--top-bar-height
    ========================================================= */
 body { --window-control-size: 14px; --window-controls-padding: calc(var(--gap) - (var(--window-control-size) / 2) + 1px); }
 .winButtons_c38106 { padding-right: var(--window-controls-padding); }
-@property --custom-window-controls { syntax: 'off | on'; inherits: false; initial-value: on; }
 @container body style(--custom-window-controls: on) {
     .winButtons_c38106 { gap: 0; }
     .winButton_c38106 > svg { display: none; }
@@ -1179,4 +1234,68 @@ body { --window-control-size: 14px; --window-controls-padding: calc(var(--gap) -
 @container body style(--custom-window-controls: off) and style(--top-bar-button-position: titlebar) {
     .winButton_c38106 { width: calc(var(--window-control-size) * 2); height: calc(var(--window-control-size) * 2); }
     .winButtons_c38106 { gap: 0; }
+}
+
+/* =========================================================
+   EXTRA FEATURES (all opt-in)
+   ========================================================= */
+
+/* Thin rounded scrollbars */
+@container body style(--custom-scrollbar: on) {
+    ::-webkit-scrollbar { width: 8px !important; height: 8px !important; }
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--scrollbar-thin-thumb) !important;
+        border: 2px solid transparent !important; border-radius: 8px !important;
+        background-clip: padding-box !important;
+    }
+    ::-webkit-scrollbar-track { background: transparent !important; border: none !important; }
+    ::-webkit-scrollbar-corner { background: transparent !important; }
+}
+
+/* Keyboard focus ring in the accent color */
+@container body style(--focus-ring: on) {
+    :focus-visible { outline: 2px solid var(--accent-2) !important; outline-offset: 2px; }
+}
+
+/* Chat font size */
+@container body style(--custom-chat-font: on) {
+    [id^='message-content-'] { font-size: var(--chat-font-size); }
+}
+
+/* Hide clutter.  The chat buttons match English aria-labels, so they only work with Discord set to English. */
+@container body style(--hide-chat-extras: on) {
+    [aria-label='Send a gift'], [aria-label='Open GIF picker'], [aria-label='Open sticker picker'] { display: none; }
+}
+@container body style(--hide-dm-extras: on) {
+    .privateChannels_e6b769 li:has(a[href='/store']),
+    .privateChannels_e6b769 li:has(a[href='/shop']),
+    .privateChannels_e6b769 li:has(a[href='/quest-home']) { display: none; }
+}
+@container body style(--hide-active-now: on) {
+    .nowPlayingColumn__133bf { display: none; }
+}
+
+/* =========================================================
+   PERFORMANCE MODE / REDUCED MOTION
+   Kept last so it overrides everything above.
+   ========================================================= */
+@container body style(--performance-mode: on) {
+    #app-mount {
+        --panel-backdrop-filter: none !important;
+        --panel-hover-shadow: none !important;
+        --panel-hover-translate: none !important;
+    }
+    .menu_c1e9c4::before { display: none; }
+    *, *::before, *::after {
+        transition-duration: 0s !important; transition-delay: 0s !important;
+        animation-duration: 0.001ms !important; animation-delay: 0s !important;
+        animation-iteration-count: 1 !important;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        transition-duration: 0s !important; transition-delay: 0s !important;
+        animation-duration: 0.001ms !important; animation-delay: 0s !important;
+        animation-iteration-count: 1 !important;
+    }
 }
